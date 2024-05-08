@@ -1,5 +1,6 @@
 # SANDESH-MD
 SANDESH-MD Whatsapp Bot is, It is a Project that can be called as a Whatsapp 3rd Party Application which you can get at a very good Bot Expirience
+
 <p align="center"> 
 <u>😁 𝐊𝐈𝐍𝐆 𝐒𝐀𝐍𝐃𝐄𝐒𝐇 | ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ ᴍʀ ᴜɴᴋɴᴏᴡɴ 🤫</u>
 </p>
@@ -142,11 +143,11 @@ THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 * [🦄 Join Our Public Wa Bot Group 🦄](https://chat.whatsapp.com/DPIp6O8Wqu3HuSvRbkHQok)
 
      
-       ⚠️ We are not responsible for any inconvenience caused by your mistakes!   | ඔබගේ අත්වැරදීම් නිසා සිදුවන අපහසුතාවයන් සඳහා අප වගකිවයනු නොලැබේ!
+       ⚠️ We are not responsible for any inconvenience caused by your mistakes!   | ඔබගේ අත්වැරදීම් නිසා සිදුවන අපහසුතාවයන් සඳහා අප වගකියනු නොලැබේ!
 
   
   #### ```TOTAL PROFILE VIEWS 🧚```
-![Visitor Count](https://profile-counter.glitch.me/DarkMakerofc/count.svg)
+![Visitor Count](https://komarev.com/ghpvc/?vijitharanawakage&base=1000)
 
 <h1>💗</h1> 
 <b>Thanks For</b> -
