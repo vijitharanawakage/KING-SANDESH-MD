@@ -1,6 +1,5 @@
 # SANDESH-MD
 SANDESH-MD Whatsapp Bot is, It is a Project that can be called as a Whatsapp 3rd Party Application which you can get at a very good Bot Expirience
-
 <p align="center"> 
 <u>😁 𝐊𝐈𝐍𝐆 𝐒𝐀𝐍𝐃𝐄𝐒𝐇 | ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ ᴍʀ ᴜɴᴋɴᴏᴡɴ 🤫</u>
 </p>
@@ -9,6 +8,7 @@ SANDESH-MD Whatsapp Bot is, It is a Project that can be called as a Whatsapp 3rd
 </p>
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=KING+SANDESH+WHATSAPP+BOT" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=MR+UNKNOWN'S+BEST+WA+BOT" alt="">
 </p>
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Mr Unknown-red.svg?style=for-the-badge&logo=github"></a>
