@@ -125,14 +125,14 @@ npm start
 <summary>🌐 Support For Deploy </summary>
 <p>
 </details>
-THANAKS FOR USNING QUEEN ELISA 💃💖
+THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 
-* [🧑‍💻 Join Queen Elisa Support Group 🧑‍💻](https://t.me/+Fc2vyKYBjFk3ZWZl)
+* [😁Contact King Sandesh Developing Crew😁](https://wa.me/94741259325?text=Hi,,king,,,sandesh)
 
-* [🦄 Join Public Group 🦄](https://chat.whatsapp.com/BbIpvkRD4qP6xKckb8cpT0)
+* [🦄 Join Our Public Wa Bot Group 🦄](https://chat.whatsapp.com/DPIp6O8Wqu3HuSvRbkHQok)
 
      
-       ⚠️ We are not responsible for any inconvenience caused by your mistakes!   | ඔබගේ අත්වැරදීම් නිසා සිදුවන අපහසුතාවයන් සඳහා අප වගකිවයනු නොලැබේ !
+       ⚠️ We are not responsible for any inconvenience caused by your mistakes!   | ඔබගේ අත්වැරදීම් නිසා සිදුවන අපහසුතාවයන් සඳහා අප වගකිවයනු නොලැබේ!
 
   
   #### ```TOTAL PROFILE VIEWS 🧚```
@@ -141,6 +141,6 @@ THANAKS FOR USNING QUEEN ELISA 💃💖
 <h1>💗</h1> 
 <b>Thanks For</b> -
 
- [thashi 💖]() for Voice ,[slrealtech](https://youtube.com/slrealtech) , [darkalpha](http://github.com/darkalphaxteam) and [isuru]() thanks for helps 💖
+ [DDF OFC 🖤](https://www.youtube.com/@mr.unknow344) for Support ,[Cyber Ayesh](https://wa.me/94775341543?text=Hi,,Ayesh) , [darkalpha](http://github.com/darkalphaxteam) and [Saviya](https://wa.me/94722627699?text=Hi,,Savii) thanks for helps 💖
 
- ## [ WHATSAPP GROUPS ](https://github.com/DarkMakerofc/groups#README.md)
+ ## [ WHATSAPP GROUPS ](https://chat.whatsapp.com/DPIp6O8Wqu3HuSvRbkHQok)
