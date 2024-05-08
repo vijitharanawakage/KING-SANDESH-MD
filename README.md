@@ -147,7 +147,8 @@ THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 
   
   #### ```TOTAL PROFILE VIEWS 🧚```
-![Visitor Count](https://komarev.com/ghpvc/?vijitharanawakage&base=1000)
+![Visitor Count] <a href='http://www.freevisitorcounters.com'>at www.freevisitorcounters.com</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=6fa92469b5ec8cd2eeea86629dbdac9b1cae3db1'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/1180214/t/11"></script>
 
 <h1>💗</h1> 
 <b>Thanks For</b> -
