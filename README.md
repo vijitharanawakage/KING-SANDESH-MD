@@ -2,7 +2,7 @@
 SANDESH-MD Whatsapp Bot is, It is a Project that can be called as a Whatsapp 3rd Party Application which you can get at a very good Bot Expirience
 
 <p align="center"> 
-<u>♥️ ᴀ ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ ᴍʀ ᴜɴᴋɴᴏᴡɴ ♥️</u>
+<u>😁 𝐊𝐈𝐍𝐆 𝐒𝐀𝐍𝐃𝐄𝐒𝐇 | ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ ᴍʀ ᴜɴᴋɴᴏᴡɴ 🤫</u>
 </p>
 <p align="center">
 <img src="https://i.ibb.co/syPHZzK/IMG-20240508-WA0010.jpg" width="300" height="300"/>
@@ -46,7 +46,7 @@ Queen elisa whatsapp bot is,
 # 
 
 <details>
-<summary>𝗖𝗟𝗜𝗖𝗞 𝗧𝗢 𝗗𝗘𝗣𝗟𝗢𝗬</summary>
+<summary>𝚃𝙾𝚄𝙲𝙷 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙷𝙴 𝙱𝙾𝚃</summary>
 
 
 [`Deploy on Railway`](https://railway.app?referralCode=jDDNQq)
@@ -55,11 +55,13 @@ Queen elisa whatsapp bot is,
 
 [`Deploy on Mogenius`](https://studio.mogenius.com/)
 
-[`Deploy on heroku`](https://heroku.com/deploy?template=https://github.com/DarkMakerofc/Queen-Elisa-MD-V2)
+[`Deploy on heroku`](https://heroku.com/deploy?template=https://github.com/vijitharanawakage/SANDESH-MD)
 
 [`Deploy on Replit`](https://replit.com)
 
 [`Deploy on Uffizzi`](https://www.uffizzi.com/)
+
+[Deploy on Termux`](https://www.termux.com/)
 </details>
 
 ## [`WATCH YOUTUBE VIDEOS`](youtube.com/MRNIMAOFC)
@@ -85,11 +87,11 @@ Queen elisa whatsapp bot is,
 + DEPLOY STEPS
 # 
 1. Fork This Repository 
-2. Update [settings.js]()
+2. Update [settings.js](https://github.com/vijitharanawakage/SANDESH-MD)
 3. Uplode creds.json file to sessions folder
-4. Make acount on your host
-5. Connect Your Repository to your web host site
-6. [Watch Videos](http://youtube.com/mrnimaofc)
+4. Make account on your host
+5. Connect Your Repository to your web host site(Ex-Replit,Koyeb,Heroku,Railway...etc)
+6. [Watch Videos](https://www.youtube.com/@mr.unknow344)
 # 
 # 
 ### [ DEPLY ON TERMUX ]
@@ -104,25 +106,33 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/DarkMakerofc/Queen-Elisa-Md-V2
-cd Queen-Elisa-Md-V2
+git clone https://github.com/vijitharanawakage/SANDESH-MD
+cd SANDESH-MD
 npm install
 npm start
 ```
 <details>
 <summary>✅ New Updates</summary>
 
-• Fix Youtube video and song not download error. 
-
+• You Can Enjoy The Bot Safely...This Not a New Update Because This Is A Bot's First Version.New Updates Are Available On Future.
 
 <p>
 </details>
 <details>
 <summary>ℹ️ How To Update </summary>
+
+• You Can Update Our WhatsApp Bot By COMMAND .redeploy OR .restart
+
+
+
 <p>
 </details>
 <details>
 <summary>🌐 Support For Deploy </summary>
+
+•You Can Get Support For Deploy The KING SANDESH Bot From Replit,Railway,Heroku,Uffizi,Koyeb Or Termux...Moreover, Other Side You Can Deploy The Bot From Directly Us Contact Developer.
+
+
 <p>
 </details>
 THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
