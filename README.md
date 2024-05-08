@@ -11,7 +11,7 @@ SANDESH-MD Whatsapp Bot is, It is a Project that can be called as a Whatsapp 3rd
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=KING+SANDESH+WHATSAPP+BOT" alt="">
 </p>
 <p align="center">
-<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Mrnima-red.svg?style=for-the-badge&logo=github"></a>
+<a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Mr Unknown-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
 <a href="https://github.com/darkmakerofc?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/AlipBot?color=green&style=flat-square"></a>
@@ -25,15 +25,15 @@ SANDESH-MD Whatsapp Bot is, It is a Project that can be called as a Whatsapp 3rd
 
 # 
 
-### Please Give One Star ✨ & [follow for me notify my updates 💗](https://github.com/DarkMakerofc)
-<b>Version -> 3.9.6</b>
+### Please Rate Us ✨ & [Follow For Me Notify My Updates 🤪](https://github.com/vijitharanawakage)
+<b>Version -> 1 </b>
 # 
-Queen elisa whatsapp bot is,
+KING SANDESH Wa Bot is,
 
-      Queen elisa whatsapp bot is an easy to use whatsapp robot.   |  Queen elisa whatsapp bot යනු ඔබට පහසුවෙන් බාවිතකර හැකි whatsapp robo වරයෙකි.
+         An Easy 3rd Party Programming Project to Use WhatsApp Help | මෙය තෙවන පාර්ශවීය වට්සැප් පහසුකම් ලබා දෙන ප්‍රොග්‍රෑමින් ව්‍යාපෘතියකි
 
 # 
-* 𝗙𝗢𝗥𝗞 𝗡𝗢𝗪
+* 🤭ＦＯＲＫ ＯＵＲ ＢＯＴ🤭
 
 <p align="left">
 <a href="https://github.com/DarkMakerofc/Queen-Elisa-MD-V2/fork"><img align="center" src="https://telegra.ph/file/3514997e86c4bb12d8f67.png" alt="Fork and deploy" height="35" width="155" /></a>
@@ -64,7 +64,7 @@ Queen elisa whatsapp bot is,
 [Deploy on Termux`](https://www.termux.com/)
 </details>
 
-## [`WATCH YOUTUBE VIDEOS`](youtube.com/MRNIMAOFC)
+## [`WATCH YOUTUBE VIDEOS`](https://www.youtube.com/@mr.unknow344)
  
   ##* [How To setup Github 1st step](https://youtu.be/DEpSpJRg4CA)
   
@@ -94,7 +94,7 @@ Queen elisa whatsapp bot is,
 6. [Watch Videos](https://www.youtube.com/@mr.unknow344)
 # 
 # 
-### [ DEPLY ON TERMUX ]
+### [ DEPLOY ON TERMUX ]
  ```   
 apt update
 apt upgrade
