@@ -147,7 +147,7 @@ THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 
   
   #### ```TOTAL PROFILE VIEWS 🧚```
-<img src="https://t.bkit.co/w_663d1ba767015.gif" />
+(https://t.bkit.co/w_663d1ba767015.gif)
 
 <h1>💗</h1> 
 <b>Thanks For</b> -
