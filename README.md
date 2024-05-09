@@ -147,12 +147,12 @@ THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 
   
   #### ```TOTAL PROFILE VIEWS 🧚```
-![Visitor Count]<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-30d0aa7b-8c42-4b5c-91d4-4c4fd0830837" data-elfsight-app-lazy></div>
+<img src="https://hitwebcounter.com/counter/counter.php?page=13211898&style=0009&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>                                    
+
 
 <h1>💗</h1> 
 <b>Thanks For</b> -
 
  [DDF OFC 🖤](https://www.youtube.com/@mr.unknow344) for Support ,[Cyber Ayesh](https://wa.me/94775341543?text=Hi,,Ayesh) , [darkalpha](http://github.com/darkalphaxteam) and [Saviya](https://wa.me/94722627699?text=Hi,,Savii) thanks for helps 💖
 
- ## [ WHATSAPP GROUPS ](https://chat.whatsapp.com/DPIp6O8Wqu3HuSvRbkHQok
+ ## [ WHATSAPP GROUPS ](https://chat.whatsapp.com/DPIp6O8Wqu3HuSvRbkHQok)
