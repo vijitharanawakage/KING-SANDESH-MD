@@ -147,8 +147,7 @@ THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 
   
   #### ```TOTAL PROFILE VIEWS 🧚```
-<img src="https://hitwebcounter.com/counter/counter.php?page=13211898&style=0009&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>                                    
-
+<img src="https://t.bkit.co/w_663d1ba767015.gif" />
 
 <h1>💗</h1> 
 <b>Thanks For</b> -
