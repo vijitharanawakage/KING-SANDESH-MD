@@ -65,20 +65,15 @@ KING SANDESH Wa Bot is,
 
 ## [`WATCH YOUTUBE VIDEOS`](https://www.youtube.com/@mr.unknow344)
  
-  ##* [How To setup Github 1st step](https://youtu.be/DEpSpJRg4CA)
+ * [How To setup Github 1st step](https://youtu.be/DEpSpJRg4CA)
   
- * Deploy on Heroku Video ⇓
+ * Create a Heroku Acc Video ⇓
  <p align="left">
-<a href="https://youtu.be/IIl6etHMyoA"><img align="center" src="https://telegra.ph/file/30a48f9e9879189d2ef6d.jpg" alt="DEPLOY" height="110" width="200" /></a>
+<a href="https://youtu.be/x9PhNIVJWGc?si=8-WuRuOb3QTRJgjp"><img align="center" src="https://telegra.ph/file/30a48f9e9879189d2ef6d.jpg" alt="CREATE ACC" height="110" width="200" /></a>
    
-* Deploy on Railway Video ⇓
+* Create a Railway Acc Video ⇓
  <p align="left">
-<a href="https://youtu.be/j91TKKIXaMg"><img align="center" src="https://telegra.ph/file/517fafc4228129ff18510.jpg" alt="DEPLOY" height="110" width="200" /></a>
-   
-* Deploy on Replit Video ⇓
- <p align="left">
-<a href="[https://youtube.com/mrnimaofc](https://youtu.be/j91TKKIXaMg)"><img align="center" src="https://telegra.ph/file/909f2519b1dc65a338b29.jpg" alt="DEPLOY" height="110" width="200" /></a>
-   
+<a href="https://youtu.be/Ql6SXD2QSg0?si=X5VnIJaTMSIBsERg"><img align="center" src="https://telegra.ph/file/517fafc4228129ff18510.jpg" alt="CREATE ACC" height="110" width="200" /></a>
    
    
 # 
@@ -86,7 +81,7 @@ KING SANDESH Wa Bot is,
 + DEPLOY STEPS
 # 
 1. Fork This Repository 
-2. Update [settings.js](https://github.com/vijitharanawakage/SANDESH-MD)
+2. Update [settings.js](https://github.com/vijitharanawakage/SANDESH-MD/blob/1-V/settings.js)
 3. Uplode creds.json file to sessions folder
 4. Make account on your host
 5. Connect Your Repository to your web host site(Ex-Replit,Koyeb,Heroku,Railway...etc)
