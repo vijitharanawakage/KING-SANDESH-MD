@@ -147,15 +147,7 @@ THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 
   
   #### ```TOTAL PROFILE VIEWS 🧚```
-<html>
-<head>
-<title>Visitor Counter</title>
-</head>
-<body>
-<img src="https://hitwebcounter.com/counter/counter.php?page=13211898&style=0009&nbdigits=5&type=page&initCount=0" title="Counter Widget" Alt="Visit counter For Websites"   border="0" /></a>
-                               
-</body>
-</html>
+  [![VISITOR COUNT](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FSANDESH-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%23CFFF00&title=Visitor+Count&edge_flat=false)](https://hits.seeyoufarm.com)
 
 <h1>💗</h1> 
 <b>Thanks For</b> -
