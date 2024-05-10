@@ -69,11 +69,11 @@ KING SANDESH Wa Bot is,
   
  * Create a Heroku Acc Video ⇓
  <p align="left">
-<a href="https://youtu.be/x9PhNIVJWGc?si=8-WuRuOb3QTRJgjp"><img align="center" src="https://telegra.ph/file/30a48f9e9879189d2ef6d.jpg" alt="CREATE ACC" height="110" width="200" /></a>
+<a href="https://youtu.be/x9PhNIVJWGc?si=8-WuRuOb3QTRJgjp"><img align="center" src="https://i.ibb.co/XDMFVwD/20240510-222735.png"  alt="CREATE ACC" height="110" width="200" /></a>
    
 * Create a Railway Acc Video ⇓
  <p align="left">
-<a href="https://youtu.be/Ql6SXD2QSg0?si=X5VnIJaTMSIBsERg"><img align="center" src="https://telegra.ph/file/517fafc4228129ff18510.jpg" alt="CREATE ACC" height="110" width="200" /></a>
+<a href="https://youtu.be/Ql6SXD2QSg0?si=X5VnIJaTMSIBsERg"><img align="center" src="https://i.ibb.co/25zyHQc/20240510-222808.png" alt="CREATE ACC" height="110" width="200" /></a>
    
    
 # 
