@@ -14,7 +14,7 @@
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Mr Unknown-red.svg?style=for-the-badge&logo=github"></a>
 </p>
 <p align="center">
-<a href="https://github.com/darkmakerofc?tab=followers"><img title="Followers" src="https://img.shields.io/github/followers/AlipBot?color=green&style=flat-square"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?tab=followers2%2Fhit-counter&url=https%3A%2F%2Fgithub.com%2Fgjbae121https%3A%2F%2Fgithub.com%2Fvijitharanawakage&count_bg=%2379C83D&title_bg=%23555555&icon=adblock.svg&icon_color=%23E7E7E7&title=Followers&edge_flat=false"/></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?tab=stars&url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=stars&edge_flat=false"/></a>
 <a href="https://github.com/DarkMakerofc/Queen-Elisa-Md-V2/network/members"><img title="Forks" src="https://img.shields.io/github/forks/darkmakerofc/Queen-Elisa-MD-V2?color=yellow&style=flat-square"></a>
 <a href="https://github.com/DarkMakerofc/Queen-Elisa-Md-V2/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/darkmakerofc/Queen-Elisa-MD-V2?label=Watchers&color=red&style=flat-square"></a>
