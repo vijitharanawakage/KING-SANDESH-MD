@@ -18,7 +18,7 @@
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?tab=stars&url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=stars&edge_flat=false"/></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FSANDESH-MD%2Fnetwork%2Fmembers&count_bg=%230004FF&title_bg=%23000000&icon=lineageos.svg&icon_color=%23FFFFFF&title=Forks&edge_flat=false"/></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FSANDESH-MD%2Fwatchers&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Watchers&edge_flat=false"/></a>
-<a href="https://github.com/DarkMakerofc/Queen-Elisa-Md-V2/"><img title="Size" src="https://img.shields.io/github/repo-size/AlipBot/Api-Alpis?style=flat-square&color=darkred"></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FSANDESH-MD&count_bg=%235800FF&title_bg=%23FF0000&icon=googlecalendar.svg&icon_color=%23FFFDFD&title=Repo+Size&edge_flat=false"/></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/DarkMakerofc/Queen-Elisa-Md-V2/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
 <a href="https://github.com/DarkMakerofc/Queen-Elisa-Md-V2/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
 </p>
