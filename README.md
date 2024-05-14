@@ -1,4 +1,5 @@
 # SANDESH-MD
+⚬ᴋɪɴɢ ꜱᴀɴᴅᴇꜱʜ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ɪꜱ ᴀ ꜱɪᴍᴘʟᴇ ɢɪᴛʜᴜʙ ᴘʀᴏɢʀᴀᴍᴇ ᴡʜɪᴄʜ ʏᴏᴜ ɢɪᴠᴇ ᴍᴏʀᴇ ʜᴇʟᴘ.ɪᴛ ɪꜱ ᴍᴀᴅᴇ ʙʏ ꜱᴀɴᴅᴇꜱʜ ʙʜᴀꜱʜᴀɴᴀ.ᴋɪɴɢ ꜱᴀɴᴅᴇꜱʜ ᴡᴀ ʙᴏᴛ ɪꜱ 3ʀᴅ ᴘᴀʀᴛʏ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ,ᴡʜɪᴄʜ ᴡᴇ ᴄᴀɴ ᴘʀᴏᴜᴅ.
 
 <p align="center"> 
 <u>😁 𝐊𝐈𝐍𝐆 𝐒𝐀𝐍𝐃𝐄𝐒𝐇 | ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ ᴍʀ ᴜɴᴋɴᴏᴡɴ 🤫</u>
@@ -7,7 +8,7 @@
 <img src="https://i.ibb.co/syPHZzK/IMG-20240508-WA0010.jpg" width="300" height="300"/>
 </p>
 <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=KING+SANDESH+WHATSAPP+BOT" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff001b&center=true&vCenter=true&multiline=false&lines=KING+SANDESH+WHATSAPP+BOT" alt="">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=MR+UNKNOWN'S+BEST+WA+BOT" alt="">
 </p>
 <p align="center">
