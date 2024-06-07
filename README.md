@@ -43,7 +43,7 @@ KING SANDESH Wa Bot is,
 <a href="https://github.com/vijitharanawakage/SANDESH-MD/fork"><img align="center" src="https://i.ibb.co/T2hnd83/20240510-215152.png" alt="Fork and deploy" height="35" width="155" /></a>
 # 
   
-* [`𝗦𝗖𝗔𝗡 𝗤𝗥 𝗖𝗢𝗗𝗘`](https://replit.com/@MRNima/QUEEN-ELISA-MULTIAUTH-QR-SCANER)
+* [`𝗦𝗖𝗔𝗡 𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘`](https://xeon-pair-code.onrender.com/)
 
       ℹ️ if there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
 # 
@@ -63,8 +63,6 @@ KING SANDESH Wa Bot is,
 [`Deploy on Replit`](https://replit.com)
 
 [`Deploy on Uffizzi`](https://www.uffizzi.com/)
-
-[Deploy on Termux`](https://www.termux.com/)
 </details>
 
 ## [`WATCH YOUTUBE VIDEOS`](https://www.youtube.com/@mr.unknow344)
@@ -85,8 +83,7 @@ KING SANDESH Wa Bot is,
 + DEPLOY STEPS
 # 
 1. Fork This Repository 
-2. Update [settings.js](https://github.com/vijitharanawakage/SANDESH-MD/blob/1-V/settings.js)
-3. Uplode creds.json file to sessions folder
+2. Get Session Id [𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘](https://xeon-pair-code.onrender.com/)
 4. Make account on your host
 5. Connect Your Repository to your web host site(Ex-Replit,Koyeb,Heroku,Railway...etc)
 6. [Watch Videos](https://www.youtube.com/@mr.unknow344)
