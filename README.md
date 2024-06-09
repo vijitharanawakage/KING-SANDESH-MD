@@ -5,7 +5,7 @@
 <u>😁 𝐊𝐈𝐍𝐆 𝐒𝐀𝐍𝐃𝐄𝐒𝐇 | ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ ᴍʀ ᴜɴᴋɴᴏᴡɴ 🤫</u>
 </p>
 <p align="center">
-<img src="https://i.ibb.co/syPHZzK/IMG-20240508-WA0010.jpg" width="300" height="300"/>
+<img src="https://graph.org/file/b5af12f23c204f8ee055f.jpg" width="300" height="300"/>
 </p>
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff001b&center=true&vCenter=true&multiline=false&lines=KING+SANDESH+WHATSAPP+BOT" alt="">
