@@ -51,6 +51,8 @@ KING SANDESH Wa Bot is,
       ℹ️ if there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
 # 
 
+* 🤭ＤＥＰＬＯＹ ＯＵＲ ＢＯＴ🤭
+
 <details>
 <summary>𝚃𝙾𝚄𝙲𝙷 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙷𝙴 𝙱𝙾𝚃</summary>
 
