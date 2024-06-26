@@ -44,7 +44,9 @@ KING SANDESH Wa Bot is,
 <a href="https://github.com/vijitharanawakage/SANDESH-MD/fork"><img align="center" src="https://i.ibb.co/T2hnd83/20240510-215152.png" alt="Fork and deploy" height="35" width="155" /></a>
 # 
   
-* [`𝗦𝗖𝗔𝗡 𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘`](https://xeon-pair-code.onrender.com/)
+* 🤭ＳＣＡＮ ＰＡＩＲ ＣＯＤＥ🤭
+ 
+ [`𝗦𝗖𝗔𝗡 𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘`](https://xeon-pair-code.onrender.com/)
 
       ℹ️ if there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
 # 
