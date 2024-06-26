@@ -10,7 +10,7 @@
 <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff001b&center=true&vCenter=true&multiline=false&lines=KING+SANDESH+WHATSAPP+BOT" alt="">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=MR+UNKNOWN'S+BEST+WA+BOT" alt="">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff001b&center=true&vCenter=true&multiline=false&lines=OWNER :-+MR+SANDESH+BHASHANA" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=9984ff&center=true&vCenter=true&multiline=false&lines=OWNER :-+MR+SANDESH+BHASHANA" alt="">
 </p>
 <p align="center">
 <a href="#"><img title="Creator" src="https://img.shields.io/badge/Creator-Mr Unknown-red.svg?style=for-the-badge&logo=github"></a>
