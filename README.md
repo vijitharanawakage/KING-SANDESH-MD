@@ -27,7 +27,7 @@
 
 [![Typing SVG](http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FFFFFF&random=false&width=435&lines=%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+100%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+90%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+80%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+70%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+60%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+50%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+40%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+30%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+20%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%5D+10%25)](https://git.io/typing-svg)
 ___________________
-
+#
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ### Please Rate Us ✨ & [Follow For Me Notify My Updates 🤪](https://github.com/vijitharanawakage)
@@ -55,7 +55,7 @@ KING SANDESH Wa Bot is,
 
 <details>
 <summary>𝚃𝙾𝚄𝙲𝙷 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙷𝙴 𝙱𝙾𝚃</summary>
-#
+
 
 [`Deploy on Railway`](https://railway.app?referralCode=jDDNQq)
 
@@ -71,6 +71,11 @@ KING SANDESH Wa Bot is,
 </details>
 
       ℹ️ You Can Choose Your Own Deploy Method.  | මෙහිදී ඔබට පහසු Deploy මෙතෝඩ් ක්‍රමයක් තෝරාගැනීමට ඔබට අවස්ථාව ලබා දී තිබේ.
+#
+
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
 
 ## [`WATCH YOUTUBE VIDEOS`](https://www.youtube.com/@mr.unknow344)
  
@@ -139,6 +144,9 @@ npm start
 </details>
 THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+
 * [😁Contact King Sandesh Developing Crew😁](https://wa.me/94741259325?text=Hi,,king,,,sandesh)
 
 * [🦄 Join Our Public Wa Bot Group 🦄](https://chat.whatsapp.com/DPIp6O8Wqu3HuSvRbkHQok)
@@ -146,6 +154,7 @@ THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
      
        ⚠️ We are not responsible for any inconvenience caused by your mistakes!   | ඔබගේ අත්වැරදීම් නිසා සිදුවන අපහසුතාවයන් සඳහා අප වගකියනු නොලැබේ!
 
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   
   #### ```TOTAL PROFILE VIEWS 🧚```
 [![VISITOR COUNT](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FSANDESH-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%23CFFF00&title=Visitor+Count&edge_flat=false)](https://hits.seeyoufarm.com)
