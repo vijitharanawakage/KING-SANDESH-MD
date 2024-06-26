@@ -43,19 +43,19 @@ KING SANDESH Wa Bot is,
 <p align="left">
 <a href="https://github.com/vijitharanawakage/SANDESH-MD/fork"><img align="center" src="https://i.ibb.co/T2hnd83/20240510-215152.png" alt="Fork and deploy" height="35" width="155" /></a>
 # 
-  
+#  
 * 🤭ＳＣＡＮ ＰＡＩＲ ＣＯＤＥ🤭
  
  [`𝗦𝗖𝗔𝗡 𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘`](https://xeon-pair-code.onrender.com/)
 
       ℹ️ if there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
 # 
-
+#
 * 🤭ＤＥＰＬＯＹ ＯＵＲ ＢＯＴ🤭
 
 <details>
 <summary>𝚃𝙾𝚄𝙲𝙷 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙷𝙴 𝙱𝙾𝚃</summary>
-
+#
 
 [`Deploy on Railway`](https://railway.app?referralCode=jDDNQq)
 
@@ -69,6 +69,8 @@ KING SANDESH Wa Bot is,
 
 [`Deploy on Uffizzi`](https://www.uffizzi.com/)
 </details>
+
+      ℹ️ You Can Choose Your Own Deploy Method.  | මෙහිදී ඔබට පහසු Deploy මෙතෝඩ් ක්‍රමයක් තෝරාගැනීමට ඔබට අවස්ථාව ලබා දී තිබේ.
 
 ## [`WATCH YOUTUBE VIDEOS`](https://www.youtube.com/@mr.unknow344)
  
