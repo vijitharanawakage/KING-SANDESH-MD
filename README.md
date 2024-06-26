@@ -98,7 +98,9 @@ KING SANDESH Wa Bot is,
 2. Get Session Id [𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘](https://xeon-pair-code.onrender.com/)
 4. Make account on your host
 5. Connect Your Repository to your web host site(Ex-Replit,Koyeb,Heroku,Railway...etc)
-6. [Watch Videos](https://www.youtube.com/@mr.unknow344)
+6.       ℹ️ If You Don't Understand To Make A Bot.  | ඔබට කිසිවක් නොතේරේ නම් යූ ටියුබ් වීඩියෝ නරඹන්න.
+
+  [Watch Videos](https://www.youtube.com/@mr.unknow344)
 # 
 # 
 ### [ DEPLOY ON TERMUX ]
