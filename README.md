@@ -94,7 +94,7 @@ KING SANDESH Wa Bot is,
 #
 + DEPLOY STEPS
 # 
-1. Fork This Repository 
+1. Fork This Repository [𝗙𝗢𝗥𝗞](https://github.com/vijitharanawakage/SANDESH-MD/fork)
 2. Get Session Id [𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘](https://xeon-pair-code.onrender.com/)
 4. Make account on your host
 5. Connect Your Repository to your web host site(Ex-Replit,Koyeb,Heroku,Railway...etc)
