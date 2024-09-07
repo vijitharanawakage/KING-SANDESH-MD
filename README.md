@@ -1,4 +1,4 @@
-# SANDESH-MD
+# KING-SANDESH-MD
 ⚬ᴋɪɴɢ ꜱᴀɴᴅᴇꜱʜ ᴍᴜʟᴛɪ ᴅᴇᴠɪᴄᴇ ɪꜱ ᴀ ꜱɪᴍᴘʟᴇ ɢɪᴛʜᴜʙ ᴘʀᴏɢʀᴀᴍᴇ ᴡʜɪᴄʜ ʏᴏᴜ ɢɪᴠᴇ ᴍᴏʀᴇ ʜᴇʟᴘ.ɪᴛ ɪꜱ ᴍᴀᴅᴇ ʙʏ ꜱᴀɴᴅᴇꜱʜ ʙʜᴀꜱʜᴀɴᴀ.ᴋɪɴɢ ꜱᴀɴᴅᴇꜱʜ ᴡᴀ ʙᴏᴛ ɪꜱ 3ʀᴅ ᴘᴀʀᴛʏ ᴀᴘᴘʟɪᴄᴀᴛɪᴏɴ,ᴡʜɪᴄʜ ᴡᴇ ᴄᴀɴ ᴘʀᴏᴜᴅ.
 
 <p align="center"> 
@@ -18,11 +18,11 @@
 <p align="center">
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?tab=followers2%2Fhit-counter&url=https%3A%2F%2Fgithub.com%2Fgjbae121https%3A%2F%2Fgithub.com%2Fvijitharanawakage&count_bg=%2379C83D&title_bg=%23555555&icon=adblock.svg&icon_color=%23E7E7E7&title=Followers&edge_flat=false"/></a>
 <a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?tab=stars&url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=stars&edge_flat=false"/></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FSANDESH-MD%2Fnetwork%2Fmembers&count_bg=%230004FF&title_bg=%23000000&icon=lineageos.svg&icon_color=%23FFFFFF&title=Forks&edge_flat=false"/></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FSANDESH-MD%2Fwatchers&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Watchers&edge_flat=false"/></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FSANDESH-MD&count_bg=%235800FF&title_bg=%23FF0000&icon=googlecalendar.svg&icon_color=%23FFFDFD&title=Repo+Size&edge_flat=false"/></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/vijitharanawakage/SANDESH-MD/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
-<a href="https://github.com/vijitharanawakage/SANDESH-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FKING-SANDESH-MD%2Fnetwork%2Fmembers&count_bg=%230004FF&title_bg=%23000000&icon=lineageos.svg&icon_color=%23FFFFFF&title=Forks&edge_flat=false"/></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FKING-SANDESH-MD%2Fwatchers&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Watchers&edge_flat=false"/></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FKING-SANDESH-MD&count_bg=%235800FF&title_bg=%23FF0000&icon=googlecalendar.svg&icon_color=%23FFFDFD&title=Repo+Size&edge_flat=false"/></a>
+<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https://github.com/vijitharanawakage/KING-SANDESH-MD/%2Fhit-counter&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2304FF00&title=hits&edge_flat=false"/></a>
+<a href="https://github.com/vijitharanawakage/KING-SANDESH-MD/graphs/commit-activity"><img height="20" src="https://img.shields.io/badge/Maintained-No-red.svg"></a>&nbsp;&nbsp;
 </p>
 
 [![Typing SVG](http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FFFFFF&random=false&width=435&lines=%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+100%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+90%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+80%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+70%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+60%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+50%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+40%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+30%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+20%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%5D+10%25)](https://git.io/typing-svg)
@@ -41,13 +41,13 @@ KING SANDESH Wa Bot is,
 * 🤭ＦＯＲＫ ＯＵＲ ＢＯＴ🤭
 
 <p align="left">
-<a href="https://github.com/vijitharanawakage/SANDESH-MD/fork"><img align="center" src="https://i.ibb.co/T2hnd83/20240510-215152.png" alt="Fork and deploy" height="35" width="155" /></a>
-# 
+<a href="https://github.com/vijitharanawakage/KING-SANDESH-MD/fork"><img align="center" src="https://i.ibb.co/T2hnd83/20240510-215152.png" alt="Fork and deploy" height="35" width="155" /></a>
+
   
 #  
 * 🤭ＳＣＡＮ ＰＡＩＲ ＣＯＤＥ🤭
  
- [`𝗦𝗖𝗔𝗡 𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘`](https://xeon-pair-code.onrender.com/)
+<a href='https://ks-session-page-5daa6eb00bb8.herokuapp.com/' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GET PAIRING CODE-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
       ℹ️ if there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
 #
@@ -63,7 +63,7 @@ KING SANDESH Wa Bot is,
 
 [`Deploy on Mogenius`](https://studio.mogenius.com/)
 
-[`Deploy on heroku`](https://heroku.com/deploy?template=https://github.com/vijitharanawakage/SANDESH-MD)
+[`Deploy on heroku`](https://heroku.com/deploy?template=https://github.com/vijitharanawakage/KING-SANDESH-MD)
 
 [`Deploy on Replit`](https://replit.com)
 
@@ -94,8 +94,8 @@ KING SANDESH Wa Bot is,
 #
 + DEPLOY STEPS
 # 
-1. Fork This Repository [𝗙𝗢𝗥𝗞](https://github.com/vijitharanawakage/SANDESH-MD/fork)
-2. Get Session Id [𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘](https://xeon-pair-code.onrender.com/)
+1. Fork This Repository [𝗙𝗢𝗥𝗞](https://github.com/vijitharanawakage/KING-SANDESH-MD/fork)
+2. Get Session Id [𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘](https://ks-session-page-5daa6eb00bb8.herokuapp.com/)
 4. Make account on your host
 5. Connect Your Repository to your web host site(Ex-Replit,Koyeb,Heroku,Railway...etc)
 6.       ℹ️ If You Don't Understand To Make A Bot.  | ඔබට කිසිවක් නොතේරේ නම් යූ ටියුබ් වීඩියෝ නරඹන්න.
@@ -115,7 +115,7 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/vijitharanawakage/SANDESH-MD
+git clone https://github.com/vijitharanawakage/KING-SANDESH-MD
 cd SANDESH-MD
 npm install
 npm start
@@ -151,19 +151,30 @@ THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 
 * [😁Contact King Sandesh Developing Crew😁](https://wa.me/94741259325?text=Hi,,king,,,sandesh)
 
-* [🦄 Join Our Public Wa Bot Group 🦄](https://chat.whatsapp.com/DPIp6O8Wqu3HuSvRbkHQok)
-
-     
-       ⚠️ We are not responsible for any inconvenience caused by your mistakes!   | ඔබගේ අත්වැරදීම් නිසා සිදුවන අපහසුතාවයන් සඳහා අප වගකියනු නොලැබේ!
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   
   #### ```TOTAL PROFILE VIEWS 🧚```
-[![VISITOR COUNT](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FSANDESH-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%23CFFF00&title=Visitor+Count&edge_flat=false)](https://hits.seeyoufarm.com)
+[![VISITOR COUNT](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FKING-SANDESH-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%23CFFF00&title=Visitor+Count&edge_flat=false)](https://hits.seeyoufarm.com)
+
+## 👑 **`KING-SANDESH-MD BOT OWNER`** 👑
+
+
+   <a href="https://github.com/vijitharanawakage/"><img src="https://i.ibb.co/0DC6PDM/20240816-123731.png" width=120 height=120></a>   
+
+---
+
+|**[`MR.SANDESH BHASHANA`](https://github.com/vijitharanawakage)**|
+
+---
 
 <h1>💗</h1> 
 <b>Thanks For</b> -
 
- [DDF OFC 🖤](https://www.youtube.com/@mr.unknow344) for Support ,[Cyber Ayesh](https://wa.me/94775341543?text=Hi,,Ayesh) , [darkalpha](http://github.com/darkalphaxteam) and [Saviya](https://wa.me/94722627699?text=Hi,,Savii) thanks for helps 💖
+ [DDF OFC 🖤](https://www.youtube.com/@mr.unknow344) for SUPPORT ,
+ [MR.VINUWA | Vinuka Sharanga](https://wa.me/94740396443?text=Hi,,Vinu) for BETA TESTING ,
+ [ESHUU](https://wa.me/94704932651?text=Hi,,ESHU) for AI ,
+ [VAJIRA TECH](https://wa.me/94719199757?text=Hi,,vajira) for PAIR CODE GEN thanks for helps 💖
 
  ## [ WHATSAPP GROUPS ](https://chat.whatsapp.com/DPIp6O8Wqu3HuSvRbkHQok)
+[Wa Group 🦄](https://chat.whatsapp.com/DPIp6O8Wqu3HuSvRbkHQok)
