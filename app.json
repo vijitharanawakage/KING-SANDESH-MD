@@ -1,0 +1,49 @@
+{
+  "name": "KING-SANDESH-MD",
+  "description": "KING-SANDESH-MD has been designed to make things easier and fun while using WhatsApp. 👨‍💻❤️ / සැම දෙයක්ම එක තනකින් බය නතුව හදන්න ඔබගෙ whatsapp හී ආරක්ශාවන්ගැන බය නොවි.",
+  "logo": "https://graph.org/file/b5af12f23c204f8ee055f.jpg",
+  "keywords": ["sandeshmd", "bot", "whatsapp bot", "multi device", "kingh-sandesh-md"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+            "description": "Type the Session-ID you got from scaning QR / ඔබට ආපු කෝඩය මෙතන්ට දමන්න",
+            "required": true,
+            "value": "put session id here"
+        },
+    "COMMAND_TYPE": {
+            "description": "Put correct spelling button or nonbutton here to change mode / මෙයට button හෝ nonbutton ලෙස නිවැරදිව නොවරදවා දමන්න",
+            "required": true,
+            "value": "button"
+        },
+    "HEROKU_APP_NAME": {
+            "description": "Put Heroku app name here / හෙරොකු හි ඩිප්ලොයි කරන විට මුලි දැමු app name එක නැවද දමන්න",
+            "required": true,
+            "value": ""
+        },
+    "HEROKU_API_KEY": {
+            "description": "Put Heroku Api key here / හෙරොකු api key එක දමන්න",
+            "required": true,
+            "value": ""
+        },
+    "POSTGRESQL_URL": {
+            "description": "Put Any postgres url here",
+            "required": true,
+            "value": "postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech"
+        },
+    "OWNER_NUMBER": {
+            "description": "Dont change this number will not work bot",
+            "required": true,
+            "value": "94741259325"
+}
+
+    },
+         "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+  
+  
+}
