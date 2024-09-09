@@ -47,7 +47,7 @@ KING SANDESH Wa Bot is,
 #  
 * 🤭ＳＣＡＮ ＰＡＩＲ ＣＯＤＥ🤭
  
-<a href='https://ks-session-page-5daa6eb00bb8.herokuapp.com/' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GET PAIRING CODE-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://vajirapair-3ea4809cee5a.herokuapp.com/' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GET PAIRING CODE-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
       ℹ️ if there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
 #
