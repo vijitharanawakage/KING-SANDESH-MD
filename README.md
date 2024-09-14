@@ -65,7 +65,7 @@ KING SANDESH Wa Bot is,
 
 [`Deploy on Mogenius`](https://studio.mogenius.com/)
 
-[`Deploy on heroku`]([https://heroku.com/deploy?template=https://github.com/vijitharanawakage/KING-SANDESH-MD](https://heroku.com/deploy?template=https://github.com/vijitharanawakage/KING-SANDESH-MD/))
+[`Deploy on heroku`](https://heroku.com/deploy?template=https://github.com/vijitharanawakage/KING-SANDESH-MD/)
 
 [`Deploy on Replit`](https://replit.com)
 
