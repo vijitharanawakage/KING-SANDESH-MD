@@ -1,0 +1,18 @@
+{
+  "name": "KING-SANDESH-MD",
+  "description": "A Whatsapp Multi Device Bot Build With Nodejs",
+  "repository": "https://github.com/vijitharanawakage/KING-SANDESH-MD",
+  "logo": "https://graph.org/file/b5af12f23c204f8ee055f.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    },
+    {
+      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+    }
+  ]
+}
