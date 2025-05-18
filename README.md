@@ -5,7 +5,7 @@
 <u>😁 𝐊𝐈𝐍𝐆 𝐒𝐀𝐍𝐃𝐄𝐒𝐇 | ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ ᴍʀ ᴜɴᴋɴᴏᴡɴ 🤫</u>
 </p>
 <p align="center">
-<img src="https://i.imgur.com/iveMkto.jpeg"/>
+<img src="https://graph.org/file/b5af12f23c204f8ee055f.jpg" width="300" height="300"/>
 </p>
 <p align="center">
   <a href="https://git.io/typing-svg">
@@ -42,20 +42,20 @@ ___________________
     An Easy 3rd Party Programming Project to Use WhatsApp Help | මෙය තෙවන පාර්ශවීය වට්සැප් පහසුකම් ලබා දෙන ප්‍රෝග්‍රෑමින් ව්‍යාපෘතියකි.
 
 # 
-* 🫧 𝐅 𝐎 𝐑 𝐊  𝐎 𝐔 𝐑   𝐁 𝐎 𝐓
+* 🫧 𝐅 𝐎 𝐑 𝐊 | 𝐎 𝐔 𝐑 |  𝐁 𝐎 𝐓
 
 <p align="left">
 <a href="https://github.com/vijitharanawakage/KING-SANDESH-MD/fork"><img align="center" src="https://i.ibb.co/T2hnd83/20240510-215152.png" alt="Fork and deploy" height="35" width="155" /></a>
 
   
 #  
-* 🫧 𝐒 𝐂 𝐀 𝐍   𝐏 𝐀 𝐈 𝐑   𝐂 𝐎 𝐃 𝐄
+* 🫧 𝐒 𝐂 𝐀 𝐍 |  𝐏 𝐀 𝐈 𝐑 |  𝐂 𝐎 𝐃 𝐄
  
 <a href='https://wa.me/+94741259325?text=𝐏𝐋𝐄𝐀𝐒𝐄_𝐆𝐈𝐕𝐄_𝐌𝐄_𝐊𝐒𝐌𝐃_𝐏𝐀𝐈𝐑_𝐂𝐎𝐃𝐄' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GET PAIRING CODE-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
     ℹ️ If there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
 #
-* 🫧 𝐃 𝐄 𝐏 𝐋 𝐎 𝐘   𝐎 𝐔 𝐑   𝐁 𝐎 𝐓
+* 🫧 𝐃 𝐄 𝐏 𝐋 𝐎 𝐘 |  𝐎 𝐔 𝐑 |  𝐁 𝐎 𝐓
 
 
 <details>
@@ -75,20 +75,41 @@ ___________________
    
 # 
 #
-+ 🫧 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐓𝐄𝐏𝐒
++ 🫧 𝐃𝐄𝐏𝐋𝐎𝐘 | 𝐒𝐓𝐄𝐏𝐒
 # 
-1. Fork This Repository [𝗙𝗢𝗥𝗞](https://github.com/vijitharanawakage/KING-SANDESH-MD/fork)
+1. Fork This Repository [𝗙𝗢𝗥𝗞🗿](https://github.com/vijitharanawakage/KING-SANDESH-MD/fork)
 
-2. Get Session Id [𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘](https://wa.me/+94741259325?text=𝐏𝐋𝐄𝐀𝐒𝐄_𝐆𝐈𝐕𝐄_𝐌𝐄_𝐊𝐒𝐌𝐃_𝐏𝐀𝐈𝐑_𝐂𝐎𝐃𝐄)
+2. Get Session Id [𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘❤️‍🩹](https://wa.me/+94741259325?text=𝐏𝐋𝐄𝐀𝐒𝐄_𝐆𝐈𝐕𝐄_𝐌𝐄_𝐊𝐒𝐌𝐃_𝐏𝐀𝐈𝐑_𝐂𝐎𝐃𝐄)
 
-4. Make Account On Katabump Panel Via DISCORD
+4. Import Creds.js File Is Give By Pairing To Session Folder[𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗙𝗢𝗟𝗗𝗘𝗥🤥](https://github.com/vijitharanawakage/KING-SANDESH-MD/tree/1-V/session)
 
-5. Create Your Server In Katabump Panel
+5. Download Ksmd Bot Zip File [𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗭𝗜𝗣🙈](https://github.com/vijitharanawakage/KING-SANDESH-MD/archive/refs/heads/1-V.zip)
 
-6. After That Open The Server And Upload Downloaded Bot Zip File       ℹ️ If You Don't Understand To Make A Bot.  | ඔබට කිසිවක් නොතේරේ නම් යූ ටියුබ් වීඩියෝ නරඹන්න.
+6. Make Account On Katabump Panel Via DISCORD
 
-  [Watch Videos](https://www.youtube.com/@mr.unknow344)
+7. Create Your Server In Katabump Panel
 
+8. After That Open The Server And Upload Downloaded Bot Zip File
+
+9. Touch The Three Dots In Rights Side.After Touch Unarchive File
+
+10. Now Delete Zip File We Uploaded
+
+11. Now Go To index.js Folder And Save It And Back
+
+12. Now Touch KING-SANDESH-MD Text Show In The Header
+
+13. Now Select All Files And Enter ../ 
+
+14. Now Start The Panel And Open The console to see running
+
+15. You Can Use Your Bot Safely🙈
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+
+    ℹ️ If You Don't Understand To Make A Bot.  | ඔබට කිසිවක් නොතේරේ නම් යූ ටියුබ් වීඩියෝ නරඹන්න.
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <details>
 <summary>✅ New Updates</summary>
@@ -220,11 +241,11 @@ This project is licensed under the MIT License. However, you must:
 <h1>💗</h1> 
 <b>Thanks For</b> -
 
-* [DDF OFC 🖤](https://www.youtube.com/@mr.unknow344) for SUPPORT🤭 ,
-* [Gray Wolf | Semina Adusara]() for BETA TESTING🙈 ,
-* [MR DILA OFC](https://wa.me/+94777839446?text=Hi_MONEY_HEIST_MD) for Some Codes🗿 ,
-* [BAILEYS](https://github.com/adiwajshing/Baileys) ,
-* [MR UNIQUE HACKER](https://github.com/mruniquehacker) for PAIR CODE GEN👊 thanks for your all helps.I am extremely SORRY for mistakes.💖
+ [DDF OFC 🖤](https://www.youtube.com/@mr.unknow344) for SUPPORT🤭 ,
+ [Gray Wolf | Semina Adusara]() for BETA TESTING🙈 ,
+ [MR DILA OFC](https://wa.me/+94777839446?text=Hi_MONEY_HEIST_MD) for Some Codes🗿 ,
+ [BAILEYS](https://github.com/adiwajshing/Baileys) ,
+ [MR UNIQUE HACKER](https://github.com/mruniquehacker) for PAIR CODE GEN👊 thanks for your all helps.I am extremely SORRY for mistakes.💖
 
  ## 📜 Copyright Notice
 
