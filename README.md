@@ -32,78 +32,60 @@
 [![Typing SVG](http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FFFFFF&random=false&width=435&lines=%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+100%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+90%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+80%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+70%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+60%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+50%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+40%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+30%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+20%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%5D+10%25)](https://git.io/typing-svg)
 ___________________
 
-#
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ### Please Rate Us ✨ & [Follow For Me Notify My Updates 🤪](https://github.com/vijitharanawakage)
-<b>Version -> 1 </b>
+<b>Bot Version -> 1 </b>
 # 
-KING SANDESH Wa Bot is,
+🫧KING SANDESH MULTI DEVICE Bot is,
 
-         An Easy 3rd Party Programming Project to Use WhatsApp Help | මෙය තෙවන පාර්ශවීය වට්සැප් පහසුකම් ලබා දෙන ප්‍රොග්‍රෑමින් ව්‍යාපෘතියකි
+    An Easy 3rd Party Programming Project to Use WhatsApp Help | මෙය තෙවන පාර්ශවීය වට්සැප් පහසුකම් ලබා දෙන ප්‍රෝග්‍රෑමින් ව්‍යාපෘතියකි.
 
 # 
-* 🤭ＦＯＲＫ ＯＵＲ ＢＯＴ🤭
+* 🫧 𝐅 𝐎 𝐑 𝐊  𝐎 𝐔 𝐑   𝐁 𝐎 𝐓
 
 <p align="left">
 <a href="https://github.com/vijitharanawakage/KING-SANDESH-MD/fork"><img align="center" src="https://i.ibb.co/T2hnd83/20240510-215152.png" alt="Fork and deploy" height="35" width="155" /></a>
 
   
 #  
-* 🤭ＳＣＡＮ ＰＡＩＲ ＣＯＤＥ🤭
+* 🫧 𝐒 𝐂 𝐀 𝐍   𝐏 𝐀 𝐈 𝐑   𝐂 𝐎 𝐃 𝐄
  
-<a href='https://vajirapair-3ea4809cee5a.herokuapp.com/' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GET PAIRING CODE-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://wa.me/+94741259325?text=𝐏𝐋𝐄𝐀𝐒𝐄_𝐆𝐈𝐕𝐄_𝐌𝐄_𝐊𝐒𝐌𝐃_𝐏𝐀𝐈𝐑_𝐂𝐎𝐃𝐄' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GET PAIRING CODE-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
-      ℹ️ if there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
+    ℹ️ If there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
 #
-* 🤭ＤＥＰＬＯＹ ＯＵＲ ＢＯＴ🤭
+* 🫧 𝐃 𝐄 𝐏 𝐋 𝐎 𝐘   𝐎 𝐔 𝐑   𝐁 𝐎 𝐓
+
 
 <details>
-<summary>𝚃𝙾𝚄𝙲𝙷 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙷𝙴 𝙱𝙾𝚃</summary>
-
-
-[`Deploy on Railway`](https://railway.app?referralCode=jDDNQq)
-
-[`Deploy on Koyeb`](https://app.koyeb.com/)
-
-[`Deploy on Mogenius`](https://studio.mogenius.com/)
-
-[`Deploy on heroku`](https://heroku.com/deploy?template=https://github.com/vijitharanawakage/KING-SANDESH-MD/)
-
-[`Deploy on Replit`](https://replit.com)
-
-[`Deploy on Uffizzi`](https://www.uffizzi.com/)
+<summary>👉𝚃𝙾𝚄𝙲𝙷 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙷𝙴 𝙱𝙾𝚃👈</summary>
+<div align="center">
+<a href="https://dashboard.katabump.com/auth/login#d6b7d6" target="_blank">
+  <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump Account Setup"/>
 </details>
 
-      ℹ️ You Can Choose Your Own Deploy Method.  | මෙහිදී ඔබට පහසු Deploy මෙතෝඩ් ක්‍රමයක් තෝරාගැනීමට ඔබට අවස්ථාව ලබා දී තිබේ.
+    ℹ️ You Can Choose Panel Method Only,Because It Is Bot's First Version.I Will Try To Give Many Methods In V2 Bot.  | මෙහිදී ඔබට Panel මෙතෝඩය පමණක් ලබා දී ඇත.දෙවන වර්ශනයේදී තවත් මෙතෝඩයන් ලබා දීමට උත්සහ කරමි.
 #
-
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 
-## [`WATCH YOUTUBE VIDEOS`](https://www.youtube.com/@mr.unknow344)
- 
- * [How To setup Github 1st step](https://youtu.be/DEpSpJRg4CA)
-  
- * Create a Heroku Acc Video ⇓
- <p align="left">
-<a href="https://youtu.be/x9PhNIVJWGc?si=8-WuRuOb3QTRJgjp"><img align="center" src="https://i.ibb.co/XDMFVwD/20240510-222735.png"  alt="CREATE ACC" height="110" width="200" /></a>
-   
-* Create a Railway Acc Video ⇓
- <p align="left">
-<a href="https://youtu.be/Ql6SXD2QSg0?si=X5VnIJaTMSIBsERg"><img align="center" src="https://i.ibb.co/25zyHQc/20240510-222808.png" alt="CREATE ACC" height="110" width="200" /></a>
-   
+## [`🫧 WATCH MY TIKTOK VIDEOS`](https://www.tiktok.com/@mr__unknown_sandesh)
    
 # 
 #
-+ DEPLOY STEPS
++ 🫧 𝐃𝐄𝐏𝐋𝐎𝐘 𝐒𝐓𝐄𝐏𝐒
 # 
 1. Fork This Repository [𝗙𝗢𝗥𝗞](https://github.com/vijitharanawakage/KING-SANDESH-MD/fork)
-2. Get Session Id [𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘](https://ks-session-page-5daa6eb00bb8.herokuapp.com/)
-4. Make account on your host
-5. Connect Your Repository to your web host site(Ex-Replit,Koyeb,Heroku,Railway...etc)
-6.       ℹ️ If You Don't Understand To Make A Bot.  | ඔබට කිසිවක් නොතේරේ නම් යූ ටියුබ් වීඩියෝ නරඹන්න.
+
+2. Get Session Id [𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘](https://wa.me/+94741259325?text=𝐏𝐋𝐄𝐀𝐒𝐄_𝐆𝐈𝐕𝐄_𝐌𝐄_𝐊𝐒𝐌𝐃_𝐏𝐀𝐈𝐑_𝐂𝐎𝐃𝐄)
+
+4. Make Account On Katabump Panel Via DISCORD
+
+5. Create Your Server In Katabump Panel
+
+6. After That Open The Server And Upload Downloaded Bot Zip File       ℹ️ If You Don't Understand To Make A Bot.  | ඔබට කිසිවක් නොතේරේ නම් යූ ටියුබ් වීඩියෝ නරඹන්න.
 
   [Watch Videos](https://www.youtube.com/@mr.unknow344)
 # 
