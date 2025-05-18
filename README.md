@@ -5,7 +5,7 @@
 <u>😁 𝐊𝐈𝐍𝐆 𝐒𝐀𝐍𝐃𝐄𝐒𝐇 | ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ ᴍʀ ᴜɴᴋɴᴏᴡɴ 🤫</u>
 </p>
 <p align="center">
-<img src="https://i.imgur.com/iveMkto.jpeg" width="300" height="300"/>
+<img src="https://i.imgur.com/iveMkto.jpeg"/>
 </p>
 <p align="center">
   <a href="https://git.io/typing-svg">
