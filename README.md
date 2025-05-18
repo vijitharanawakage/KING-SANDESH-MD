@@ -220,10 +220,10 @@ This project is licensed under the MIT License. However, you must:
 <h1>💗</h1> 
 <b>Thanks For</b> -
 
- [DDF OFC 🖤](https://www.youtube.com/@mr.unknow344) for SUPPORT🤭 ,
- [Gray Wolf | Semina Adusara]() for BETA TESTING🙈 ,
- [MR DILA OFC](https://wa.me/+94777839446?text=Hi_MONEY_HEIST_MD) for Some Codes🗿 ,
- [BAILEYS](https://github.com/adiwajshing/Baileys) ,
+* [DDF OFC 🖤](https://www.youtube.com/@mr.unknow344) for SUPPORT🤭 ,
+* [Gray Wolf | Semina Adusara]() for BETA TESTING🙈 ,
+* [MR DILA OFC](https://wa.me/+94777839446?text=Hi_MONEY_HEIST_MD) for Some Codes🗿 ,
+* [BAILEYS](https://github.com/adiwajshing/Baileys) ,
  [MR UNIQUE HACKER](https://github.com/mruniquehacker) for PAIR CODE GEN👊 thanks for your all helps.I am extremely SORRY for mistakes.💖
 
  ## 📜 Copyright Notice
