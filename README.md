@@ -224,7 +224,7 @@ This project is licensed under the MIT License. However, you must:
 * [Gray Wolf | Semina Adusara]() for BETA TESTING🙈 ,
 * [MR DILA OFC](https://wa.me/+94777839446?text=Hi_MONEY_HEIST_MD) for Some Codes🗿 ,
 * [BAILEYS](https://github.com/adiwajshing/Baileys) ,
- [MR UNIQUE HACKER](https://github.com/mruniquehacker) for PAIR CODE GEN👊 thanks for your all helps.I am extremely SORRY for mistakes.💖
+* [MR UNIQUE HACKER](https://github.com/mruniquehacker) for PAIR CODE GEN👊 thanks for your all helps.I am extremely SORRY for mistakes.💖
 
  ## 📜 Copyright Notice
 
