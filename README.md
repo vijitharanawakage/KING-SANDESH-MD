@@ -42,20 +42,20 @@ ___________________
     An Easy 3rd Party Programming Project to Use WhatsApp Help | මෙය තෙවන පාර්ශවීය වට්සැප් පහසුකම් ලබා දෙන ප්‍රෝග්‍රෑමින් ව්‍යාපෘතියකි.
 
 # 
-* 🫧 𝐅 𝐎 𝐑 𝐊  𝐎 𝐔 𝐑   𝐁 𝐎 𝐓
+* 🫧 𝐅 𝐎 𝐑 𝐊 | 𝐎 𝐔 𝐑 |  𝐁 𝐎 𝐓
 
 <p align="left">
 <a href="https://github.com/vijitharanawakage/KING-SANDESH-MD/fork"><img align="center" src="https://i.ibb.co/T2hnd83/20240510-215152.png" alt="Fork and deploy" height="35" width="155" /></a>
 
   
 #  
-* 🫧 𝐒 𝐂 𝐀 𝐍   𝐏 𝐀 𝐈 𝐑   𝐂 𝐎 𝐃 𝐄
+* 🫧 𝐒 𝐂 𝐀 𝐍 |  𝐏 𝐀 𝐈 𝐑 |  𝐂 𝐎 𝐃 𝐄
  
 <a href='https://wa.me/+94741259325?text=𝐏𝐋𝐄𝐀𝐒𝐄_𝐆𝐈𝐕𝐄_𝐌𝐄_𝐊𝐒𝐌𝐃_𝐏𝐀𝐈𝐑_𝐂𝐎𝐃𝐄' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GET PAIRING CODE-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
     ℹ️ If there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
 #
-* 🫧 𝐃 𝐄 𝐏 𝐋 𝐎 𝐘   𝐎 𝐔 𝐑   𝐁 𝐎 𝐓
+* 🫧 𝐃 𝐄 𝐏 𝐋 𝐎 𝐘 |  𝐎 𝐔 𝐑 |  𝐁 𝐎 𝐓
 
 
 <details>
