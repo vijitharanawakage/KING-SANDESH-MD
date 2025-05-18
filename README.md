@@ -42,20 +42,20 @@ ___________________
     An Easy 3rd Party Programming Project to Use WhatsApp Help | මෙය තෙවන පාර්ශවීය වට්සැප් පහසුකම් ලබා දෙන ප්‍රෝග්‍රෑමින් ව්‍යාපෘතියකි.
 
 # 
-* 🫧 𝐅 𝐎 𝐑 𝐊 | 𝐎 𝐔 𝐑 |  𝐁 𝐎 𝐓
+* 🫧 𝐅 𝐎 𝐑 𝐊  𝐎 𝐔 𝐑   𝐁 𝐎 𝐓
 
 <p align="left">
 <a href="https://github.com/vijitharanawakage/KING-SANDESH-MD/fork"><img align="center" src="https://i.ibb.co/T2hnd83/20240510-215152.png" alt="Fork and deploy" height="35" width="155" /></a>
 
   
 #  
-* 🫧 𝐒 𝐂 𝐀 𝐍 |  𝐏 𝐀 𝐈 𝐑 |  𝐂 𝐎 𝐃 𝐄
+* 🫧 𝐒 𝐂 𝐀 𝐍   𝐏 𝐀 𝐈 𝐑   𝐂 𝐎 𝐃 𝐄
  
 <a href='https://wa.me/+94741259325?text=𝐏𝐋𝐄𝐀𝐒𝐄_𝐆𝐈𝐕𝐄_𝐌𝐄_𝐊𝐒𝐌𝐃_𝐏𝐀𝐈𝐑_𝐂𝐎𝐃𝐄' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GET PAIRING CODE-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
     ℹ️ If there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
 #
-* 🫧 𝐃 𝐄 𝐏 𝐋 𝐎 𝐘 |  𝐎 𝐔 𝐑 |  𝐁 𝐎 𝐓
+* 🫧 𝐃 𝐄 𝐏 𝐋 𝐎 𝐘   𝐎 𝐔 𝐑   𝐁 𝐎 𝐓
 
 
 <details>
@@ -88,54 +88,6 @@ ___________________
 6. After That Open The Server And Upload Downloaded Bot Zip File       ℹ️ If You Don't Understand To Make A Bot.  | ඔබට කිසිවක් නොතේරේ නම් යූ ටියුබ් වීඩියෝ නරඹන්න.
 
   [Watch Videos](https://www.youtube.com/@mr.unknow344)
-# 
-# Install Manually 👇
-## `Requirements`
-* [Node.js](https://nodejs.org/en/)
-* [Git](https://git-scm.com/downloads)
-* [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases/download/autobuild-2020-12-08-13-03/ffmpeg-n4.3.1-26-gca55240b8c-win64-gpl-4.3.zip)
-* [Libwebp](https://developers.google.com/speed/webp/download)
-* Any text editor
-## `Clone Repo & Installation dependencies`
-```bash
-git clone https://github.com/vijitharanawakage/KING-SANDESH-MD.git
-cd KING-SANDESH-MD
-
-npm start
-```
-## `For Termux/Ssh/Ubuntu`
-```bash
-apt update
-apt upgrade
-pkg update && pkg upgrade
-pkg install bash
-pkg install libwebp
-pkg install git -y
-pkg install nodejs -y 
-pkg install ffmpeg -y 
-pkg install wget
-pkg install imagemagick -y
-git clone https://github.com/vijitharanawakage/KING-SANDESH-MD
-cd KING-SANDESH-MD
-yarn install
-npm start
-```
-## `For VPS`
-```bash
-apt install nodejs 
-apt install git 
-apt apt install ffmpeg 
-apt apt install libwebp 
-apt apt install imagrmagick
-apt install bash
-git clone https://github.com/vijitharanawakage/KING-SANDESH-MD
-cd KING-SANDESH-MD
-npm start
-```
-## `For 24/7 Activation (Termux)`
-```bash
-npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
-```
 
 
 <details>
@@ -148,7 +100,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 <details>
 <summary>ℹ️ How To Update </summary>
 
-• You Can Update Our WhatsApp Bot By COMMAND .redeploy OR .restart
+• You Can Update Our WhatsApp Bot By .redeploy OR .restart
 
 
 
@@ -157,23 +109,102 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 <details>
 <summary>🌐 Support For Deploy </summary>
 
-•You Can Get Support For Deploy The KING SANDESH Bot From Replit,Railway,Heroku,Uffizi,Koyeb Or Termux...Moreover, Other Side You Can Deploy The Bot From Directly Us Contact Developer.
+•You Can Get Support For Deploy The KING SANDESH Bot From Katabump panel Or Termux...Moreover, Other Side You Can Deploy The Bot From Directly Us Contact Developer.
 
 
 <p>
 </details>
 THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-
-* [😁Contact King Sandesh Developing Crew😁](https://wa.me/94741259325?text=Hi,,king,,,sandesh)
-
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   
-  #### ```TOTAL PROFILE VIEWS 🧚```
-[![VISITOR COUNT](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FKING-SANDESH-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%23CFFF00&title=Visitor+Count&edge_flat=false)](https://hits.seeyoufarm.com)
+## ⚙️ Features
+
+- **Tag all group members** with the `.tagall` command
+- **Admin restricted usage** (Only group admins can use certain commands)
+- **Games** like Tic-Tac-Toe for interactive group engagement
+- **Text-to-Speech** with `.tts`
+- **Sticker creation** with `.sticker`
+- **Anti-link detection** for group safety
+- **Warn and manage group members** with admin control
+
+---
+
+## 📖 About
+
+The KING-SANDESH WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.This is mainly created to group management,because ෆයර් වෙන්නෙපා...🤥
+
+It is lightweight and can be easily customized to add more commands as per your requirements. The bot runs in a Node.js environment and provides QR code-based authentication to link your WhatsApp account.
+
+---
+
+## 🛠️ Setup & Installation
+
+### Prerequisites
+
+- Node.js installed on your system
+- Git installed (for cloning the repository)
+
+### Step-by-Step Setup
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/vijitharanawakage/KING-SANDESH-MD.git
+    cd KING-SANDESH-MD
+    ```
+
+2. **Install the dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3. **Run the bot:**
+
+    ```bash
+    node index.js
+    ```
+
+4. **Scan the QR code:**
+
+    Once the bot starts, a QR code will appear in the terminal. Scan this QR code using the Linked Devices feature in WhatsApp to connect your WhatsApp account with the bot.
+
+---
+
+
+## 📄 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/vijitharanawakage/KING-SANDESH-MD/blob/main/LICENSE) file for details.
+
+---
+
+## 🙌 Contributions
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/vijitharanawakage/KING-SANDESH-MD/issues).
+
+---
+
+## ⚠️ Important Warning
+
+**Note:** This bot is created for educational purposes only. This is NOT an official WhatsApp bot. Using this bot may lead to your WhatsApp account being banned. Use it at your own risk. The developers will not be responsible for any consequences or account bans that may occur while using this bot.🤭
+
+## 📝 Legal
+
+- This project is not affiliated with, authorized, maintained, sponsored or endorsed by WhatsApp or any of its affiliates or subsidiaries.
+- This is an independent and unofficial software. Use at your own risk.(This is 3rd party 🥹)
+- Do not spam people with this bot.🤥
+- Do not use this bot to send bulk messages or for illegal purposes.
+- The developers assume no liability and are not responsible for any misuse or damage caused by this program.
+
+### License
+This project is licensed under the MIT License. However, you must:
+- Use this software in compliance with all applicable laws and regulations
+- Include original license and copyright notices
+- Credit original authors
+- Not use for spam or malicious purposes
+
 
 ## 👑 **`KING-SANDESH-MD BOT OWNER`** 👑
 
@@ -189,10 +220,16 @@ THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 <h1>💗</h1> 
 <b>Thanks For</b> -
 
- [DDF OFC 🖤](https://www.youtube.com/@mr.unknow344) for SUPPORT ,
- [MR.VINUWA | Vinuka Sharanga](https://wa.me/94740396443?text=Hi,,Vinu) for BETA TESTING ,
- [ESHUU](https://wa.me/94704932651?text=Hi,,ESHU) for AI ,
- [VAJIRA TECH](https://wa.me/94719199757?text=Hi,,vajira) for PAIR CODE GEN thanks for helps 💖
+ [DDF OFC 🖤](https://www.youtube.com/@mr.unknow344) for SUPPORT🤭 ,
+ [Gray Wolf | Semina Adusara]() for BETA TESTING🙈 ,
+ [MR DILA OFC](https://wa.me/+94777839446?text=Hi_MONEY_HEIST_MD) for Some Codes🗿 ,
+ [BAILEYS](https://github.com/adiwajshing/Baileys) ,
+ [MR UNIQUE HACKER](https://github.com/mruniquehacker) for PAIR CODE GEN👊 thanks for your all helps.I am extremely SORRY for mistakes.💖
 
- ## [ WHATSAPP GROUPS ](https://chat.whatsapp.com/DPIp6O8Wqu3HuSvRbkHQok)
-[Wa Group 🦄](https://chat.whatsapp.com/DPIp6O8Wqu3HuSvRbkHQok)
+ ## 📜 Copyright Notice
+
+Copyright (c) 2025 Mr Unknown. All rights reserved.
+
+This project contains code from various open source projects:
+- Baileys (MIT License)
+- Other libraries as listed in package.json
