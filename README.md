@@ -50,9 +50,12 @@ ___________________
 #  
 * 🫧 𝐒 𝐂 𝐀 𝐍 |  𝐏 𝐀 𝐈 𝐑 |  𝐂 𝐎 𝐃 𝐄
  
-<a href='https://wa.me/+94741259325?text=𝐏𝐋𝐄𝐀𝐒𝐄_𝐆𝐈𝐕𝐄_𝐌𝐄_𝐊𝐒𝐌𝐃_𝐏𝐀𝐈𝐑_𝐂𝐎𝐃𝐄' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GET PAIRING CODE-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://replit.com/@vijitharanawak1/King-Sandesh-PairCode?v=1#main.sh' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GET PAIRING CODE-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
     ℹ️ If there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
+
+  <a href='https://wa.me/+94741259325?text=𝐊𝐒𝐌𝐃_𝐏𝐀𝐈𝐑_𝐂𝐎𝐃𝐄__𝐄𝐑𝐑𝐎𝐑' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Had Error In Get Pair Code-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+  
 #
 * 🫧 𝐃 𝐄 𝐏 𝐋 𝐎 𝐘 |  𝐎 𝐔 𝐑 |  𝐁 𝐎 𝐓
 
