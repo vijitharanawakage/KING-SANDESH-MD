@@ -25,7 +25,6 @@
 <a href="https://github.com/vijitharanawakage/KING-SANDESH-MD/watchers"><img title="Watching" src="https://img.shields.io/github/watchers/vijitharanawakage/KING-SANDESH-MD?label=Watchers&color=blue&style=flat-square"></a>
 <a href="https://github.com/vijitharanawakage/KING-SANDESH-MD"><img title="Open Source" src="https://img.shields.io/badge/Author-Mr%20Unknown%20Sandesh.-red?v=103"></a>
 <a href="https://github.com/vijitharanawakage/KING-SANDESH-MD/"><img title="Size" src="https://img.shields.io/github/repo-size/vijitharanawakage/KING-SANDESH-MD?style=flat-square&color=green"></a>
-<a href="https://hits.seeyoufarm.com"><img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fvijitharanawakage%2FKING-SANDESH-MD&count_bg=%2379C83D&title_bg=%23555555&icon=probot.svg&icon_color=%2300FF6D&title=hits&edge_flat=false"/></a>
 </p>
 
 [![Typing SVG](http://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=FFFFFF&random=false&width=435&lines=%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+100%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+90%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+80%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+70%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+60%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+50%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+40%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+30%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%E2%96%88%5D+20%25;%F0%9D%98%93%F0%9D%98%96%F0%9D%98%88%F0%9D%98%8B%F0%9D%98%90%F0%9D%98%95%F0%9D%98%8E%3A+%5B%E2%96%88%E2%96%88%E2%96%88%5D+10%25)](https://git.io/typing-svg)
@@ -48,26 +47,14 @@ ___________________
 
   
 #  
-* 🫧 𝐒 𝐂 𝐀 𝐍 |  𝐏 𝐀 𝐈 𝐑 |  𝐂 𝐎 𝐃 𝐄
+* 🫧 𝐈 𝐍 𝐒 𝐓 𝐀 𝐋 𝐋 | 𝐁 𝐎 𝐓 | 𝐈 𝐍 𝐓 𝐎 | 𝐖 𝐇 𝐀 𝐓 𝐒 𝐀 𝐏 𝐏
  
-<a href='https://replit.com/@vijitharanawak1/King-Sandesh-PairCode?v=1#main.sh' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GET PAIRING CODE-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+<a href='https://king-sandesh-md-ofc-web.pages.dev/' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/GO TO WEB-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
 
-    ℹ️ If there any error please infrom it support group.  | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් සහය සමූහය වෙත සම්බන්ධ වන්න.
+    ℹ️ Had Any Error Touch Following Button | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් පහත බටනය ක්ලික් කරන්න.
 
-  <a href='https://wa.me/+94741259325?text=𝐊𝐒𝐌𝐃_𝐏𝐀𝐈𝐑_𝐂𝐎𝐃𝐄__𝐄𝐑𝐑𝐎𝐑' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/Had Error In Get Pair Code-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+  <a href='https://wa.me/+94741259325?text=𝐁𝐑𝐎_𝐈_𝐂𝐀𝐍𝐓_𝐔𝐍𝐃𝐄𝐑𝐒𝐓𝐀𝐍𝐃_𝐓𝐎_𝐃𝐄𝐏𝐋𝐎𝐘😭' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/I dont understand deploy-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
   
-#
-* 🫧 𝐃 𝐄 𝐏 𝐋 𝐎 𝐘 |  𝐎 𝐔 𝐑 |  𝐁 𝐎 𝐓
-
-
-<details>
-<summary>👉𝚃𝙾𝚄𝙲𝙷 𝚃𝙾 𝙳𝙴𝙿𝙻𝙾𝚈 𝚃𝙷𝙴 𝙱𝙾𝚃👈</summary>
-<div align="center">
-<a href="https://dashboard.katabump.com/auth/login#d6b7d6" target="_blank">
-  <img src="https://img.shields.io/badge/Katabump-D6B7D6?style=for-the-badge&logo=server&logoColor=black" alt="Katabump Account Setup"/>
-</details>
-
-    ℹ️ You Can Choose Panel Method Only,Because It Is Bot's First Version.I Will Try To Give Many Methods In V2 Bot.  | මෙහිදී ඔබට Panel මෙතෝඩය පමණක් ලබා දී ඇත.දෙවන වර්ශනයේදී තවත් මෙතෝඩයන් ලබා දීමට උත්සහ කරමි.
 #
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -77,54 +64,51 @@ ___________________
    
 # 
 #
-+ 🫧 𝐃𝐄𝐏𝐋𝐎𝐘 | 𝐒𝐓𝐄𝐏𝐒
++ 🫧 𝐃 𝐄 𝐏 𝐋 𝐎 𝐘 | 𝐒 𝐓 𝐄 𝐏 𝐒
 # 
 1. Fork This Repository [𝗙𝗢𝗥𝗞🗿](https://github.com/vijitharanawakage/KING-SANDESH-MD/fork)
 
-2. Get Session Id [𝗣𝗔𝗜𝗥 𝗖𝗢𝗗𝗘❤️‍🩹](https://wa.me/+94741259325?text=𝐏𝐋𝐄𝐀𝐒𝐄_𝐆𝐈𝐕𝐄_𝐌𝐄_𝐊𝐒𝐌𝐃_𝐏𝐀𝐈𝐑_𝐂𝐎𝐃𝐄)
+2. Download Ksmd V2 Bot Zip File If You Deploy Using Panel (optional) [𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗭𝗜𝗣🙈](https://github.com/vijitharanawakage/KING-SANDESH-MD/archive/refs/heads/2-V.zip)
 
-4. Import Creds.js File Is Give By Pairing To Session Folder[𝗦𝗘𝗦𝗦𝗜𝗢𝗡 𝗙𝗢𝗟𝗗𝗘𝗥🤥](https://github.com/vijitharanawakage/KING-SANDESH-MD/tree/1-V/session)
+3. Now Touch The "GO TO WEB" Button To Go Ksmd Bot Web Page To Install Bot. [𝗜𝗡𝗦𝗧𝗔𝗟𝗟 𝗕𝗢𝗧❤️‍🩹](https://king-sandesh-md-ofc-web.pages.dev/)
 
-5. Download Ksmd Bot Zip File [𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗 𝗭𝗜𝗣🙈](https://github.com/vijitharanawakage/KING-SANDESH-MD/archive/refs/heads/1-V.zip)
+4. In Web Page You Can See "GET PAIR CODE" Button.
 
-6. Make Account On Katabump Panel Via DISCORD
+5. Touch It To Get Pair Code.After Touch Now You Can See Replit Interface.
 
-7. Create Your Server In Katabump Panel
+6. If Had Not Replit Account Create It Via Github And Touch Blue Colour "REMIX THIS APP" Button.
 
-8. After That Open The Server And Upload Downloaded Bot Zip File
+7. Now After Loading It Touch Green Colour Play Button To Generate Pair Site.
 
-9. Touch The Three Dots In Rights Side.After Touch Unarchive File
+8. After Running Console You Can See Pair Site.Now Touch "PAIRING CODE" Button.Now You Are Going To Pairing Site.Type Your Whatsapp Number To Get Session Id.
 
-10. Now Delete Zip File We Uploaded
+9. After Submitting Display Your Pair Code.Copy It And Linked Your Whatsapp Via Pair Code You Have.
 
-11. Now Go To index.js Folder And Save It And Back
+10. You Can See Your Session Id In Your Whatsapp Number.
 
-12. Now Touch KING-SANDESH-MD Text Show In The Header
+11. Then Go To Official Bot Web Page And Touch "DEPLOY BOT" Button.
 
-13. Now Select All Files And Enter ../ 
+12. Now You Can Choose Your Deploy Method.But I Am Recommend Panel And Github Workflow Deploy Only❤️
 
-14. Now Start The Panel And Open The console to see running
+13. Before You Deploy Change 6th Line Of Config.cjs file.Insert Your Session Id In Middle Of Two Commas(" ").And Change 2nd Line Of .env File.Paste Session Id After = Mark Without Space.😼
 
-15. You Can Use Your Bot Safely🙈
+14. Now Deploy The Bot And Enjoy...!!!!!
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-    ℹ️ If You Don't Understand To Make A Bot.  | ඔබට කිසිවක් නොතේරේ නම් යූ ටියුබ් වීඩියෝ නරඹන්න.
+---
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 <details>
 <summary>✅ New Updates</summary>
 
-• You Can Enjoy The Bot Safely...This Not a New Update Because This Is A Bot's First Version.New Updates Are Available On Future.
+• You Can Enjoy The Bot Safely..Bot is Up To DATE. ✅
 
 <p>
 </details>
 <details>
 <summary>ℹ️ How To Update </summary>
 
-• You Can Update Our WhatsApp Bot By .redeploy OR .restart
-
+• You Can Update Our WhatsApp Bot By .update Command ✋
 
 
 <p>
@@ -132,25 +116,25 @@ ___________________
 <details>
 <summary>🌐 Support For Deploy </summary>
 
-•You Can Get Support For Deploy The KING SANDESH Bot From Katabump panel Or Termux...Moreover, Other Side You Can Deploy The Bot From Directly Us Contact Developer.
+•You Can Get Support For Deploy From Directly Contact Developer. 😼
 
 
 <p>
 </details>
-THANKS FOR USING KING SANDESH MULTI DEVICE V2 ..❤️😌✋
+THANKS FOR USING KING SANDESH MULTI DEVICE V2(BUTTON ADDED VERSION BUT IT IS NON WORKING ON BUSINESS WA)...❤️😌✋
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
   
 ## ⚙️ Features
 
-- **Tag all group members** with the `.tagall` command
-- **Admin restricted usage** (Only group admins can use certain commands)
+- **Islamic Menu**
+- **Ai Menu** 
 - **Games** like Tic-Tac-Toe for interactive group engagement
-- **Text-to-Speech** with `.tts`
-- **Sticker creation** with `.sticker`
-- **Anti-link detection** for group safety
-- **Warn and manage group members** with admin control
+- **Search Menu** 
+- **Tools Menu** 
+- **18+ Commands**
+- **Group Management**
 
 ---
 
@@ -161,41 +145,6 @@ The KING-SANDESH WhatsApp Bot assists group admins by providing them with tools 
 It is lightweight and can be easily customized to add more commands as per your requirements. The bot runs in a Node.js environment and provides QR code-based authentication to link your WhatsApp account.
 
 ---
-
-## 🛠️ Setup & Installation
-
-### Prerequisites
-
-- Node.js installed on your system
-- Git installed (for cloning the repository)
-
-### Step-by-Step Setup
-
-1. **Clone the repository:**
-
-    ```bash
-    git clone https://github.com/vijitharanawakage/KING-SANDESH-MD.git
-    cd KING-SANDESH-MD
-    ```
-
-2. **Install the dependencies:**
-
-    ```bash
-    npm install
-    ```
-
-3. **Run the bot:**
-
-    ```bash
-    node index.js
-    ```
-
-4. **Scan the QR code:**
-
-    Once the bot starts, a QR code will appear in the terminal. Scan this QR code using the Linked Devices feature in WhatsApp to connect your WhatsApp account with the bot.
-
----
-
 
 ## 📄 License
 
@@ -245,9 +194,9 @@ This project is licensed under the MIT License. However, you must:
 
  * [DDF OFC 🖤](https://www.youtube.com/@mr.unknow344) for SUPPORT🤭 ,
  * [Gray Wolf | Semina Adusara]() for BETA TESTING🙈 ,
- * [MR DILA OFC](https://wa.me/+94777839446?text=Hi_MONEY_HEIST_MD) for Some Codes🗿 ,
+ * [MR DILA OFC](https://whatsapp.com/channel/0029Vb5WteL23n3Y11pTW83W/603) for Some Codes🗿 ,
  * [BAILEYS](https://github.com/adiwajshing/Baileys) ,
- * [MR UNIQUE HACKER](https://github.com/mruniquehacker) for PAIR CODE GEN👊 thanks for your all helps.I am extremely SORRY for mistakes.💖
+ 👊 thanks for your all helps.I am extremely SORRY for mistakes.💖
 
  ## 📜 Copyright Notice
 
