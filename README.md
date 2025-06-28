@@ -137,7 +137,7 @@ ___________________
 
 <p>
 </details>
-THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
+THANKS FOR USING KING SANDESH MULTI DEVICE V2 ..❤️😌✋
 
 
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -156,7 +156,7 @@ THANKS FOR USING KING SANDESH MULTI DEVICE...🤫
 
 ## 📖 About
 
-The KING-SANDESH WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.This is mainly created to group management,because ෆයර් වෙන්නෙපා...🤥
+The KING-SANDESH WhatsApp Bot assists group admins by providing them with tools to efficiently manage large WhatsApp groups. The bot uses the Baileys library to interact with the WhatsApp Web API and supports multi-device features.
 
 It is lightweight and can be easily customized to add more commands as per your requirements. The bot runs in a Node.js environment and provides QR code-based authentication to link your WhatsApp account.
 
@@ -199,7 +199,7 @@ It is lightweight and can be easily customized to add more commands as per your 
 
 ## 📄 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/vijitharanawakage/KING-SANDESH-MD/blob/main/LICENSE) file for details.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) - see the [LICENSE](https://github.com/vijitharanawakage/KING-SANDESH-MD/blob/V-2/LICENSE) file for details.
 
 ---
 
