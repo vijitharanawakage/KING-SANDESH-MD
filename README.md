@@ -54,12 +54,8 @@ ___________________
     ℹ️ Had Any Error Touch Following Button | මෙහිදී යම් ගැටලුවක් ඇති උවහොත් පහත බටනය ක්ලික් කරන්න.
 
   <a href='https://wa.me/+94741259325?text=𝐁𝐑𝐎_𝐈_𝐂𝐀𝐍𝐓_𝐔𝐍𝐃𝐄𝐑𝐒𝐓𝐀𝐍𝐃_𝐓𝐎_𝐃𝐄𝐏𝐋𝐎𝐘😭' target="_blank"><img alt='Fork repo' src='https://img.shields.io/badge/I dont understand deploy-brown?style=for-the-badge&logo=opencv&logoColor=white'/></a>
-  
-#
 
-<a><img src='https://i.imgur.com/LyHic3i.gif'/></a><a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
-
-   
+ 
 # 
 #
 + 🫧 𝐃 𝐄 𝐏 𝐋 𝐎 𝐘 | 𝐒 𝐓 𝐄 𝐏 𝐒
