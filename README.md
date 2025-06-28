@@ -9,7 +9,7 @@
 </p>
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=KING+SANDESH;REMASTERD+EDITION" alt="Typing SVG">
+    <img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=33ff00&center=true&width=910&height=100&lines=KING+SANDESH;REMASTERD+EDITION;VERSION+2" alt="Typing SVG">
   </a>
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=d1fa02&center=true&vCenter=true&multiline=false&lines=MR+UNKNOWN'S+BEST+WA+BOT" alt="">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=9984ff&center=true&vCenter=true&multiline=false&lines=OWNER :-+MR+SANDESH+BHASHANA" alt="">
