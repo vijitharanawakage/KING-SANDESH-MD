@@ -2,10 +2,10 @@
 🫧 𝙺𝙸𝙽𝙶 𝚂𝙰𝙽𝙳𝙴𝚂𝙷 𝙼𝚄𝙻𝚃𝙸 𝙳𝙴𝚅𝙸𝙲𝙴 𝙸𝚂 𝙰 𝚂𝙸𝙼𝙿𝙻𝙴 𝙶𝙸𝚃𝙷𝚄𝙱 𝙿𝚁𝙾𝙶𝚁𝙰𝙼𝙼𝙴 𝚆𝙷𝙸𝙲𝙷 𝚈𝙾𝚄 𝙶𝙸𝚅𝙴 𝙼𝙾𝚁𝙴 𝙷𝙴𝙻𝙿.𝙸𝚃 𝙸𝚂 𝙼𝙰𝙳𝙴 𝙱𝚈 𝙿𝚁𝙾𝙵𝙴𝚂𝚂𝙾𝚁 𝚂𝙰𝙽𝙳𝙴𝚂𝙷 𝙱𝙷𝙰𝚂𝙷𝙰𝙽𝙰.𝙺𝙸𝙽𝙶 𝚂𝙰𝙽𝙳𝙴𝚂𝙷 𝚆𝙰 𝙱𝙾𝚃 𝙸𝚂 𝚃𝙷𝙸𝚁𝙳 𝙿𝙰𝚁𝚃𝚈 𝙰𝙿𝙿𝙻𝙸𝙲𝙰𝚃𝙸𝙾𝙽,𝚆𝙷𝙸𝙲𝙷 𝚆𝙴 𝙲𝙰𝙽 𝙿𝚁𝙾𝚄𝙳.
 
 <p align="center"> 
-<u>😁 𝐊𝐈𝐍𝐆 𝐒𝐀𝐍𝐃𝐄𝐒𝐇 | ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ ᴍʀ ᴜɴᴋɴᴏᴡɴ 🤫</u>
+<u>😁 𝐀𝐊𝐈𝐍𝐆 𝐬𝐚𝐧𝐝𝐞𝐬𝐡 𝐌𝐃 𝐕❷ | ᴡʜᴀᴛsᴀᴘᴘ ᴜsᴇʀ ʙᴏᴛ ʙʏ ᴍʀ ᴜɴᴋɴᴏᴡɴ 🤫</u>
 </p>
 <p align="center">
-<img src="https://i.imgur.com/iveMkto.jpeg"/>
+<img src="[https://i.imgur.com/iveMkto.jpeg](https://i.ibb.co/7JttFtvs/khan.png)"/>
 </p>
 <p align="center">
   <a href="https://git.io/typing-svg">
