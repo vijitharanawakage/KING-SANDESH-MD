@@ -1,1 +1,246 @@
-const _0x130c40=_0x54c0;function _0x54c0(_0x3068eb,_0x11b379){const _0x46971c=_0x4697();return _0x54c0=function(_0x54c010,_0x10f207){_0x54c010=_0x54c010-0x18e;let _0xcc36b6=_0x46971c[_0x54c010];return _0xcc36b6;},_0x54c0(_0x3068eb,_0x11b379);}(function(_0x15a174,_0x135026){const _0xdb4540=_0x54c0,_0x466a30=_0x15a174();while(!![]){try{const _0x504cac=parseInt(_0xdb4540(0x1af))/0x1+-parseInt(_0xdb4540(0x1cc))/0x2+-parseInt(_0xdb4540(0x1a6))/0x3+parseInt(_0xdb4540(0x19c))/0x4*(parseInt(_0xdb4540(0x1de))/0x5)+parseInt(_0xdb4540(0x199))/0x6+parseInt(_0xdb4540(0x1a0))/0x7*(parseInt(_0xdb4540(0x1ad))/0x8)+parseInt(_0xdb4540(0x1a3))/0x9*(-parseInt(_0xdb4540(0x1e0))/0xa);if(_0x504cac===_0x135026)break;else _0x466a30['push'](_0x466a30['shift']());}catch(_0x249e75){_0x466a30['push'](_0x466a30['shift']());}}}(_0x4697,0xa24a4));import _0x17fe83 from'dotenv';function _0x4697(){const _0x339e9d=['level','hex','MODE','true','connection.update','fromMe','Error\x20during\x20auto\x20reaction:','error','user','key','trace','No\x20session\x20found\x20or\x20downloaded,\x20QR\x20code\x20will\x20be\x20printed\x20for\x20authentication.','get','split','❌\x20Please\x20add\x20your\x20session\x20to\x20SESSION_ID\x20env\x20!!','king\x20sandesh\x20ai\x20whatsapp\x20user\x20bot','url','promises','2888664AgeAyJ','Error\x20handling\x20messages.upsert\x20event:','env','127156iLSavk',',\x20isLatest:\x20','message','public','791zRpRcP','Debugging\x20SESSION_ID:','config','9TMGwKh','readMessages','messages','1725903RjwCRj','creds.update','>\x20Connected\x20Successfully\x20🩷🎀\x20.\x0a╭───❍「\x20*CONNECTED\x20BOT*\x20」\x0a┃\x20_KING-SANDESH-MD-V2_\x0a╰───────────❍\x0a╭───❍「\x20*BOT\x20WEB\x20PAGE*\x20」\x0a┃\x20https://king-sandesh-md-ofc-web.pages.dev/\x0a╰───────────❍\x0a╭───❍「\x20*JOIN\x20CHANNEL*\x20」\x0a┃\x20https://whatsapp.com/channel/0029Vb5saAU4Y9lfzhgBmS2N\x0a╰───────────❍\x0a╭───❍「\x20*BOT\x20OWNER*\x20」\x0a┃\x20_Mr\x20Sandesh\x20Bhashana_\x0a╰───────────❍\x0a╭───❍「\x20*SYSTEM\x20STATUS*\x20」\x0a┃\x20░░░░░░░░░░░░░░░░░░░\x20100%\x0a╰───────────❍\x0a╭───❍「\x20*BOT\x20PREFIX*\x20」\x0a┃\x20_Configure\x20Your\x20Prefix\x20','🎗️','#FFA500','messages.upsert','random','39352eLcVdk','output','1089424BGnZwM','group-participants.update','listen','🔒\x20Session\x20Successfully\x20Loaded\x20!!','creds.json','includes','Marked\x20message\x20from\x20','join','exit','PREFIX','🔄\x20Downloading\x20Session...','child','https://imgur.com/a/jgZN1dp','SESSION_ID','🕊️','AUTO_REACT','close','STATUS_READ_MSG','loggedOut','PORT','floor','bold','fromURL','READ_MESSAGE','log','✅\x20Auto\x20Status\x20Seen\x20Bot\x20By\x20Mr.Sandesh\x20Bhashana','🔒\x20Session\x20downloaded,\x20starting\x20bot.','AUTO_STATUS_REPLY','status@broadcast','1636752VZppAR','🤖\x20KING-SANDESH-MD-V2\x20using\x20WA\x20v','Connected\x20Successfully\x20KING-SANDESH-MD\x20🤍','3.3','Server\x20is\x20running\x20on\x20port\x20','#32CD32','blue','length','download','🇵🇰','open','call','AUTO_STATUS_SEEN','\x20as\x20read.','participant','remoteJid','sendMessage','🌦️','145bvzEAU',',\x22time\x22:\x22','9901790JfCpFm'];_0x4697=function(){return _0x339e9d;};return _0x4697();}_0x17fe83[_0x130c40(0x1a2)]();import{makeWASocket,Browsers,fetchLatestBaileysVersion,DisconnectReason,useMultiFileAuthState}from'@whiskeysockets/baileys';import{Handler,Callupdate,GroupUpdate}from'./data/index.js';import _0x29a239 from'express';import _0x5839bb from'pino';import _0x318d08 from'fs';import{File}from'megajs';import _0x5e3238 from'node-cache';import _0x3d4f01 from'path';import _0x435e86 from'chalk';import _0xf8ec42 from'moment-timezone';import _0x3d3150 from'axios';import _0x344dbc from'./config.cjs';import _0x4fdad1 from'./lib/autoreact.cjs';const {emojis,doReact}=_0x4fdad1,prefix=process[_0x130c40(0x19b)][_0x130c40(0x1b8)]||_0x344dbc['PREFIX'],sessionName='session',app=_0x29a239(),orange=_0x435e86[_0x130c40(0x1c4)][_0x130c40(0x1e2)](_0x130c40(0x1aa)),lime=_0x435e86[_0x130c40(0x1c4)]['hex'](_0x130c40(0x1d1));let useQR=![],initialConnection=!![];const PORT=process[_0x130c40(0x19b)][_0x130c40(0x1c2)]||0xbb8,MAIN_LOGGER=_0x5839bb({'timestamp':()=>_0x130c40(0x1df)+new Date()['toJSON']()+'\x22'}),logger=MAIN_LOGGER[_0x130c40(0x1ba)]({});logger[_0x130c40(0x1e1)]=_0x130c40(0x191);const msgRetryCounterCache=new _0x5e3238(),__filename=new URL(import.meta[_0x130c40(0x197)])['pathname'],__dirname=_0x3d4f01['dirname'](__filename),sessionDir=_0x3d4f01['join'](__dirname,'session'),credsPath=_0x3d4f01[_0x130c40(0x1b6)](sessionDir,_0x130c40(0x1b3));!_0x318d08['existsSync'](sessionDir)&&_0x318d08['mkdirSync'](sessionDir,{'recursive':!![]});async function downloadSessionData(){const _0x484a0a=_0x130c40;console['log'](_0x484a0a(0x1a1),_0x344dbc[_0x484a0a(0x1bc)]);if(!_0x344dbc[_0x484a0a(0x1bc)])return console[_0x484a0a(0x18e)](_0x484a0a(0x195)),![];const _0x5818af=_0x344dbc[_0x484a0a(0x1bc)][_0x484a0a(0x194)]('KSMD~')[0x1];if(!_0x5818af||!_0x5818af[_0x484a0a(0x1b4)]('#'))return console[_0x484a0a(0x18e)]('❌\x20Invalid\x20SESSION_ID\x20format!\x20It\x20must\x20contain\x20both\x20file\x20ID\x20and\x20decryption\x20key.'),![];const [_0x40f158,_0x4446db]=_0x5818af[_0x484a0a(0x194)]('#');try{console['log'](_0x484a0a(0x1b9));const _0xebad29=File[_0x484a0a(0x1c5)]('https://mega.nz/file/'+_0x40f158+'#'+_0x4446db),_0x2836e5=await new Promise((_0x584335,_0x2362ef)=>{const _0x4d6988=_0x484a0a;_0xebad29[_0x4d6988(0x1d4)]((_0x433ee1,_0x2a0e1e)=>{if(_0x433ee1)_0x2362ef(_0x433ee1);else _0x584335(_0x2a0e1e);});});return await _0x318d08[_0x484a0a(0x198)]['writeFile'](credsPath,_0x2836e5),console[_0x484a0a(0x1c7)](_0x484a0a(0x1b2)),!![];}catch(_0x53202c){return console[_0x484a0a(0x18e)]('❌\x20Failed\x20to\x20download\x20session\x20data:',_0x53202c),![];}}async function start(){const _0x59828d=_0x130c40;try{const {state:_0x4ab727,saveCreds:_0x2a9c83}=await useMultiFileAuthState(sessionDir),{version:_0x510a59,isLatest:_0x35aeff}=await fetchLatestBaileysVersion();console['log'](_0x59828d(0x1cd)+_0x510a59[_0x59828d(0x1b6)]('.')+_0x59828d(0x19d)+_0x35aeff);const _0x4f11e2=makeWASocket({'version':_0x510a59,'logger':_0x5839bb({'level':'silent'}),'printQRInTerminal':useQR,'browser':['KING-SANDESH-MD','safari',_0x59828d(0x1cf)],'auth':_0x4ab727,'getMessage':async _0x4a4639=>{const _0x569407=_0x59828d;if(store){const _0x3bfdf1=await store['loadMessage'](_0x4a4639[_0x569407(0x1db)],_0x4a4639['id']);return _0x3bfdf1[_0x569407(0x19e)]||undefined;}return{'conversation':_0x569407(0x196)};}});_0x4f11e2['ev']['on'](_0x59828d(0x1e5),_0x46133d=>{const _0x1a3b69=_0x59828d,{connection:_0x5a9177,lastDisconnect:_0x4df8d9}=_0x46133d;if(_0x5a9177===_0x1a3b69(0x1bf))_0x4df8d9[_0x1a3b69(0x18e)]?.[_0x1a3b69(0x1ae)]?.['statusCode']!==DisconnectReason[_0x1a3b69(0x1c1)]&&start();else _0x5a9177===_0x1a3b69(0x1d6)&&(initialConnection?(console[_0x1a3b69(0x1c7)](_0x435e86['green'](_0x1a3b69(0x1ce))),_0x4f11e2[_0x1a3b69(0x1dc)](_0x4f11e2[_0x1a3b69(0x18f)]['id'],{'image':{'url':_0x1a3b69(0x1bb)},'caption':_0x1a3b69(0x1a8)+prefix+'_\x0a╰───────────❍\x0a╭───❍「\x20*AUTOMATION\x20BY*\x20」\x0a┃\x20>\x20*King-Sandesh\x20Md\x20V2\x20💸*\x0a╰───────────❍'}),initialConnection=![]):console['log'](_0x435e86[_0x1a3b69(0x1d2)]('♻️\x20Connection\x20reestablished\x20after\x20restart.')));}),_0x4f11e2['ev']['on'](_0x59828d(0x1a7),_0x2a9c83),_0x4f11e2['ev']['on'](_0x59828d(0x1ab),async _0x708d55=>await Handler(_0x708d55,_0x4f11e2,logger)),_0x4f11e2['ev']['on'](_0x59828d(0x1d7),async _0x40d1=>await Callupdate(_0x40d1,_0x4f11e2)),_0x4f11e2['ev']['on'](_0x59828d(0x1b0),async _0x17aa88=>await GroupUpdate(_0x4f11e2,_0x17aa88));if(_0x344dbc[_0x59828d(0x1e3)]===_0x59828d(0x19f))_0x4f11e2[_0x59828d(0x19f)]=!![];else _0x344dbc['MODE']==='private'&&(_0x4f11e2[_0x59828d(0x19f)]=![]);_0x4f11e2['ev']['on'](_0x59828d(0x1ab),async _0x54ddaf=>{const _0x82dfbc=_0x59828d;try{const _0x4fc088=_0x54ddaf['messages'][0x0];console['log'](_0x4fc088);if(!_0x4fc088[_0x82dfbc(0x190)][_0x82dfbc(0x1e6)]&&_0x344dbc[_0x82dfbc(0x1be)]){console[_0x82dfbc(0x1c7)](_0x4fc088);if(_0x4fc088[_0x82dfbc(0x19e)]){const _0x347953=emojis[Math[_0x82dfbc(0x1c3)](Math[_0x82dfbc(0x1ac)]()*emojis['length'])];await doReact(_0x347953,_0x4fc088,_0x4f11e2);}}}catch(_0x2f3ef2){console[_0x82dfbc(0x18e)](_0x82dfbc(0x1e7),_0x2f3ef2);}}),_0x4f11e2['ev']['on']('messages.upsert',async _0x1c3e8c=>{const _0x2c12ae=_0x59828d;try{const _0x47feb8=_0x1c3e8c[_0x2c12ae(0x1a5)][0x0],_0x138bb7=_0x47feb8[_0x2c12ae(0x190)][_0x2c12ae(0x1da)]||_0x47feb8[_0x2c12ae(0x190)][_0x2c12ae(0x1db)];if(!_0x47feb8||!_0x47feb8['message'])return;if(_0x47feb8['key'][_0x2c12ae(0x1e6)])return;if(_0x47feb8[_0x2c12ae(0x19e)]?.['protocolMessage']||_0x47feb8[_0x2c12ae(0x19e)]?.['ephemeralMessage']||_0x47feb8['message']?.['reactionMessage'])return;if(_0x47feb8[_0x2c12ae(0x190)]&&_0x47feb8[_0x2c12ae(0x190)][_0x2c12ae(0x1db)]===_0x2c12ae(0x1cb)&&_0x344dbc[_0x2c12ae(0x1d8)]){await _0x4f11e2[_0x2c12ae(0x1a4)]([_0x47feb8[_0x2c12ae(0x190)]]);_0x344dbc[_0x2c12ae(0x1c6)]===_0x2c12ae(0x1e4)&&(await conn['readMessages']([_0x47feb8[_0x2c12ae(0x190)]]),console[_0x2c12ae(0x1c7)](_0x2c12ae(0x1b5)+_0x47feb8[_0x2c12ae(0x190)]['remoteJid']+_0x2c12ae(0x1d9)));if(_0x47feb8[_0x2c12ae(0x190)]&&_0x47feb8[_0x2c12ae(0x190)][_0x2c12ae(0x1db)]===_0x2c12ae(0x1cb)&&_0x344dbc['AUTO_STATUS_REACT']==='true'){const _0x39b7b9=await conn['decodeJid'](conn[_0x2c12ae(0x18f)]['id']),_0xd91a3e=['❤️','💸','😇','🍂','💥','💯','🔥','💫','💎','💗','🤍','🖤','👀','🙌','🙆','🚩','🥰','💐','😎','🤎','✅','🫀','🧡','😁','😄','🌸',_0x2c12ae(0x1bd),'🌷','⛅','🌟','🗿',_0x2c12ae(0x1d5),'💜','💙','🌝','🖤','🎎','🎏','🎐','⚽','🧣','🌿','⛈️',_0x2c12ae(0x1dd),'🌚','🌝','🙈','🙉','🦖','🐤',_0x2c12ae(0x1a9),'🥇','👾','🔫','🐝','🦋','🍓','🍫','🍭','🧁','🧃','🍿','🍻','🎀','🧸','👑','〽️','😳','💀','☠️','👻','🔥','♥️','👀','🐼'],_0x531bbf=_0xd91a3e[Math['floor'](Math[_0x2c12ae(0x1ac)]()*_0xd91a3e[_0x2c12ae(0x1d3)])];await conn['sendMessage'](_0x47feb8[_0x2c12ae(0x190)][_0x2c12ae(0x1db)],{'react':{'text':_0x531bbf,'key':_0x47feb8['key']}},{'statusJidList':[_0x47feb8[_0x2c12ae(0x190)]['participant'],_0x39b7b9]});}if(_0x344dbc[_0x2c12ae(0x1ca)]){const _0x918a6=_0x344dbc[_0x2c12ae(0x1c0)]||_0x2c12ae(0x1c8);await _0x4f11e2[_0x2c12ae(0x1dc)](_0x138bb7,{'text':_0x918a6},{'quoted':_0x47feb8});}}}catch(_0x41f82a){console[_0x2c12ae(0x18e)](_0x2c12ae(0x19a),_0x41f82a);}});}catch(_0x39fe48){console[_0x59828d(0x18e)]('Critical\x20Error:',_0x39fe48),process[_0x59828d(0x1b7)](0x1);}}async function init(){const _0x2b7184=_0x130c40;if(_0x318d08['existsSync'](credsPath))console[_0x2b7184(0x1c7)]('🔒\x20Session\x20file\x20found,\x20proceeding\x20without\x20QR\x20code.'),await start();else{const _0xd6da18=await downloadSessionData();_0xd6da18?(console[_0x2b7184(0x1c7)](_0x2b7184(0x1c9)),await start()):(console[_0x2b7184(0x1c7)](_0x2b7184(0x192)),useQR=!![],await start());}}init(),app[_0x130c40(0x193)]('/',(_0x1edc6f,_0x1f37d8)=>{_0x1f37d8['send']('Hello\x20World!');}),app[_0x130c40(0x1b1)](PORT,()=>{const _0x6099f0=_0x130c40;console[_0x6099f0(0x1c7)](_0x6099f0(0x1d0)+PORT);});
+import dotenv from 'dotenv';
+dotenv.config();
+
+import {
+    makeWASocket,
+    Browsers,
+    fetchLatestBaileysVersion,
+    DisconnectReason,
+    useMultiFileAuthState,
+} from '@whiskeysockets/baileys';
+import { Handler, Callupdate, GroupUpdate } from './data/index.js';
+import express from 'express';
+import pino from 'pino';
+import fs from 'fs';
+import { File } from 'megajs';
+import NodeCache from 'node-cache';
+import path from 'path';
+import chalk from 'chalk';
+import moment from 'moment-timezone';
+import axios from 'axios';
+import config from './config.cjs';
+import pkg from './lib/autoreact.cjs';
+const { emojis, doReact } = pkg;
+const prefix = process.env.PREFIX || config.PREFIX;
+const sessionName = "session";
+const app = express();
+const orange = chalk.bold.hex("#FFA500");
+const lime = chalk.bold.hex("#32CD32");
+let useQR = false;
+let initialConnection = true;
+const PORT = process.env.PORT || 3000;
+
+const MAIN_LOGGER = pino({
+    timestamp: () => `,"time":"${new Date().toJSON()}"`
+});
+const logger = MAIN_LOGGER.child({});
+logger.level = "trace";
+
+const msgRetryCounterCache = new NodeCache();
+
+const __filename = new URL(import.meta.url).pathname;
+const __dirname = path.dirname(__filename);
+
+const sessionDir = path.join(__dirname, 'session');
+const credsPath = path.join(sessionDir, 'creds.json');
+
+if (!fs.existsSync(sessionDir)) {
+    fs.mkdirSync(sessionDir, { recursive: true });
+}
+
+async function downloadSessionData() {
+    console.log("Debugging SESSION_ID:", config.SESSION_ID);
+
+    if (!config.SESSION_ID) {
+        console.error('❌ Please add your session to SESSION_ID env !!');
+        return false;
+    }
+
+    const sessdata = config.SESSION_ID.split("KSMD~")[1];
+
+    if (!sessdata || !sessdata.includes("*")) {
+        console.error('❌ Invalid SESSION_ID format! It must contain both file ID and decryption key.');
+        return false;
+    }
+
+    const [fileID, decryptKey] = sessdata.split("#");
+
+    try {
+        console.log("🔄 Downloading Session...");
+        const file = File.fromURL(`https://mega.nz/file/${fileID}#${decryptKey}`);
+
+        const data = await new Promise((resolve, reject) => {
+            file.download((err, data) => {
+                if (err) reject(err);
+                else resolve(data);
+            });
+        });
+
+        await fs.promises.writeFile(credsPath, data);
+        console.log("🔒 Session Successfully Loaded !!");
+        return true;
+    } catch (error) {
+        console.error('❌ Failed to download session data:', error);
+        return false;
+    }
+}
+
+async function start() {
+    try {
+        const { state, saveCreds } = await useMultiFileAuthState(sessionDir);
+        const { version, isLatest } = await fetchLatestBaileysVersion();
+        console.log(`🤖 KING-SANDESH-MD-V2 using WA v${version.join('.')}, isLatest: ${isLatest}`);
+        
+        const Matrix = makeWASocket({
+            version,
+            logger: pino({ level: 'silent' }),
+            printQRInTerminal: useQR,
+            browser: ["KING-SANDESH-MD", "safari", "3.3"],
+            auth: state,
+            getMessage: async (key) => {
+                if (store) {
+                    const msg = await store.loadMessage(key.remoteJid, key.id);
+                    return msg.message || undefined;
+                }
+                return { conversation: "king sandesh ai whatsapp user bot" };
+            }
+        });
+
+Matrix.ev.on('connection.update', (update) => {
+    const { connection, lastDisconnect } = update;
+    if (connection === 'close') {
+        if (lastDisconnect.error?.output?.statusCode !== DisconnectReason.loggedOut) {
+            start();
+        }
+    } else if (connection === 'open') {
+        if (initialConnection) {
+            console.log(chalk.green("Connected Successfully KING-SANDESH-MD 🤍"));
+            Matrix.sendMessage(Matrix.user.id, { 
+                image: { url: "https://imgur.com/a/jgZN1dp" }, 
+                caption: `> Connected Successfully 🩷🎀 .
+╭───❍「 *CONNECTED BOT* 」
+┃ _KING-SANDESH-MD-V2_
+╰───────────❍
+╭───❍「 *BOT WEB PAGE* 」
+┃ https://king-sandesh-md-ofc-web.pages.dev/
+╰───────────❍
+╭───❍「 *JOIN CHANNEL* 」
+┃ https://whatsapp.com/channel/0029Vb5saAU4Y9lfzhgBmS2N
+╰───────────❍
+╭───❍「 *BOT OWNER* 」
+┃ _Mr Sandesh Bhashana_
+╰───────────❍
+╭───❍「 *SYSTEM STATUS* 」
+┃ ░░░░░░░░░░░░░░░░░░░ 100%
+╰───────────❍
+╭───❍「 *BOT PREFIX* 」
+┃ _Configure Your Prefix ${prefix}_
+╰───────────❍
+╭───❍「 *AUTOMATION BY* 」
+┃ > *King-Sandesh Md V2 💸*
+╰───────────❍`
+            });
+            initialConnection = false;
+        } else {
+            console.log(chalk.blue("♻️ Connection reestablished after restart."));
+        }
+    }
+});
+        
+        Matrix.ev.on('creds.update', saveCreds);
+
+        Matrix.ev.on("messages.upsert", async chatUpdate => await Handler(chatUpdate, Matrix, logger));
+        Matrix.ev.on("call", async (json) => await Callupdate(json, Matrix));
+        Matrix.ev.on("group-participants.update", async (messag) => await GroupUpdate(Matrix, messag));
+
+        if (config.MODE === "public") {
+            Matrix.public = true;
+        } else if (config.MODE === "private") {
+            Matrix.public = false;
+        }
+
+        Matrix.ev.on('messages.upsert', async (chatUpdate) => {
+            try {
+                const mek = chatUpdate.messages[0];
+                console.log(mek);
+                if (!mek.key.fromMe && config.AUTO_REACT) {
+                    console.log(mek);
+                    if (mek.message) {
+                        const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+                        await doReact(randomEmoji, mek, Matrix);
+                    }
+                }
+            } catch (err) {
+                console.error('Error during auto reaction:', err);
+            }
+        });
+        
+        Matrix.ev.on('messages.upsert', async (chatUpdate) => {
+    try {
+        const mek = chatUpdate.messages[0];
+        const fromJid = mek.key.participant || mek.key.remoteJid;
+        if (!mek || !mek.message) return;
+        if (mek.key.fromMe) return;
+        if (mek.message?.protocolMessage || mek.message?.ephemeralMessage || mek.message?.reactionMessage) return; 
+        if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_SEEN) {
+            await Matrix.readMessages([mek.key]);     
+              //=============readstatus======= 
+        if (config.READ_MESSAGE === 'true') {
+    await conn.readMessages([mek.key]);  // Mark message as read
+    console.log(`Marked message from ${mek.key.remoteJid} as read.`);
+  }
+        if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
+               const jawadlike = await conn.decodeJid(conn.user.id);
+               const emojis = ['❤️', '💸', '😇', '🍂', '💥', '💯', '🔥', '💫', '💎', '💗', '🤍', '🖤', '👀', '🙌', '🙆', '🚩', '🥰', '💐', '😎', '🤎', '✅', '🫀', '🧡', '😁', '😄', '🌸', '🕊️', '🌷', '⛅', '🌟', '🗿', '🇵🇰', '💜', '💙', '🌝', '🖤', '🎎', '🎏', '🎐', '⚽', '🧣', '🌿', '⛈️', '🌦️', '🌚', '🌝', '🙈', '🙉', '🦖', '🐤', '🎗️', '🥇', '👾', '🔫', '🐝', '🦋', '🍓', '🍫', '🍭', '🧁', '🧃', '🍿', '🍻', '🎀', '🧸', '👑', '〽️', '😳', '💀', '☠️', '👻', '🔥', '♥️', '👀', '🐼'];
+               const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
+    await conn.sendMessage(mek.key.remoteJid, {
+      react: {
+        text: randomEmoji,
+        key: mek.key,
+      } 
+    }, { statusJidList: [mek.key.participant, jawadlike] });
+  }        
+          //=============readstatus=======                         
+            if (config.AUTO_STATUS_REPLY) {
+                const customMessage = config.STATUS_READ_MSG || '✅ Auto Status Seen Bot By Mr.Sandesh Bhashana';
+                await Matrix.sendMessage(fromJid, { text: customMessage }, { quoted: mek });
+            }
+        }
+    } catch (err) {
+        console.error('Error handling messages.upsert event:', err);
+    }
+});
+
+    } catch (error) {
+        console.error('Critical Error:', error);
+        process.exit(1);
+    }
+}
+
+async function init() {
+    if (fs.existsSync(credsPath)) {
+        console.log("🔒 Session file found, proceeding without QR code.");
+        await start();
+    } else {
+        const sessionDownloaded = await downloadSessionData();
+        if (sessionDownloaded) {
+            console.log("🔒 Session downloaded, starting bot.");
+            await start();
+        } else {
+            console.log("No session found or downloaded, QR code will be printed for authentication.");
+            useQR = true;
+            await start();
+        }
+    }
+}
+
+init();
+
+app.get('/', (req, res) => {
+    res.send('Hello World!');
+});
+
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
+
