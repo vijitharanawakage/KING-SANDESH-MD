@@ -63,7 +63,7 @@ async function downloadSessionData() {
         return false;
     }
 
-    const [fileID, decryptKey] = sessdata.split("#");
+    const [fileID, decryptKey] = sessdata.split("*");
 
     try {
         console.log("🔄 Downloading Session...");
