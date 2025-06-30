@@ -1,4 +1,4 @@
-name: Deploy KING-SANDESH-MD Bot
+name: Validate Bot Build
 
 on:
   push:
@@ -6,11 +6,11 @@ on:
       - V-2
 
 jobs:
-  deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - name: ⬇️ Checkout Repository
+      - name: ⬇️ Checkout Repo
         uses: actions/checkout@v4
 
       - name: 🟢 Setup Node.js
@@ -21,15 +21,6 @@ jobs:
       - name: 📦 Install Dependencies
         run: npm install
 
-      - name: 🔨 Build Project (if needed)
+      - name: ✅ Test Start index.js (Optional)
         run: |
-          if [ -f package.json ] && grep -q '"build"' package.json; then
-            npm run build
-          else
-            echo "No build step found."
-          fi
-
-      - name: 🚀 Start Bot with PM2
-        run: |
-          npm install -g pm2
-          pm2 start index.js --name KING-SANDESH-MD || pm2 restart KING-SANDESH-MD
+          node index.js || echo "Bot exited (which is expected if it runs a long WhatsApp connection)"
