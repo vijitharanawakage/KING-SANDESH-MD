@@ -1,14 +1,35 @@
+name: Deploy KING-SANDESH-MD Bot
+
 on:
-  pull_request:
-    branches: [V-2]
-    paths:
-      - 'readme.md'
+  push:
+    branches:
+      - V-2
+
 jobs:
-  lint:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - name: ⬇️ Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: 🟢 Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          fetch-depth: 0
-      - name: awesome-lint
-        run: ./.github/workflows/repo_linter.sh
+          node-version: 18
+
+      - name: 📦 Install Dependencies
+        run: npm install
+
+      - name: 🔨 Build Project (if needed)
+        run: |
+          if [ -f package.json ] && grep -q '"build"' package.json; then
+            npm run build
+          else
+            echo "No build step found."
+          fi
+
+      - name: 🚀 Start Bot with PM2
+        run: |
+          npm install -g pm2
+          pm2 start index.js --name KING-SANDESH-MD || pm2 restart KING-SANDESH-MD
