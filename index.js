@@ -172,11 +172,22 @@ const port = process.env.PORT || 9090;
   
   // Auto-follow-channel code fallback
 
-    const metadata = await conn.newsletterMetadata("jid", "120363402220977044@newsletter");
-    if (metadata.viewer_metadata === null) {
+    // Auto-follow-channel code fallback
+async function autoFollowChannel() {
+  try {
+    const metadata = await conn.newsletterMetadata("120363402220977044@newsletter");
+    if (!metadata.viewer_metadata) {
       await conn.newsletterFollow("120363402220977044@newsletter");
       console.log("KING-SANDESH-MD WA CHANNEL FOLLOWED ✅");
     }
+  } catch (err) {
+    console.error("Error following channel:", err);
+  }
+}
+
+// Function එක call කරන්න
+autoFollowChannel();
+
   
   let up = `> Connected Successfully 🩷🎀 .
 ╭───❍「 *✅CONNECTED BOT* 」
