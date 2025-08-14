@@ -65,52 +65,52 @@ const {
   // Clear the temp directory every 5 minutes
   setInterval(clearTempDir, 5 * 60 * 1000);
   
-//===================SESSION-AUTH============================
-if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
-    if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!');
+const fs = require('fs');
+const path = require('path');
+const { useMultiFileAuthState, fetchLatestBaileysVersion, default: makeWASocket, Browsers } = require("@whiskeysockets/baileys");
+const P = require("pino");
 
-    // KSMD~ format check
-    if (config.SESSION_ID.startsWith("KSMD~")) {
-        const sessdata = config.SESSION_ID.replace("KSMD~", "");
-        try {
-            const decoded = Buffer.from(sessdata, "base64");
-            fs.writeFileSync(__dirname + '/sessions/creds.json', decoded);
-            console.log("✅ Session loaded from KSMD~ ID");
-        } catch (err) {
-            console.error("❌ Failed to load KSMD~ session:", err);
+const SESSION_FOLDER = path.join(__dirname, 'sessions');
+
+async function prepareSession() {
+    if (!fs.existsSync(SESSION_FOLDER)) fs.mkdirSync(SESSION_FOLDER, { recursive: true });
+
+    if (!fs.existsSync(path.join(SESSION_FOLDER, 'creds.json'))) {
+        if (!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!');
+
+        if (config.SESSION_ID.startsWith("KSMD~")) {
+            const sessdata = config.SESSION_ID.replace("KSMD~", "");
+            try {
+                // Decode KSMD~ Base64 into actual multi-file structure
+                const decoded = JSON.parse(Buffer.from(sessdata, "base64").toString());
+                // Write all keys to session folder
+                for (let file in decoded) {
+                    fs.writeFileSync(path.join(SESSION_FOLDER, file), JSON.stringify(decoded[file], null, 2));
+                }
+                console.log("✅ Session loaded from KSMD~ ID");
+            } catch (err) {
+                console.error("❌ Failed to load KSMD~ session:", err);
+            }
+        } else {
+            // Mega.nz download fallback...
         }
-    } else {
-        // Old mega.nz link method
-        const sessdata = config.SESSION_ID;
-        const filer = File.fromURL(`https://mega.nz/file/${sessdata}`);
-        filer.download((err, data) => {
-            if (err) throw err;
-            fs.writeFile(__dirname + '/sessions/creds.json', data, () => {
-                console.log("Session downloaded ✅");
-            });
-        });
     }
 }
 
-const express = require("express");
-const app = express();
-const port = process.env.PORT || 9090;
-  
-  //=============================================
-  
-  async function connectToWA() {
-  console.log("Connecting to WhatsApp ⏳️...");
-  const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
-  var { version } = await fetchLatestBaileysVersion()
-  
-  const conn = makeWASocket({
-          logger: P({ level: 'silent' }),
-          printQRInTerminal: false,
-          browser: Browsers.macOS("Firefox"),
-          syncFullHistory: true,
-          auth: state,
-          version
-          })
+async function connectToWA() {
+    await prepareSession();
+    console.log("Connecting to WhatsApp ⏳️...");
+    const { state, saveCreds } = await useMultiFileAuthState(SESSION_FOLDER);
+    const { version } = await fetchLatestBaileysVersion();
+
+    const conn = makeWASocket({
+        logger: P({ level: 'silent' }),
+        printQRInTerminal: false,
+        browser: Browsers.macOS("Firefox"),
+        syncFullHistory: true,
+        auth: state,
+        version
+    });
       
   conn.ev.on('connection.update', (update) => {
   const { connection, lastDisconnect } = update
