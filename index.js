@@ -92,63 +92,6 @@ if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
     }
 }
 
-
-// ===================PAIRING CODE FALLBACK============================
-if (!fs.existsSync(__dirname + '/sessions/creds.json') && !config.SESSION_ID) {
-  const readline = require("readline");
-  const { useMultiFileAuthState, fetchLatestBaileysVersion, default: makeWASocket, Browsers } = require("@whiskeysockets/baileys");
-  const P = require("pino");
-
-  const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-  });
-
-  const askPhoneNumber = () => {
-    return new Promise((resolve) => {
-      rl.question("📱 Enter your WhatsApp number (e.g., 9474XXXXXXX): ", (answer) => {
-        rl.close();
-        resolve(answer.trim().replace(/[^0-9]/g, ''));
-      });
-    });
-  };
-
-  const generatePairCode = async (number) => {
-    const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/');
-    const { version } = await fetchLatestBaileysVersion();
-    const sock = makeWASocket({
-      auth: state,
-      logger: P({ level: 'fatal' }),
-      version,
-      browser: Browsers.macOS('Safari'),
-    });
-
-    sock.ev.on('creds.update', saveCreds);
-
-    if (!sock.authState.creds.registered) {
-      try {
-        let code = await sock.requestPairingCode(number);
-        code = code?.match(/.{1,4}/g)?.join("-") || code;
-        console.log(`\n✅ Your KING-SANDESH-MD Pair Code:\n\n🔗 ${code}\n\n➡️ Go to WhatsApp > Settings > Linked Devices > Link a device`);
-      } catch (err) {
-        console.error('❌ Failed to get pairing code:', err);
-      }
-    } else {
-      console.log("✅ Already registered.");
-    }
-  };
-
-  askPhoneNumber().then((number) => {
-    if (!number.startsWith("94") && !number.startsWith("91")) {
-      number = "94" + number;
-    }
-    generatePairCode(number);
-  });
-
-  return; // ⛔ Prevent further execution until pairing is done
-}
-
-
 const express = require("express");
 const app = express();
 const port = process.env.PORT || 9090;
@@ -186,25 +129,6 @@ const port = process.env.PORT || 9090;
   require("./plugins/snews").startAutoNewsPolling(conn);
   console.log('Plugins installed SUCCESSFULLY ✅')
   console.log('Bot connected to WhatsApp ✅')
-  
-  // Auto-follow-channel code fallback
-
-    // Auto-follow-channel code fallback
-async function autoFollowChannel() {
-  try {
-    const metadata = await conn.newsletterMetadata("120363402220977044@newsletter");
-    if (!metadata.viewer_metadata) {
-      await conn.newsletterFollow("120363402220977044@newsletter");
-      console.log("KING-SANDESH-MD WA CHANNEL FOLLOWED ✅");
-    }
-  } catch (err) {
-    console.error("Error following channel:", err);
-  }
-}
-
-// Function එක call කරන්න
-autoFollowChannel();
-
   
   let up = `> Connected Successfully 🩷🎀 .
 ╭───❍「 *✅CONNECTED BOT* 」
