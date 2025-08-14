@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 const config = require("../config");
-const { cmd } = require("../lib/command"); // adjust path if needed
+const { cmd } = require("../command"); // adjust path if needed
 
 const prefix = config.PREFIX || ".";
 
