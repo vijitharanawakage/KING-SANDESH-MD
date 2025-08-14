@@ -65,11 +65,6 @@ const {
   // Clear the temp directory every 5 minutes
   setInterval(clearTempDir, 5 * 60 * 1000);
   
-const fs = require('fs');
-const path = require('path');
-const { useMultiFileAuthState, fetchLatestBaileysVersion, default: makeWASocket, Browsers } = require("@whiskeysockets/baileys");
-const P = require("pino");
-
 const SESSION_FOLDER = path.join(__dirname, 'sessions');
 
 async function prepareSession() {
