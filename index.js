@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94741259325']
+  const ownerNumber = ['94788770020']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -75,7 +75,6 @@ if(err) throw err
 fs.writeFile(__dirname + '/sessions/creds.json', data, () => {
 console.log("Session downloaded ✅")
 })})}
-
 
 const express = require("express");
 const app = express();
@@ -111,33 +110,25 @@ const port = process.env.PORT || 9090;
   require("./plugins/" + plugin);
   }
   });
-  require("./plugins/snews").startAutoNewsPolling(conn);
-  console.log('Plugins installed SUCCESSFULLY ✅')
-  console.log('Bot connected to WhatsApp ✅')
+  console.log('Plugins installed successful ✅')
+  console.log('Bot connected to whatsapp ✅')
   
-  let up = `> Connected Successfully 🩷🎀 .
-╭───❍「 *✅CONNECTED BOT* 」
-┃ _KING-SANDESH-MD-V2_
-╰───────────❍
-╭───❍「 *🌐BOT WEB PAGE* 」
-┃ https://king-sandesh-md-ofc-web.pages.dev/
-╰───────────❍
-╭───❍「 *🫳JOIN CHANNEL* 」
-┃ https://whatsapp.com/channel/0029Vb5saAU4Y9lfzhgBmS2N
-╰───────────❍
-╭───❍「 *👤BOT OWNER* 」
-┃ _Mr Sandesh Bhashana_
-╰───────────❍
-╭───❍「 *📈SYSTEM STATUS* 」
-┃ ░░░░░░░░░░░░░░░░░░░ 100%
-╰───────────❍
-╭───❍「 *📍BOT PREFIX* 」
-┃ _Configure Your Prefix_ ${prefix}
-╰───────────❍
-╭───❍「 *⚙️AUTOMATION BY* 」
-┃ > *King-Sandesh Md V2 💸*
-╰───────────❍`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/m5drmn.png` }, caption: up })
+  let up = `╭─〔 *🤖 SENU-MD BOT* 〕  
+├─▸ *Ultra Super Fast Powerfull ⚠️*  
+│     *World Best BOT SENU-MD* 
+╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
+
+- *🖤 Thank You for Choosing SENU-MD!* 
+
+╭──〔 🔗 *Information* 〕  
+├─ 🧩 *Prefix:* = ${prefix}
+├─ 📢 *Join Channel:*  
+│    https://whatsapp.com/channel/0029Vb2OcviBFLgPzVjWhE0n  
+├─ 🌟 *Star the Repo:*  
+│    https://github.com/Jester36/SENU-MD  
+╰─🚀 *POWERED BY JESTER-OFC*`;
+
+    conn.sendMessage(conn.user.id,{ image: { url: `https://i.ibb.co/RGLKzshm/SulaMd.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -225,7 +216,7 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ['94741259325', '94763582665', '94775492866'];
+    const jawadop = ('94788770020', '94775877546', '94783613116');
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
@@ -309,7 +300,7 @@ const isBanned = bannedUsers.includes(sender);
 
 if (isBanned) return; // Ignore banned users completely
 	  
-  const ownerFile = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  // MrUnknowninc 
+  const ownerFile = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  // JawadTechX 
   const ownerNumberFormatted = `${config.OWNER_NUMBER}@s.whatsapp.net`;
   // json file setup
   const isFileOwner = ownerFile.includes(sender);
@@ -740,42 +731,35 @@ if (isBanned) return; // Ignore banned users completely
 
         // Vcard Functionality
         conn.sendContact = async (jid, kon, quoted = '', opts = {}) => {
-  let list = [];
-
-  for (let i of kon) {
-    const name = await conn.getName(i + '@s.whatsapp.net');
-
-    list.push({
-      displayName: name,
-      vcard: `BEGIN:VCARD
-VERSION:3.0
-N:${name}
-FN:${config.OWNER_NAME}
-item1.TEL;waid=${i}:${i}
-item1.X-ABLabel:Click here to chat
-item2.EMAIL;type=INTERNET:${config.EMAIL}
-item2.X-ABLabel:Email
-item3.URL:https://github.com/${config.GITHUB}
-item3.X-ABLabel:GitHub
-item4.ADR:;;${config.LOCATION};;;;
-item4.X-ABLabel:Region
-END:VCARD`,
-    });
-  }
-
-  await conn.sendMessage(
-    jid,
-    {
-      contacts: {
-        displayName: `${list.length} Contact`,
-        contacts: list,
-      },
-      ...opts,
-    },
-    { quoted }
-  );
-};
-
+            let list = [];
+            for (let i of kon) {
+                list.push({
+                    displayName: await conn.getName(i + '@s.whatsapp.net'),
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await conn.getName(
+                        i + '@s.whatsapp.net',
+                    )}\nFN:${
+                        global.OwnerName
+                    }\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${
+                        global.email
+                    }\nitem2.X-ABLabel:GitHub\nitem3.URL:https://github.com/${
+                        global.github
+                    }/khan-xmd\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${
+                        global.location
+                    };;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
+                });
+            }
+            conn.sendMessage(
+                jid,
+                {
+                    contacts: {
+                        displayName: `${list.length} Contact`,
+                        contacts: list,
+                    },
+                    ...opts,
+                },
+                { quoted },
+            );
+        };
 
         // Status aka brio
         conn.setStatus = status => {
@@ -800,7 +784,7 @@ END:VCARD`,
   }
   
   app.get("/", (req, res) => {
-  res.send("KING-SANDESH-MD V-2 STARTED NOW SAFELY ✅");
+  res.send("SENU MD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
