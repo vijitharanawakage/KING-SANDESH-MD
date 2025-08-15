@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94788770020']
+  const ownerNumber = ['94741259325']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -73,8 +73,9 @@ const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
 fs.writeFile(__dirname + '/sessions/creds.json', data, () => {
-console.log("Session downloaded ✅")
+console.log("Session downloaded âœ…")
 })})}
+
 
 const express = require("express");
 const app = express();
@@ -83,7 +84,7 @@ const port = process.env.PORT || 9090;
   //=============================================
   
   async function connectToWA() {
-  console.log("Connecting to WhatsApp ⏳️...");
+  console.log("Connecting to WhatsApp â³ï¸...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
   
@@ -103,32 +104,40 @@ const port = process.env.PORT || 9090;
   connectToWA()
   }
   } else if (connection === 'open') {
-  console.log('🧬 Installing Plugins')
+  console.log('ðŸ§¬ Installing Plugins')
   const path = require('path');
   fs.readdirSync("./plugins/").forEach((plugin) => {
   if (path.extname(plugin).toLowerCase() == ".js") {
   require("./plugins/" + plugin);
   }
   });
-  console.log('Plugins installed successful ✅')
-  console.log('Bot connected to whatsapp ✅')
+  require("./plugins/snews").startAutoNewsPolling(conn);
+  console.log('Plugins installed SUCCESSFULLY âœ…')
+  console.log('Bot connected to WhatsApp âœ…')
   
-  let up = `╭─〔 *🤖 SENU-MD BOT* 〕  
-├─▸ *Ultra Super Fast Powerfull ⚠️*  
-│     *World Best BOT SENU-MD* 
-╰─➤ *Your Smart WhatsApp Bot is Ready To use 🍁!*  
-
-- *🖤 Thank You for Choosing SENU-MD!* 
-
-╭──〔 🔗 *Information* 〕  
-├─ 🧩 *Prefix:* = ${prefix}
-├─ 📢 *Join Channel:*  
-│    https://whatsapp.com/channel/0029Vb2OcviBFLgPzVjWhE0n  
-├─ 🌟 *Star the Repo:*  
-│    https://github.com/Jester36/SENU-MD  
-╰─🚀 *POWERED BY JESTER-OFC*`;
-
-    conn.sendMessage(conn.user.id,{ image: { url: `https://i.ibb.co/RGLKzshm/SulaMd.jpg` }, caption: up })
+  let up = `> Connected Successfully ðŸ©·ðŸŽ€ .
+â•­â”€â”€â”€âã€Œ *âœ…CONNECTED BOT* ã€
+â”ƒ _KING-SANDESH-MD-V2_
+â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â
+â•­â”€â”€â”€âã€Œ *ðŸŒBOT WEB PAGE* ã€
+â”ƒ https://king-sandesh-md-ofc-web.pages.dev/
+â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â
+â•­â”€â”€â”€âã€Œ *ðŸ«³JOIN CHANNEL* ã€
+â”ƒ https://whatsapp.com/channel/0029Vb5saAU4Y9lfzhgBmS2N
+â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â
+â•­â”€â”€â”€âã€Œ *ðŸ‘¤BOT OWNER* ã€
+â”ƒ _Mr Sandesh Bhashana_
+â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â
+â•­â”€â”€â”€âã€Œ *ðŸ“ˆSYSTEM STATUS* ã€
+â”ƒ â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘ 100%
+â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â
+â•­â”€â”€â”€âã€Œ *ðŸ“BOT PREFIX* ã€
+â”ƒ _Configure Your Prefix_ ${prefix}
+â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â
+â•­â”€â”€â”€âã€Œ *âš™ï¸AUTOMATION BY* ã€
+â”ƒ > *King-Sandesh Md V2 ðŸ’¸*
+â•°â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â`;
+    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/m5drmn.png` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -167,7 +176,7 @@ const port = process.env.PORT || 9090;
     }
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REACT === "true"){
     const jawadlike = await conn.decodeJid(conn.user.id);
-    const emojis = ['❤️', '💸', '😇', '🍂', '💥', '💯', '🔥', '💫', '💎', '💗', '🤍', '🖤', '👀', '🙌', '🙆', '🚩', '🥰', '💐', '😎', '🤎', '✅', '🫀', '🧡', '😁', '😄', '🌸', '🕊️', '🌷', '⛅', '🌟', '🗿', '🇵🇰', '💜', '💙', '🌝', '🖤', '💚'];
+    const emojis = ['â¤ï¸', 'ðŸ’¸', 'ðŸ˜‡', 'ðŸ‚', 'ðŸ’¥', 'ðŸ’¯', 'ðŸ”¥', 'ðŸ’«', 'ðŸ’Ž', 'ðŸ’—', 'ðŸ¤', 'ðŸ–¤', 'ðŸ‘€', 'ðŸ™Œ', 'ðŸ™†', 'ðŸš©', 'ðŸ¥°', 'ðŸ’', 'ðŸ˜Ž', 'ðŸ¤Ž', 'âœ…', 'ðŸ«€', 'ðŸ§¡', 'ðŸ˜', 'ðŸ˜„', 'ðŸŒ¸', 'ðŸ•Šï¸', 'ðŸŒ·', 'â›…', 'ðŸŒŸ', 'ðŸ—¿', 'ðŸ‡µðŸ‡°', 'ðŸ’œ', 'ðŸ’™', 'ðŸŒ', 'ðŸ–¤', 'ðŸ’š'];
     const randomEmoji = emojis[Math.floor(Math.random() * emojis.length)];
     await conn.sendMessage(mek.key.remoteJid, {
       react: {
@@ -179,7 +188,7 @@ const port = process.env.PORT || 9090;
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
   const user = mek.key.participant
   const text = `${config.AUTO_STATUS_MSG}`
-  await conn.sendMessage(user, { text: text, react: { text: '💜', key: mek.key } }, { quoted: mek })
+  await conn.sendMessage(user, { text: text, react: { text: 'ðŸ’œ', key: mek.key } }, { quoted: mek })
             }
             await Promise.all([
               saveMessage(mek),
@@ -216,7 +225,7 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ('94788770020', '94775877546', '94783613116');
+    const jawadop = ['94741259325', '94763582665', '94775492866'];
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
@@ -259,21 +268,21 @@ const port = process.env.PORT || 9090;
 // Auto React for all messages (public and owner)
 if (!isReact && config.AUTO_REACT === 'true') {
     const reactions = [
-        '🌼', '❤️', '💐', '🔥', '🏵️', '❄️', '🧊', '🐳', '💥', '🥀', '❤‍🔥', '🥹', '😩', '🫣', 
-        '🤭', '👻', '👾', '🫶', '😻', '🙌', '🫂', '🫀', '👩‍🦰', '🧑‍🦰', '👩‍⚕️', '🧑‍⚕️', '🧕', 
-        '👩‍🏫', '👨‍💻', '👰‍♀', '🦹🏻‍♀️', '🧟‍♀️', '🧟', '🧞‍♀️', '🧞', '🙅‍♀️', '💁‍♂️', '💁‍♀️', '🙆‍♀️', 
-        '🙋‍♀️', '🤷', '🤷‍♀️', '🤦', '🤦‍♀️', '💇‍♀️', '💇', '💃', '🚶‍♀️', '🚶', '🧶', '🧤', '👑', 
-        '💍', '👝', '💼', '🎒', '🥽', '🐻', '🐼', '🐭', '🐣', '🪿', '🦆', '🦊', '🦋', '🦄', 
-        '🪼', '🐋', '🐳', '🦈', '🐍', '🕊️', '🦦', '🦚', '🌱', '🍃', '🎍', '🌿', '☘️', '🍀', 
-        '🍁', '🪺', '🍄', '🍄‍🟫', '🪸', '🪨', '🌺', '🪷', '🪻', '🥀', '🌹', '🌷', '💐', '🌾', 
-        '🌸', '🌼', '🌻', '🌝', '🌚', '🌕', '🌎', '💫', '🔥', '☃️', '❄️', '🌨️', '🫧', '🍟', 
-        '🍫', '🧃', '🧊', '🪀', '🤿', '🏆', '🥇', '🥈', '🥉', '🎗️', '🤹', '🤹‍♀️', '🎧', '🎤', 
-        '🥁', '🧩', '🎯', '🚀', '🚁', '🗿', '🎙️', '⌛', '⏳', '💸', '💎', '⚙️', '⛓️', '🔪', 
-        '🧸', '🎀', '🪄', '🎈', '🎁', '🎉', '🏮', '🪩', '📩', '💌', '📤', '📦', '📊', '📈', 
-        '📑', '📉', '📂', '🔖', '🧷', '📌', '📝', '🔏', '🔐', '🩷', '❤️', '🧡', '💛', '💚', 
-        '🩵', '💙', '💜', '🖤', '🩶', '🤍', '🤎', '❤‍🔥', '❤‍🩹', '💗', '💖', '💘', '💝', '❌', 
-        '✅', '🔰', '〽️', '🌐', '🌀', '⤴️', '⤵️', '🔴', '🟢', '🟡', '🟠', '🔵', '🟣', '⚫', 
-        '⚪', '🟤', '🔇', '🔊', '📢', '🔕', '♥️', '🕐', '🚩', '🇵🇰'
+        'ðŸŒ¼', 'â¤ï¸', 'ðŸ’', 'ðŸ”¥', 'ðŸµï¸', 'â„ï¸', 'ðŸ§Š', 'ðŸ³', 'ðŸ’¥', 'ðŸ¥€', 'â¤â€ðŸ”¥', 'ðŸ¥¹', 'ðŸ˜©', 'ðŸ«£', 
+        'ðŸ¤­', 'ðŸ‘»', 'ðŸ‘¾', 'ðŸ«¶', 'ðŸ˜»', 'ðŸ™Œ', 'ðŸ«‚', 'ðŸ«€', 'ðŸ‘©â€ðŸ¦°', 'ðŸ§‘â€ðŸ¦°', 'ðŸ‘©â€âš•ï¸', 'ðŸ§‘â€âš•ï¸', 'ðŸ§•', 
+        'ðŸ‘©â€ðŸ«', 'ðŸ‘¨â€ðŸ’»', 'ðŸ‘°â€â™€', 'ðŸ¦¹ðŸ»â€â™€ï¸', 'ðŸ§Ÿâ€â™€ï¸', 'ðŸ§Ÿ', 'ðŸ§žâ€â™€ï¸', 'ðŸ§ž', 'ðŸ™…â€â™€ï¸', 'ðŸ’â€â™‚ï¸', 'ðŸ’â€â™€ï¸', 'ðŸ™†â€â™€ï¸', 
+        'ðŸ™‹â€â™€ï¸', 'ðŸ¤·', 'ðŸ¤·â€â™€ï¸', 'ðŸ¤¦', 'ðŸ¤¦â€â™€ï¸', 'ðŸ’‡â€â™€ï¸', 'ðŸ’‡', 'ðŸ’ƒ', 'ðŸš¶â€â™€ï¸', 'ðŸš¶', 'ðŸ§¶', 'ðŸ§¤', 'ðŸ‘‘', 
+        'ðŸ’', 'ðŸ‘', 'ðŸ’¼', 'ðŸŽ’', 'ðŸ¥½', 'ðŸ»', 'ðŸ¼', 'ðŸ­', 'ðŸ£', 'ðŸª¿', 'ðŸ¦†', 'ðŸ¦Š', 'ðŸ¦‹', 'ðŸ¦„', 
+        'ðŸª¼', 'ðŸ‹', 'ðŸ³', 'ðŸ¦ˆ', 'ðŸ', 'ðŸ•Šï¸', 'ðŸ¦¦', 'ðŸ¦š', 'ðŸŒ±', 'ðŸƒ', 'ðŸŽ', 'ðŸŒ¿', 'â˜˜ï¸', 'ðŸ€', 
+        'ðŸ', 'ðŸªº', 'ðŸ„', 'ðŸ„â€ðŸŸ«', 'ðŸª¸', 'ðŸª¨', 'ðŸŒº', 'ðŸª·', 'ðŸª»', 'ðŸ¥€', 'ðŸŒ¹', 'ðŸŒ·', 'ðŸ’', 'ðŸŒ¾', 
+        'ðŸŒ¸', 'ðŸŒ¼', 'ðŸŒ»', 'ðŸŒ', 'ðŸŒš', 'ðŸŒ•', 'ðŸŒŽ', 'ðŸ’«', 'ðŸ”¥', 'â˜ƒï¸', 'â„ï¸', 'ðŸŒ¨ï¸', 'ðŸ«§', 'ðŸŸ', 
+        'ðŸ«', 'ðŸ§ƒ', 'ðŸ§Š', 'ðŸª€', 'ðŸ¤¿', 'ðŸ†', 'ðŸ¥‡', 'ðŸ¥ˆ', 'ðŸ¥‰', 'ðŸŽ—ï¸', 'ðŸ¤¹', 'ðŸ¤¹â€â™€ï¸', 'ðŸŽ§', 'ðŸŽ¤', 
+        'ðŸ¥', 'ðŸ§©', 'ðŸŽ¯', 'ðŸš€', 'ðŸš', 'ðŸ—¿', 'ðŸŽ™ï¸', 'âŒ›', 'â³', 'ðŸ’¸', 'ðŸ’Ž', 'âš™ï¸', 'â›“ï¸', 'ðŸ”ª', 
+        'ðŸ§¸', 'ðŸŽ€', 'ðŸª„', 'ðŸŽˆ', 'ðŸŽ', 'ðŸŽ‰', 'ðŸ®', 'ðŸª©', 'ðŸ“©', 'ðŸ’Œ', 'ðŸ“¤', 'ðŸ“¦', 'ðŸ“Š', 'ðŸ“ˆ', 
+        'ðŸ“‘', 'ðŸ“‰', 'ðŸ“‚', 'ðŸ”–', 'ðŸ§·', 'ðŸ“Œ', 'ðŸ“', 'ðŸ”', 'ðŸ”', 'ðŸ©·', 'â¤ï¸', 'ðŸ§¡', 'ðŸ’›', 'ðŸ’š', 
+        'ðŸ©µ', 'ðŸ’™', 'ðŸ’œ', 'ðŸ–¤', 'ðŸ©¶', 'ðŸ¤', 'ðŸ¤Ž', 'â¤â€ðŸ”¥', 'â¤â€ðŸ©¹', 'ðŸ’—', 'ðŸ’–', 'ðŸ’˜', 'ðŸ’', 'âŒ', 
+        'âœ…', 'ðŸ”°', 'ã€½ï¸', 'ðŸŒ', 'ðŸŒ€', 'â¤´ï¸', 'â¤µï¸', 'ðŸ”´', 'ðŸŸ¢', 'ðŸŸ¡', 'ðŸŸ ', 'ðŸ”µ', 'ðŸŸ£', 'âš«', 
+        'âšª', 'ðŸŸ¤', 'ðŸ”‡', 'ðŸ”Š', 'ðŸ“¢', 'ðŸ”•', 'â™¥ï¸', 'ðŸ•', 'ðŸš©', 'ðŸ‡µðŸ‡°'
     ];
 
     const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
@@ -285,7 +294,7 @@ if (!isReact && config.AUTO_REACT === 'true') {
 // Custom React for all messages (public and owner)
 if (!isReact && config.CUSTOM_REACT === 'true') {
     // Use custom emojis from the configuration (fallback to default if not set)
-    const reactions = (config.CUSTOM_REACT_EMOJIS || '🥲,😂,👍🏻,🙂,😔').split(',');
+    const reactions = (config.CUSTOM_REACT_EMOJIS || 'ðŸ¥²,ðŸ˜‚,ðŸ‘ðŸ»,ðŸ™‚,ðŸ˜”').split(',');
     const randomReaction = reactions[Math.floor(Math.random() * reactions.length)];
     m.react(randomReaction);
 }
@@ -300,7 +309,7 @@ const isBanned = bannedUsers.includes(sender);
 
 if (isBanned) return; // Ignore banned users completely
 	  
-  const ownerFile = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  // JawadTechX 
+  const ownerFile = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  // MrUnknowninc 
   const ownerNumberFormatted = `${config.OWNER_NUMBER}@s.whatsapp.net`;
   // json file setup
   const isFileOwner = ownerFile.includes(sender);
@@ -731,35 +740,42 @@ if (isBanned) return; // Ignore banned users completely
 
         // Vcard Functionality
         conn.sendContact = async (jid, kon, quoted = '', opts = {}) => {
-            let list = [];
-            for (let i of kon) {
-                list.push({
-                    displayName: await conn.getName(i + '@s.whatsapp.net'),
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nN:${await conn.getName(
-                        i + '@s.whatsapp.net',
-                    )}\nFN:${
-                        global.OwnerName
-                    }\nitem1.TEL;waid=${i}:${i}\nitem1.X-ABLabel:Click here to chat\nitem2.EMAIL;type=INTERNET:${
-                        global.email
-                    }\nitem2.X-ABLabel:GitHub\nitem3.URL:https://github.com/${
-                        global.github
-                    }/khan-xmd\nitem3.X-ABLabel:GitHub\nitem4.ADR:;;${
-                        global.location
-                    };;;;\nitem4.X-ABLabel:Region\nEND:VCARD`,
-                });
-            }
-            conn.sendMessage(
-                jid,
-                {
-                    contacts: {
-                        displayName: `${list.length} Contact`,
-                        contacts: list,
-                    },
-                    ...opts,
-                },
-                { quoted },
-            );
-        };
+  let list = [];
+
+  for (let i of kon) {
+    const name = await conn.getName(i + '@s.whatsapp.net');
+
+    list.push({
+      displayName: name,
+      vcard: `BEGIN:VCARD
+VERSION:3.0
+N:${name}
+FN:${config.OWNER_NAME}
+item1.TEL;waid=${i}:${i}
+item1.X-ABLabel:Click here to chat
+item2.EMAIL;type=INTERNET:${config.EMAIL}
+item2.X-ABLabel:Email
+item3.URL:https://github.com/${config.GITHUB}
+item3.X-ABLabel:GitHub
+item4.ADR:;;${config.LOCATION};;;;
+item4.X-ABLabel:Region
+END:VCARD`,
+    });
+  }
+
+  await conn.sendMessage(
+    jid,
+    {
+      contacts: {
+        displayName: `${list.length} Contact`,
+        contacts: list,
+      },
+      ...opts,
+    },
+    { quoted }
+  );
+};
+
 
         // Status aka brio
         conn.setStatus = status => {
@@ -784,7 +800,7 @@ if (isBanned) return; // Ignore banned users completely
   }
   
   app.get("/", (req, res) => {
-  res.send("SENU MD STARTED ✅");
+  res.send("KING-SANDESH-MD V-2 STARTED NOW SAFELY âœ…");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
