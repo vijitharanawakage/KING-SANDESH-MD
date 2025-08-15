@@ -363,11 +363,11 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         );
 // share local audio 
 
-const audioPath = path.join(__dirname, '../assets/menu.m4a');
+const audioPath = path.join(__dirname, '../assets/menuv.mp4');
 await conn.sendMessage(from, {
-    audio: fs.readFileSync(audioPath),
-    mimetype: 'audio/mp4',
-    ptt: true,
+    video: fs.readFileSync(videoNotePath),
+    mimetype: "video/mp4",
+   isRoundVideo: true,
 }, { quoted: mek });
         
     } catch (e) {
