@@ -83,7 +83,7 @@ THUMB_IMAGE: process.env.THUMB_IMAGE || "https://files.catbox.moe/m5drmn.png",
 // thumb img for auto news system if has not photo
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
-BUTTON: process.env.BUTTON || "true",
+BUTTON: process.env.BUTTON || "false",
 // true or false for button reply
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
