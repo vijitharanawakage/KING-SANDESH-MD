@@ -22,6 +22,7 @@ function levenshteinDistance(a, b) {
 }
 
 // Search movies on cinesubz.lk
+// Search movies on cinesubz.lk
 async function searchMovies(query) {
   try {
     const url = `https://cinesubz.lk/?s=${encodeURIComponent(query)}`;
@@ -29,10 +30,10 @@ async function searchMovies(query) {
     const $ = cheerio.load(data);
 
     const movies = [];
-    $('.ml-item').each((i, el) => {
+    $('.item-thumb').each((i, el) => {
       const link = $(el).find('a').attr('href');
-      const title = $(el).find('h2').text().trim();
-      if (title && link) movies.push({ title, link });
+      const title = $(el).find('a').attr('title');
+      if (title && link) movies.push({ title: title.trim(), link });
     });
 
     if (!movies.length) return null;
@@ -63,17 +64,19 @@ async function getQualities(movieUrl) {
 
     const qualities = [];
 
-    $('.btn-download').each((i, el) => {
-      const qualityText = $(el).text().trim(); // e.g. "1080p"
+    $('.dbutton').each((i, el) => {
+      const qualityText = $(el).text().trim();
       const downloadLink = $(el).attr('href');
       if (qualityText && downloadLink) qualities.push({ quality: qualityText, link: downloadLink });
     });
 
     return qualities;
   } catch (e) {
+    console.error("Qualities error:", e.message);
     return [];
   }
 }
+
 
 cmd({
   pattern: "cinesubz",
