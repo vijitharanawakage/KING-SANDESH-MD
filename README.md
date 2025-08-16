@@ -68,7 +68,6 @@ ___________________
 
 4. In Web Page You Can See "GET PAIR CODE" Button.
 
-5. Touch It To Get Pair Code.After Touch Now You Can See Replit Interface.
 
 6. If Had Not Replit Account Create It Via Github And Touch Blue Colour "REMIX THIS APP" Button.
 
