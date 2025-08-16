@@ -29,9 +29,9 @@ async function searchMovies(query) {
     const $ = cheerio.load(data);
 
     const movies = [];
-    $('.item-thumb').each((i, el) => {
-      const title = $(el).find('.post-title').text().trim();
+    $('.ml-item').each((i, el) => {
       const link = $(el).find('a').attr('href');
+      const title = $(el).find('h2').text().trim();
       if (title && link) movies.push({ title, link });
     });
 
@@ -50,6 +50,7 @@ async function searchMovies(query) {
     }
     return closest;
   } catch (e) {
+    console.error("Scraping error:", e.message);
     return null;
   }
 }
