@@ -1,4 +1,4 @@
-const config = require('../config');
+cconst config = require('../config');
 const { cmd } = require('../command');
 const { ytsearch } = require('@dark-yasiya/yt-dl.js');
 
