@@ -4,7 +4,7 @@ const yts = require('yt-search');
 
 cmd({
     pattern: "video2",
-    alias: ["mp4", "song"],
+    alias: ["mp4", "ytmp4"],
     react: "🎥",
     desc: "Download video from YouTube",
     category: "download",
