@@ -111,7 +111,6 @@ const port = process.env.PORT || 9090;
   require("./plugins/" + plugin);
   }
   });
-  require("./plugins/snews").startAutoNewsPolling(conn);
   console.log('Plugins installed SUCCESSFULLY ✅')
   console.log('Bot connected to WhatsApp ✅')
   
