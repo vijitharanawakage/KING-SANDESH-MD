@@ -44,7 +44,7 @@ async(conn, mek, m, {
       await conn.sendMessage(from, {
         video: { url: fb.result.sd },
         mimetype: "video/mp4",
-        caption: `*𝚂𝙳-𝚀𝚄𝙰𝙻𝙸𝚃𝚈*`
+        caption: `*✅ 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝙳 𝙰𝚂 𝚂𝙳-𝚀𝚄𝙰𝙻𝙸𝚃𝚈*\n\n📥 𝐊ꜱᴍ𝐃 𝐅𝐁 𝐕ɪᴅᴇ𝐎 𝐃𝐋`
       }, { quoted: mek });
     }
 
@@ -52,12 +52,12 @@ if (fb.result.hd) {
       await conn.sendMessage(from, {
         video: { url: fb.result.hd },
         mimetype: "video/mp4",
-        caption: `*𝙷𝙳-𝚀𝚄𝙰𝙻𝙸𝚃𝚈*`
+        caption: `*✅ 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳𝙴𝙳 𝙰𝚂 𝙷𝙳-𝚀𝚄𝙰𝙻𝙸𝚃𝚈*\n\n📥 𝐊ꜱᴍ𝐃 𝐅𝐁 𝐕ɪᴅᴇ𝐎 𝐃𝐋`
       }, { quoted: mek });
     }
 
 } catch (err) {
   console.error(err);
-  reply("*ERROR*");
+  reply("> *ERROR FB CMD IN KSMD BOT*");
   }
 });
