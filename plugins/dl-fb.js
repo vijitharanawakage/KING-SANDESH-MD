@@ -1,41 +1,63 @@
 const axios = require("axios");
-const { cmd } = require("../command");
+const cheerio = require('cheerio');
+const { cmd, commands } = require('../command')
+const config = require('../config');
+const {fetchJson} = require('../lib/functions');
+
+const api = `https://nethu-api-ashy.vercel.app`;
 
 cmd({
-  pattern: "fb",
-  alias: ["facebook", "fbdl"],
-  desc: "Download Facebook videos",
+  pattern: "facebook",
+  react: "🎥",
+  alias: ["fbb", "fbvideo", "fb"],
+  desc: "Download videos from Facebook",
   category: "download",
-  filename: __filename,
-  use: "<Facebook URL>",
-}, async (conn, m, store, { from, args, q, reply }) => {
+  use: '.facebook <facebook_url>',
+  filename: __filename
+},
+async(conn, mek, m, {
+    from, prefix, q, reply
+}) => {
   try {
-    // Check if a URL is provided
-    if (!q || !q.startsWith("http")) {
-      return reply("*`Need a valid Facebook URL`*\n\nExample: `.fb https://www.facebook.com/...`");
-    }
+  if (!q) return reply("🚩 Please give me a facebook url");
 
-    // Add a loading react
-    await conn.sendMessage(from, { react: { text: '⏳', key: m.key } });
+  const fb = await fetchJson(`${api}/download/fbdown?url=${encodeURIComponent(q)}`);
+  
+  if (!fb.result || (!fb.result.sd && !fb.result.hd)) {
+    return reply("I couldn't find anything :(");
+  }
 
-    // Fetch video URL from the API
-    const apiUrl = `https://www.velyn.biz.id/api/downloader/facebookdl?url=${encodeURIComponent(q)}`;
-    const { data } = await axios.get(apiUrl);
+  let caption = `*🖥️𝐍𝐊ꜱᴍ𝐃 𝐅ᴀᴄᴇʙᴏᴏ𝐊 𝐃𝐋*
 
-    // Check if the API response is valid
-    if (!data.status || !data.data || !data.data.url) {
-      return reply("❌ Failed to fetch the video. Please try another link.");
-    }
+📝 ＴＩＴＬＥ : 𝙵𝙰𝙲𝙴𝙱𝙾𝙾𝙺 𝚅𝙸𝙳𝙴𝙾
+🔗 ＵＲＬ : ${q}`;
 
-    // Send the video to the user
-    const videoUrl = data.data.url;
+
+  if (fb.result.thumb) {
     await conn.sendMessage(from, {
-      video: { url: videoUrl },
-      caption: "📥 *𝐅ᴀᴄᴇʙᴏᴏ𝐊 𝐕ɪᴅᴇ𝐎 𝐃ᴏᴡɴʟᴏᴀᴅᴇ𝐃 𝐒ᴜᴄᴄᴇꜱꜱꜰᴜʟʟ𝐘...!*\n\n> *© Powered By King-Sandesh-Md V2 💸*",
-    }, { quoted: m });
+      image: { url: fb.result.thumb },
+      caption : caption,
+      }, mek);
+  }
 
-  } catch (error) {
-    console.error("Error:", error); // Log the error for debugging
-    reply("❌ Error fetching the video. Please try again.");
+    if (fb.result.sd) {
+      await conn.sendMessage(from, {
+        video: { url: fb.result.sd },
+        mimetype: "video/mp4",
+        caption: `*𝚂𝙳-𝚀𝚄𝙰𝙻𝙸𝚃𝚈*`
+      }, { quoted: mek });
+    }
+
+if (fb.result.hd) {
+      await conn.sendMessage(from, {
+        video: { url: fb.result.hd },
+        mimetype: "video/mp4",
+        caption: `*𝙷𝙳-𝚀𝚄𝙰𝙻𝙸𝚃𝚈*`
+      }, { quoted: mek });
+    }
+
+} catch (err) {
+  console.error(err);
+  reply("*ERROR*");
   }
 });
