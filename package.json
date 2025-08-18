@@ -19,6 +19,7 @@
     "pm2": "^6.0.5",
     "util": "^0.12.4",
     "express": "latest",
+    "puppeteer": "24.16.2",
     "moment-timezone": "^0.5.45",
     "axios": "^1.2.5",
     "crypto-digest-sync": "^1.0.0",
