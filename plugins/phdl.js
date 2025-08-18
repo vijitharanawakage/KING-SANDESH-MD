@@ -8,7 +8,7 @@ const { cmd } = require("../command");
 let session = {}; // for non-button mode
 
 cmd({
-  pattern: "phdl ?(.*)",
+  pattern: "phdl",
   react: "🔞",
   desc: "Search Pornhub videos and download",
   category: "adult",
