@@ -1,6 +1,3 @@
-බ්‍රෝ මක් ඔයාට මේක දුන්නනෙ ඒක ඕකට අදාළ නැත්ද
-මේතියෙනෙ ඒක 
-
 const puppeteer = require('puppeteer');
 
 async function capturetokenandcookies(url) {
