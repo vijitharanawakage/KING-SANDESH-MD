@@ -1,185 +1,69 @@
 const axios = require("axios");
-const cheerio = require("cheerio");
 const { cmd } = require("../command");
-const { DownloaderHelper } = require('nodejs-file-downloader');
+const { capturetokenandcookies } = require("../cinesubz"); // Puppeteer function
+const { exec } = require("child_process");
 const fs = require("fs");
-const path = require("path");
-
-const BUTTON_MODE = process.env.BUTTON === "true"; // config.js BUTTON flag
-
-// Levenshtein distance function for closest match
-function levenshteinDistance(a, b) {
-  const matrix = [];
-  for (let i = 0; i <= b.length; i++) matrix[i] = [i];
-  for (let j = 0; j <= a.length; j++) matrix[0][j] = j;
-  for (let i = 1; i <= b.length; i++) {
-    for (let j = 1; j <= a.length; j++) {
-      if (b.charAt(i - 1) === a.charAt(j - 1)) matrix[i][j] = matrix[i - 1][j - 1];
-      else matrix[i][j] = Math.min(matrix[i - 1][j - 1] + 1, matrix[i][j - 1] + 1, matrix[i - 1][j] + 1);
-    }
-  }
-  return matrix[b.length][a.length];
-}
-
-// Search movies on cinesubz.lk
-// Search movies on cinesubz.lk
-async function searchMovies(query) {
-  try {
-    const url = `https://cinesubz.lk/?s=${encodeURIComponent(query)}`;
-    const { data } = await axios.get(url);
-    const $ = cheerio.load(data);
-
-    const movies = [];
-    $('.item-thumb').each((i, el) => {
-      const link = $(el).find('a').attr('href');
-      const title = $(el).find('a').attr('title');
-      if (title && link) movies.push({ title: title.trim(), link });
-    });
-
-    if (!movies.length) return null;
-
-    // Find closest title
-    let closest = movies[0];
-    let minDist = levenshteinDistance(query.toLowerCase(), closest.title.toLowerCase());
-
-    for (const movie of movies) {
-      const dist = levenshteinDistance(query.toLowerCase(), movie.title.toLowerCase());
-      if (dist < minDist) {
-        minDist = dist;
-        closest = movie;
-      }
-    }
-    return closest;
-  } catch (e) {
-    console.error("Scraping error:", e.message);
-    return null;
-  }
-}
-
-// Get download qualities & links from movie page
-async function getQualities(movieUrl) {
-  try {
-    const { data } = await axios.get(movieUrl);
-    const $ = cheerio.load(data);
-
-    const qualities = [];
-
-    $('.dbutton').each((i, el) => {
-      const qualityText = $(el).text().trim();
-      const downloadLink = $(el).attr('href');
-      if (qualityText && downloadLink) qualities.push({ quality: qualityText, link: downloadLink });
-    });
-
-    return qualities;
-  } catch (e) {
-    console.error("Qualities error:", e.message);
-    return [];
-  }
-}
-
 
 cmd({
-  pattern: "cinesubz",
-  desc: "Download movies from cinesubz.lk",
-  react: "🎥",
-  category: "download",
-  filename: __filename
-}, async (conn, m, store, { from, q, reply }) => {
-  try {
-    if (!q) return reply("❌ Please provide a movie name to search.");
+    pattern: "cinesubz ?(.*)",
+    react: "🎬",
+    desc: "Direct download from CineSubZ",
+    category: "movie",
+    use: ".cinesubz <movie-page-url>",
+    filename: __filename
+}, async (conn, mek, m, { from, reply, args }) => {
+    try {
+        if (!args[0]) return reply("❌ Please provide CineSubZ movie page link!");
 
-    await conn.sendMessage(from, { react: { text: "⏳", key: m.key } });
+        let url = args[0];
+        reply("⏳ Capturing token & cookies from CineSubZ...");
 
-    const movie = await searchMovies(q);
-    if (!movie) return reply("⚠️ Movie not found on cinesubz.lk");
+        // Puppeteer scrape
+        let { token, cookies } = await capturetokenandcookies(url);
+        if (!token || !cookies) return reply("❌ Failed to capture CineSubZ token/cookies.");
 
-    const qualities = await getQualities(movie.link);
-    if (!qualities.length) return reply("⚠️ No download qualities found for this movie.");
+        reply("✅ Token & Cookies captured. Fetching movie...");
 
-    global.cinesubz_sessions = global.cinesubz_sessions || {};
-    global.cinesubz_sessions[m.sender] = { qualities, movieTitle: movie.title };
+        // Request player link
+        let dlRes = await axios.post("https://cinesubz.lk/wp-admin/admin-ajax.php", {
+            action: "doo_player_ajax",
+            token: token
+        }, {
+            headers: { Cookie: cookies }
+        });
 
-    if (BUTTON_MODE) {
-      // Button mode
-      const buttons = qualities.map((q, i) => ({
-        buttonId: `cinesubz_dl_${i}`,
-        buttonText: { displayText: q.quality },
-        type: 1
-      }));
+        if (!dlRes.data || !dlRes.data.embed_url) return reply("❌ Direct movie link not found!");
 
-      await conn.sendMessage(from, {
-        text: `🎬 Ｓᴇʟᴇᴄᴛ Ｄᴏᴡɴʟᴏᴀᴅ Ｑᴜᴀʟɪᴛʏ Ｆᴏʀ *${movie.title}*:\n\n`,
-        footer: "Powered by King-Sandesh-Md V2 💸",
-        buttons,
-        headerType: 1
-      });
+        let embed = dlRes.data.embed_url;
 
-    } else {
-      // CLI reply mode - list qualities as numbered list and ask reply with number
-      let messageText = `🎬 Ｓᴇʟᴇᴄᴛ Ｄᴏᴡɴʟᴏᴀᴅ Ｑᴜᴀʟɪᴛʏ Ｆᴏʀ *${movie.title}*:\n\n`;
-      qualities.forEach((q, i) => {
-        messageText += `${i + 1}. ${q.quality}\n`;
-      });
-      messageText += `\n_𝐑ᴇᴘʟ𝐘 𝐖ɪᴛ𝐇 𝐓ʜ𝐄 𝐐ᴜᴀʟɪᴛ𝐘 𝐍ᴜᴍʙᴇ𝐑 (𝐄.𝐠. 1) 𝐓𝐎 𝐃ᴏᴡɴʟᴏᴀ𝐃._\n\nPowered by King-Sandesh-Md V2 💸`;
+        // Googlevideo / m3u8 link capture
+        let match = embed.match(/https?:\/\/[^\s"]+/);
+        if (!match) return reply("❌ Movie stream link not found!");
+        let streamUrl = match[0];
 
-      await conn.sendMessage(from, { text: messageText });
+        reply("📥 Downloading movie, please wait...");
+
+        // Temp file save with ffmpeg
+        let outPath = `./temp/CineSubz_${Date.now()}.mp4`;
+        await new Promise((resolve, reject) => {
+            exec(`ffmpeg -i "${streamUrl}" -c copy -bsf:a aac_adtstoasc "${outPath}"`, (err) => {
+                if (err) reject(err);
+                else resolve();
+            });
+        });
+
+        let videoBuffer = fs.readFileSync(outPath);
+        await conn.sendMessage(from, {
+            video: videoBuffer,
+            mimetype: "video/mp4",
+            fileName: "CineSubZ_Movie.mp4"
+        }, { quoted: mek });
+
+        fs.unlinkSync(outPath); // cleanup temp
+        reply("✅ Movie sent successfully 🎬");
+
+    } catch (e) {
+        console.error(e);
+        reply("❌ Error: " + e.message);
     }
-
-  } catch (e) {
-    console.error(e);
-    reply("❌ Error occurred while fetching movie details.");
-  }
-});
-
-
-cmd({
-  pattern: /^cinesubz_dl_(\d+)$/,
-  fromMe: false,
-  dontAddCommandList: true,
-  filename: __filename
-}, async (conn, m, store, { from, match, reply }) => {
-  try {
-    const session = global.cinesubz_sessions && global.cinesubz_sessions[m.sender];
-    if (!session) return reply("❌ Session expired or not found. Please search the movie again.");
-
-    const index = parseInt(match[1]);
-    if (isNaN(index) || index < 0 || index >= session.qualities.length) 
-      return reply("❌ Invalid selection.");
-
-    const selected = session.qualities[index];
-    await conn.sendMessage(from, { react: { text: "⬇️", key: m.key } });
-
-    const fileExtension = ".mkv";
-    const fileName = `${session.movieTitle}_${selected.quality}${fileExtension}`;
-    const filePath = path.resolve('./downloads', fileName);
-
-    const downloader = new DownloaderHelper(selected.link, './downloads', {
-      fileName: fileName,
-      retry: { maxRetries: 3, delay: 2000 }
-    });
-
-    downloader.on('end', async () => {
-      if (!fs.existsSync(filePath)) return reply("❌ Failed to download the file.");
-
-      await conn.sendMessage(from, {
-        document: fs.readFileSync(filePath),
-        mimetype: "video/x-matroska",
-        fileName: fileName,
-        caption: `📥 *${session.movieTitle}* 𝐃ᴏᴡɴʟᴏᴀᴅᴇ𝐃 𝐈𝐍 *${selected.quality}* 𝐐ᴜᴀʟɪᴛ𝐘 (𝐒ᴇɴᴛ 𝐀ꜱ 𝐃ᴏᴄᴜᴍᴇɴᴛ).\n\n> *© Powered By King-Sandesh Md V2 💸*`
-      }, { quoted: m });
-
-      fs.unlinkSync(filePath);
-    });
-
-    downloader.on('error', (err) => {
-      console.error(err);
-      reply("❌ Error during download. Please try again later.");
-    });
-
-    await downloader.start();
-
-  } catch (e) {
-    console.error(e);
-    reply("❌ Something went wrong.");
-  }
 });
