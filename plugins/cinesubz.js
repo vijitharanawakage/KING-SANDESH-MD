@@ -3,50 +3,52 @@ const { cmd } = require("../command");
 const { capturetokenandcookies } = require("../cinesubz"); // Puppeteer function
 
 cmd({
-    pattern: "cinesubz ?(.*)",
-    react: "🎬",
-    desc: "Direct download from CineSubZ",
-    category: "movie",
-    use: ".cinesubz <movie-page-url>",
-    filename: __filename
+    pattern: "cinesubz ?(.*)",
+    react: "🎬",
+    desc: "Download movie directly from CineSubZ",
+    category: "movie",
+    use: ".cinesubz <movie-page-url>",
+    filename: __filename
 }, async (conn, mek, m, { from, reply, args }) => {
-    try {
-        if (!args[0]) return reply("❌ Please provide CineSubZ movie page link!");
+    try {
+        if (!args[0]) return reply("❌ Please provide CineSubZ movie page link!");
 
-        let url = args[0];
-        reply("⏳ Capturing token & cookies from CineSubZ...");
+        let url = args[0];
+        reply("⏳ Capturing token & cookies from CineSubZ...");
 
-        // Puppeteer scrape
-        let { token, cookies } = await capturetokenandcookies(url);
-        if (!token || !cookies) return reply("❌ Failed to capture CineSubZ token/cookies.");
+        // Puppeteer scrape
+        let { token, cookies } = await capturetokenandcookies(url);
+        if (!token || !cookies) return reply("❌ Failed to capture CineSubZ token/cookies.");
 
-        reply("✅ Token & Cookies captured. Fetching movie...");
+        reply("✅ Token & Cookies captured. Fetching movie...");
 
-        // Request movie file link
-        let dlRes = await axios.post("https://cinesubz.lk/wp-admin/admin-ajax.php", {
-            action: "doo_player_ajax",
-            token: token
-        }, {
-            headers: { Cookie: cookies }
-        });
+        // Request movie file link
+        let dlRes = await axios.post("https://cinesubz.lk/wp-admin/admin-ajax.php", {
+            action: "doo_player_ajax",
+            token: token
+        }, {
+            headers: { Cookie: cookies }
+        });
 
-        if (!dlRes.data || !dlRes.data.embed_url) return reply("❌ Direct movie link not found!");
+        if (!dlRes.data || !dlRes.data.embed_url) return reply("❌ Direct movie link not found!");
 
-        let fileUrl = dlRes.data.embed_url;
+        let fileUrl = dlRes.data.embed_url;
 
-        // Download buffer
-        let fileRes = await axios.get(fileUrl, { responseType: "arraybuffer" });
+        reply("⏳ Downloading movie... This may take a while for large files.");
 
-        await conn.sendMessage(from, { 
-            video: fileRes.data, 
-            mimetype: "video/mp4", 
-            fileName: "CineSubZ_Movie.mp4" 
-        }, { quoted: mek });
+        // Download buffer
+        let fileRes = await axios.get(fileUrl, { responseType: "arraybuffer" });
 
-        reply("✅ Movie sent successfully 🎬");
+        await conn.sendMessage(from, { 
+            video: fileRes.data, 
+            mimetype: "video/mp4", 
+            fileName: "CineSubZ_Movie.mp4" 
+        }, { quoted: mek });
 
-    } catch (e) {
-        console.error(e);
-        reply("❌ Error: " + e.message);
-    }
+        reply("✅ Movie sent successfully 🎬");
+
+    } catch (e) {
+        console.error(e);
+        reply("❌ Error: " + e.message);
+    }
 });
