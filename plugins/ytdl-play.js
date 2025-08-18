@@ -8,7 +8,7 @@ cmd({
     react: "🎵",
     desc: "Download audio from YouTube",
     category: "download",
-    use: ".yt2 <query or url>",
+    use: ".song <query or url>",
     filename: __filename
 }, async (conn, m, mek, { from, q, reply }) => {
     try {
