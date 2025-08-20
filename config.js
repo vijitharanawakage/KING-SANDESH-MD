@@ -67,11 +67,11 @@ MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
-AUTO_VOICE: process.env.AUTO_VOICE || "true",
+AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for automatic voice reply 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 AUTO_BIO: process.env.AUTO_BIO || "true",
 // make true or false automatic about system 
@@ -83,7 +83,7 @@ THUMB_IMAGE: process.env.THUMB_IMAGE || "https://files.catbox.moe/m5drmn.png",
 // thumb img for auto news system if has not photo
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
-BUTTON: process.env.BUTTON || "true",
+BUTTON: process.env.BUTTON || "false",
 // true or false for button reply
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
