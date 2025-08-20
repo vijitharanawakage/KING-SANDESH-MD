@@ -134,7 +134,7 @@ const port = process.env.PORT || 9090;
 ┃ _Configure Your Prefix_ ${prefix}
 ╰───────────❍
 ╭───❍「 *⚙️AUTOMATION BY* 」
-┃ > *King-Sandesh Md V2 💸*
+┃ *King-Sandesh Md V2 💸*
 ╰───────────❍`;
     conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/m5drmn.png` }, caption: up })
   }
