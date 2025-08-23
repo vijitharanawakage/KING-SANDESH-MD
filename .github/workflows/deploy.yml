@@ -1,33 +1,36 @@
+name: Node.js CI
+
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - V-2
+  pull_request:
+    branches:
+      - V-2
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  loop-task:
+  build:
     runs-on: ubuntu-latest
 
+    strategy:
+      matrix:
+        node-version: [20.x]
+
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
+    - name: Set up Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
 
-      - name: Install Dependencies
-        run: npm install
+    - name: Install dependencies
+      run: npm install --legacy-peer-deps
 
-      - name: Run Bot (loop & auto-restart if crash)
-        run: |
-          echo "Running ksmd bot in auto-restart mode..."
-          timeout 18000 bash -c 'while true; do npm start || echo "Bot crashed, restarting..."; sleep 2; done'
-
-      - name: Re-Trigger Workflow
-        if: always()
-        run: |
-          echo "Re-running workflow..."
-          curl -X POST \
-            -H "Authorization: Bearer ${{ secrets.PAT_TOKEN }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/${{ github.repository }}/actions/workflows/loop-runner.yml/dispatches \
-            -d '{"ref":"main"}'
+    - name: Start application
+      run: npm start
