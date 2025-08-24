@@ -1,34 +1,31 @@
-const fs = require("fs");
-const path = require("path");
-const config = require("../config");
-const { cmd } = require("../command"); // adjust path if needed
-
-const prefix = config.PREFIX || ".";
+const { cmd } = require('../command');
+const fs = require('fs');
+const path = require('path');
 
 cmd({
-  pattern: "menu", // .menu
-  desc: "Sends the main menu as a video note",
+  pattern: "menu",
+  desc: "Show animated round menu video",
   category: "main",
   react: "🎥",
   filename: __filename
-}, async (conn, mek, m, { from, reply }) => {
+}, async (conn, mek, m, { reply }) => {
   try {
-    const videoNotePath = path.join(__dirname, "../assets/menuv.mp4");
+    // menu.mp4 තියන path එක
+    let videoPath = path.join(__dirname, "../assets/menuv.mp4");
 
-    if (fs.existsSync(videoNotePath)) {
-      await conn.sendMessage(from, {
-        video: fs.readFileSync(videoNotePath),
-        mimetype: "video/mp4",
-        isRoundVideo: true,
-        caption:
-          `📍 *_𝐓𝐇𝐀𝐍𝐊 𝐘𝐎𝐔 𝐅𝐎𝐑 𝐔𝐒𝐈𝐍𝐆 <| 𝐊𝐈𝐍𝐆-𝐒𝐀𝐍𝐃𝐄𝐒𝐇-𝐌𝐃 𝐕❷🫧_*\n\n` +
-          `> 𝚈𝙾𝚄 𝙲𝙰𝙽 𝚂𝙴𝙴 𝙰𝚅𝙰𝙸𝙻𝙰𝙱𝙻𝙴 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂 𝙱𝙴𝙲𝙰𝚄𝚂𝙴 𝚈𝙾𝚄 𝚂𝙴𝙽𝙳 ${prefix}𝙼𝙴𝙽𝚄 𝙼𝙰𝚂𝚂𝙰𝙶𝙴...☺️!`
-      }, { quoted: m });
-    } else {
-      await reply("❌ `menuv.mp4` file not found in assets folder.");
+    if (!fs.existsSync(videoPath)) {
+      return reply("❌ Menu video not found! Please add `menu.mp4` to /media folder.");
     }
-  } catch (err) {
-    console.error("Menu VN Error:", err);
-    await reply("⚠️ An error occurred while sending the video note.");
+
+    // Round video send
+    await conn.sendMessage(m.chat, {
+      video: fs.readFileSync(videoPath),
+      mimetype: 'video/mp4',
+      ptt: true  // <-- මේකයි circle / round video කරන්නෙ
+    }, { quoted: mek });
+
+  } catch (e) {
+    console.log(e);
+    reply("⚠️ Error while sending round menu video!");
   }
 });
