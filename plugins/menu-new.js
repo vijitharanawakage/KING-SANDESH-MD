@@ -15,40 +15,40 @@ cmd({
         // Count total commands
         const totalCommands = Object.keys(commands).length;
         
-        const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕━━━┈⊷
+        const menuCaption = `╭━━━〔 *${config.BOT_NAME}* 〕┈⊷
 ┃★╭──────────────
-┃★│ 👑 Owner : *${config.OWNER_NAME}*
-┃★│ 🤖 Baileys : *Multi Device*
-┃★│ 💻 Type : *NodeJs*
-┃★│ 🚀 Platform : *Heroku*
-┃★│ ⚙️ Mode : *[${config.MODE}]*
-┃★│ 🔣 Prefix : *[${config.PREFIX}]*
-┃★│ 🏷️ Version : *5.0.0 Bᴇᴛᴀ*
-┃★│ 📚 Commands : *${totalCommands}*
+┃★│ 👑 Ｏᴡɴᴇʀ : *${config.OWNER_NAME}*
+┃★│ 🤖 Ｂᴀɪʟᴇʏꜱ : *Multi Device*
+┃★│ 💻 Ｔʏᴘᴇ : *NodeJs*
+┃★│ 🚀 Ｐʟᴀᴛꜰᴏʀᴍ : *Cloud*
+┃★│ ⚙️ Ｍᴏᴅᴇ : *[${config.MODE}]*
+┃★│ 🔣 Ｐʀᴇꜰɪx : *[${config.PREFIX}]*
+┃★│ 🏷️ Ｖᴇʀꜱɪᴏɴ : *2.0.0 Bᴇᴛᴀ*
+┃★│ 📚 Ｃᴏᴍᴍᴀɴᴅꜱ : *${totalCommands}*
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-╭━━〔 *Menu List* 〕━━┈⊷
-┃◈╭─────────────·๏
-┃◈│1️⃣  📥 *Download Menu*
-┃◈│2️⃣  👥 *Group Menu*
-┃◈│3️⃣  😄 *Fun Menu*
-┃◈│4️⃣  👑 *Owner Menu*
-┃◈│5️⃣  🤖 *AI Menu*
-┃◈│6️⃣  🎎 *Anime Menu*
-┃◈│7️⃣  🔄 *Convert Menu*
-┃◈│8️⃣  📌 *Other Menu*
-┃◈│9️⃣  💞 *Reactions Menu*
-┃◈│🔟  🏠 *Main Menu*
+╭━━〔 *𝙼𝙴𝙽𝚄 𝙻𝙸𝚂𝚃* 〕━━┈⊷
+    ┃◈╭─────────────·๏
+┃◈│1️⃣  📥 *_𝐃𝐎𝐖𝐍𝐋𝐎𝐀𝐃 𝐌𝐄𝐍𝐔_*
+┃◈│2️⃣  👥 *_𝐆𝐑𝐎𝐔𝐏 𝐌𝐄𝐍𝐔_*
+┃◈│3️⃣  😄 *_𝐅𝐔𝐍 𝐌𝐄𝐍𝐔_*
+┃◈│4️⃣  👑 *_𝐎𝐖𝐍𝐄𝐑 𝐌𝐄𝐍𝐔_*
+┃◈│5️⃣  🤖 *_𝐀𝐈 𝐌𝐄𝐍𝐔_*
+┃◈│6️⃣  🎎 *_𝐀𝐍𝐈𝐌𝐄 𝐌𝐄𝐍𝐔_*
+┃◈│7️⃣  🔄 *_𝐂𝐎𝐍𝐕𝐄𝐑𝐓 𝐌𝐄𝐍𝐔_*
+┃◈│8️⃣  📌 *_𝐎𝐓𝐇𝐄𝐑 𝐌𝐄𝐍𝐔_*
+┃◈│9️⃣  💞 *_𝐑𝐄𝐀𝐂𝐓𝐈𝐎𝐍𝐒 𝐌𝐄𝐍𝐔_*
+┃◈│🔟  🏠 *_𝐌𝐀𝐈𝐍 𝐌𝐄𝐍𝐔_*
 ┃◈╰───────────┈⊷
 ╰──────────────┈⊷
-> ${config.DESCRIPTION}`;
+${config.FOOTER}`;
 
         const contextInfo = {
             mentionedJid: [m.sender],
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363388320701164@newsletter',
+                newsletterJid: '120363402220977044@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -128,7 +128,7 @@ cmd({
 ┃★│ • darama [name]
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-> ${config.DESCRIPTION}`,
+${config.FOOTER}`,
                 image: true
             },
             '2': {
@@ -164,7 +164,7 @@ cmd({
 ┃★│ • invite
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-> ${config.DESCRIPTION}`,
+${config.FOOTER}`,
                 image: true
             },
             '3': {
@@ -193,7 +193,7 @@ cmd({
 ┃★│ • cunfuzed
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-> ${config.DESCRIPTION}`,
+${config.FOOTER}`,
                 image: true
             },
             '4': {
@@ -217,7 +217,7 @@ cmd({
 ┃★│ • allmenu
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-> ${config.DESCRIPTION}`,
+${config.FOOTER}`,
                 image: true
             },
             '5': {
@@ -245,7 +245,7 @@ cmd({
 ┃★│ • khan [query]
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-> ${config.DESCRIPTION}`,
+${config.FOOTER}`,
                 image: true
             },
             '6': {
@@ -272,7 +272,7 @@ cmd({
 ┃★│ • naruto
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-> ${config.DESCRIPTION}`,
+${config.FOOTER}`,
                 image: true
             },
             '7': {
@@ -295,7 +295,7 @@ cmd({
 ┃★│ • unbase64 [text]
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-> ${config.DESCRIPTION}`,
+${config.FOOTER}`,
                 image: true
             },
             '8': {
@@ -325,7 +325,7 @@ cmd({
 ┃★│ • weather [loc]
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-> ${config.DESCRIPTION}`,
+${config.FOOTER}`,
                 image: true
             },
             '9': {
@@ -356,7 +356,7 @@ cmd({
 ┃★│ • poke @user
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-> ${config.DESCRIPTION}`,
+${config.FOOTER}`,
                 image: true
             },
             '10': {
@@ -379,7 +379,7 @@ cmd({
 ┃★│ • restart
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
-> ${config.DESCRIPTION}`,
+${config.FOOTER}`,
                 image: true
             }
         };
@@ -436,7 +436,7 @@ cmd({
                         await conn.sendMessage(
                             senderID,
                             {
-                                text: `❌ *Invalid Option!* ❌\n\nPlease reply with a number between 1-10 to select a menu.\n\n*Example:* Reply with "1" for Download Menu\n\n> ${config.DESCRIPTION}`,
+                                text: `❌ *Invalid Option!* ❌\n\nPlease reply with a number between 1-10 to select a menu.\n\n*Example:* Reply with "1" for Download Menu\n\n${config.FOOTER}`,
                                 contextInfo: contextInfo
                             },
                             { quoted: receivedMsg }
@@ -461,7 +461,7 @@ cmd({
         try {
             await conn.sendMessage(
                 from,
-                { text: `❌ Menu system is currently busy. Please try again later.\n\n> ${config.DESCRIPTION}` },
+                { text: `❌ Menu system is currently busy. Please try again later.\n\n ${config.FOOTER}` },
                 { quoted: mek }
             );
         } catch (finalError) {
