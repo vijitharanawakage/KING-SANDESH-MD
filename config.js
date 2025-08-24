@@ -69,13 +69,13 @@ ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
 AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
-AUTO_VOICE: process.env.AUTO_VOICE || "false",
+AUTO_VOICE: process.env.AUTO_VOICE || "true",
 // make true for automatic voice reply 
-AUTO_REPLY: process.env.AUTO_REPLY || "true",
+AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
 AUTO_BIO: process.env.AUTO_BIO || "true",
 // make true or false automatic about system 
-AUTO_NEWS: process.env.AUTO_NEWS || "true",
+AUTO_NEWS: process.env.AUTO_NEWS || "false",
 // make true or false automatic news system 
 AUTO_NEWS_NUMBER: process.env.AUTO_NEWS_NUMBER || "94741259325",
 // enter your number with country code for automatic news system 
@@ -95,6 +95,6 @@ DEV: process.env.DEV || "94741259325",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "true"
+AUTO_RECORDING: process.env.AUTO_RECORDING || "false"
 // make it true for auto recoding 
 };
