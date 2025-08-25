@@ -76,6 +76,29 @@ ${config.FOOTER}`;
             }
         };
 
+        const sendMenuVideo = async () => {
+    try {
+        return await conn.sendMessage(
+            from,
+            {
+                video: fs.readFileSync('../assets/menuv.mp4'),
+                mimetype: 'video/mp4',
+                ptt: true, // <-- round video
+                caption: menuCaption,
+                contextInfo: contextInfo
+            },
+            { quoted: mek }
+        );
+    } catch (e) {
+        console.log('Video send failed, falling back to text');
+        return await conn.sendMessage(
+            from,
+            { text: menuCaption, contextInfo: contextInfo },
+            { quoted: mek }
+        );
+    }
+};
+
         // Send image with timeout
         let sentMsg;
         try {
