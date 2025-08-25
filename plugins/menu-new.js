@@ -83,7 +83,8 @@ ${config.FOOTER}`;
             {
                 video: { url: "https://files.catbox.moe/r97f86.mp4" },
                 mimetype: 'video/mp4',
-                ptt: true, // <-- round video
+                gifPlayback: true,
+                ptv: true, // <-- round video
                 contextInfo: contextInfo
             },
             { quoted: mek }
