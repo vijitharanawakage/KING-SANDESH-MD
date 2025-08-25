@@ -76,21 +76,14 @@ ${config.FOOTER}`;
             }
         };
 
-       await conn.sendMessage(m.chat, {
-            video: { url: "https://files.catbox.moe/r97f86.mp4" },
-            mimetype: "video/mp4",
-            videoNote: true
-        }, { quoted: mek });
-
         const sendMenuVideo = async () => {
     try {
         return await conn.sendMessage(
             from,
             {
-                video: fs.readFileSync('../assets/menuv.mp4'),
+                video: { url: "https://files.catbox.moe/r97f86.mp4" },
                 mimetype: 'video/mp4',
                 ptt: true, // <-- round video
-                caption: menuCaption,
                 contextInfo: contextInfo
             },
             { quoted: mek }
