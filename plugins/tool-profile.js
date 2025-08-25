@@ -17,10 +17,6 @@ async (conn, mek, m, { from, sender, isGroup, reply, quoted, participants }) => 
                      mek.message?.extendedTextMessage?.contextInfo?.mentionedJid?.[0] || 
                      sender;
 
-        // 2. VERIFY USER EXISTS
-        const [user] = await conn.onWhatsApp(userJid).catch(() => []);
-        if (!user?.exists) return reply("❌ User not found on WhatsApp");
-
         // 3. GET PROFILE PICTURE
         let ppUrl;
         try {
