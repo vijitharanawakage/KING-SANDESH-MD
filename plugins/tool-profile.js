@@ -12,10 +12,19 @@ cmd({
 },
 async (conn, mek, m, { from, sender, isGroup, reply, quoted, participants }) => {
     try {
-        // 1. DETERMINE TARGET USER
-        let userJid = quoted?.sender || 
-                     mek.message?.extendedTextMessage?.contextInfo?.mentionedJid?.[0] || 
-                     sender;
+let userJid = quoted?.sender ||
+              mek.message?.extendedTextMessage?.contextInfo?.mentionedJid?.[0] ||
+              sender;
+
+// normalize JID (ensure it's full WhatsApp JID)
+if (!userJid.includes('@s.whatsapp.net')) {
+    userJid = userJid.replace(/[^0-9]/g, '') + '@s.whatsapp.net';
+}
+
+// 2. VERIFY USER EXISTS
+const [user] = await conn.onWhatsApp(userJid).catch(() => []);
+if (!user?.exists) return reply("❌ User not found on WhatsApp");
+
 
         // 3. GET PROFILE PICTURE
         let ppUrl;
