@@ -54,6 +54,13 @@ ${config.FOOTER}`;
             }
         };
 
+        await conn.sendMessage(m.chat, {
+      video: { url: "https://files.catbox.moe/r97f86.mp4" },
+      mimetype: "video/mp4",
+      gifPlayback: true,
+      ptv: true  
+    }, { quoted: mek });
+
         // Function to send menu image with timeout
         const sendMenuImage = async () => {
             try {
@@ -75,13 +82,6 @@ ${config.FOOTER}`;
                 );
             }
         };
-
-        await conn.sendMessage(m.chat, {
-      video: fs.readFileSync('../assets/menuv.mp4'),
-      mimetype: "video/mp4",
-      gifPlayback: true,
-      ptv: true  
-    }, { quoted: mek });
 
         // Send image with timeout
         let sentMsg;
