@@ -64,7 +64,7 @@ cmd({
     let dlLink = data.results.dl_link;
     let ext = path.extname(dlLink).toLowerCase();
     let filename = `${data.results.title || "movie"}${ext}`;
-    let filePath = path.join(__dirname, "../temp", filename);
+    let filePath = path.join(__dirname, "../tmp", filename);
 
     // Download file
     const response = await axios.get(dlLink, { responseType: "arraybuffer" });
