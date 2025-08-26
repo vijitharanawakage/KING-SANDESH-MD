@@ -1,4 +1,20 @@
-                                                                                                                                                                                                                                        
+//══════════════════════════════════════════════════════════════════════════════════════════════════════//
+//*
+//  * @project_name : © 𝙿𝚁𝙾𝙹𝙴𝙲𝚃 𝙺𝙸𝙽𝙶 𝚂𝙰𝙽𝙳𝙴𝚂𝙷 𝙼𝙳
+//  * @version      : 2.0
+//  * @author       : Mr Sandesh Bhashana
+//  * @tiktok       : https://tiktok.com/@mr__unknown_sandesh
+//  * @description  : A Multi-functional WhatsApp bot created by Sandesh Bhashana(Mr Unknown)
+//*
+//*
+//Base by sandesh bhashana
+//GitHub: @vijitharanawakage 
+//WhatsApp: +94741259325
+//Want more free bot scripts?Contact me
+//   * Credit Goes To Sandesh Bhashana 
+//   * © 2025 King-sandesh-md
+// 
+// */
        ,--.                   ,--.                                                               ,--.                                               ,--,                      ____                                                      
    ,--/  /|    ,---,        ,--.'|   ,----..                 .--.--.       ,---,               ,--.'|     ,---,         ,---,.   .--.--.          ,--.'|                    ,'  , `.     ,---,                                          
 ,---,': / ' ,`--.' |    ,--,:  : |  /   /   \               /  /    '.    '  .' \          ,--,:  : |   .'  .' `\     ,'  .' |  /  /    '.     ,--,  | :                 ,-+-,.' _ |   .'  .' `\                                        
