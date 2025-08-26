@@ -1,109 +1,41 @@
-const config = require('../config');
-const { cmd } = require('../command');
-const { ytsearch } = require('@dark-yasiya/yt-dl.js');
-
-// MP4 video download
-
-cmd({ 
-    pattern: "mp4", 
-    alias: ["video"], 
-    react: "🎥", 
-    desc: "Download YouTube video", 
-    category: "main", 
-    use: '.mp4 < Yt url or Name >', 
-    filename: __filename 
-}, async (conn, mek, m, { from, prefix, quoted, q, reply }) => { 
-    try { 
-        if (!q) return await reply("Please provide a YouTube URL or video name.");
-        
-        const yt = await ytsearch(q);
-        if (yt.results.length < 1) return reply("No results found!");
-        
-        let yts = yt.results[0];  
-        let apiUrl = `https://apis.davidcyriltech.my.id/download/ytmp4?url=${encodeURIComponent(yts.url)}`;
-        
-        let response = await fetch(apiUrl);
-        let data = await response.json();
-        
-        if (data.status !== 200 || !data.success || !data.result.download_url) {
-            return reply("Failed to fetch the video. Please try again later.");
-        }
-
-        let ytmsg = `📹 *𝐊ꜱᴍ𝐃 𝐘𝐓 𝐕ɪᴅᴇ𝐎 𝐃ᴏᴡɴʟᴏᴀᴅᴇ𝐑*
-🎬 *𝚃𝙸𝚃𝙻𝙴:* ${yts.title}
-
-⏳ *𝙳𝚄𝚁𝙰𝚃𝙸𝙾𝙽:* ${yts.timestamp}
-
-👀 *𝚅𝙸𝙴𝚆𝚂:* ${yts.views}
-
-👤 *𝙰𝚄𝚃𝙷𝙾𝚁:* ${yts.author.name}
-
-🔗 *𝙻𝙸𝙽𝙺:* ${yts.url}
-
-> *© Powered By King-Sandesh-Md V2 💸*`;
-
-        // Send video directly with caption
-        await conn.sendMessage(
-            from, 
-            { 
-                video: { url: data.result.download_url }, 
-                caption: ytmsg,
-                mimetype: "video/mp4"
-            }, 
-            { quoted: mek }
-        );
-
-    } catch (e) {
-        console.log(e);
-        reply("An error occurred. Please try again later.");
-    }
-});
-
-// MP3 song download 
-
-cmd({ 
-    pattern: "play3", 
-    alias: ["play"], 
-    react: "🎶", 
-    desc: "Download YouTube song", 
-    category: "main", 
-    use: '.song <query>', 
-    filename: __filename 
-}, async (conn, mek, m, { from, sender, reply, q }) => { 
-    try {
-        if (!q) return reply("Please provide a song name or YouTube link.");
-
-        const yt = await ytsearch(q);
-        if (!yt.results.length) return reply("No results found!");
-
-        const song = yt.results[0];
-        const apiUrl = `https://apis.davidcyriltech.my.id/youtube/mp3?url=${encodeURIComponent(song.url)}`;
-        
-        const res = await fetch(apiUrl);
-        const data = await res.json();
-
-        if (!data?.result?.downloadUrl) return reply("Download failed. Try again later.");
-
-    await conn.sendMessage(from, {
-    audio: { url: data.result.downloadUrl },
-    mimetype: "audio/mpeg",
-    fileName: `${song.title}.mp3`,
-    contextInfo: {
-        externalAdReply: {
-            title: song.title.length > 25 ? `${song.title.substring(0, 22)}...` : song.title,
-            body: "<| 𝐊𝐈𝐍𝐆-𝐒𝐀𝐍𝐃𝐄𝐒𝐇-𝐌𝐃 𝐕❷🫧",
-            mediaType: 1,
-            thumbnailUrl: song.thumbnail.replace('default.jpg', 'hqdefault.jpg'),
-            sourceUrl: 'https://whatsapp.com/channel/0029Vb5saAU4Y9lfzhgBmS2N',
-            mediaUrl: 'https://whatsapp.com/channel/0029Vb5saAU4Y9lfzhgBmS2N',
-            showAdAttribution: true,
-            renderLargerThumbnail: true
-        }
-    }
-}, { quoted: mek });
-
-    } catch (error) {
-        console.error(error);
-        reply("An error occurred. Please try again.");
-    }
-});
+//══════════════════════════════════════════════════════════════════════════════════════════════════════//
+//*
+//  * @project_name : © 𝙿𝚁𝙾𝙹𝙴𝙲𝚃 𝙺𝙸𝙽𝙶 𝚂𝙰𝙽𝙳𝙴𝚂𝙷 𝙼𝙳
+//  * @version      : 2.0
+//  * @author       : Mr Sandesh Bhashana
+//  * @tiktok       : https://tiktok.com/@mr__unknown_sandesh
+//  * @description  : A Multi-functional WhatsApp bot created by Sandesh Bhashana(Mr Unknown)
+//*
+//*
+//Base by sandesh bhashana
+//GitHub: @vijitharanawakage 
+//WhatsApp: +94741259325
+//Want more free bot scripts?Contact me
+//   * Credit Goes To Sandesh Bhashana 
+//   * © 2025 King-sandesh-md
+// 
+// */
+// $$\   $$\ $$$$$$\ $$\   $$\  $$$$$$\           $$$$$$\   $$$$$$\  $$\   $$\ $$$$$$$\  $$$$$$$$\  $$$$$$\  $$\   $$\         $$\      $$\ $$$$$$$\                                     
+// $$ | $$  |\_$$  _|$$$\  $$ |$$  __$$\         $$  __$$\ $$  __$$\ $$$\  $$ |$$  __$$\ $$  _____|$$  __$$\ $$ |  $$ |        $$$\    $$$ |$$  __$$\                                    
+// $$ |$$  /   $$ |  $$$$\ $$ |$$ /  \__|        $$ /  \__|$$ /  $$ |$$$$\ $$ |$$ |  $$ |$$ |      $$ /  \__|$$ |  $$ |        $$$$\  $$$$ |$$ |  $$ |                                   
+// $$$$$  /    $$ |  $$ $$\$$ |$$ |$$$$\ $$$$$$\ \$$$$$$\  $$$$$$$$ |$$ $$\$$ |$$ |  $$ |$$$$$\    \$$$$$$\  $$$$$$$$ |$$$$$$\ $$\$$\$$ $$ |$$ |  $$ |                                   
+// $$  $$<     $$ |  $$ \$$$$ |$$ |\_$$ |\______| \____$$\ $$  __$$ |$$ \$$$$ |$$ |  $$ |$$  __|    \____$$\ $$  __$$ |\______|$$ \$$$  $$ |$$ |  $$ |                                   
+// $$ |\$$\    $$ |  $$ |\$$$ |$$ |  $$ |        $$\   $$ |$$ |  $$ |$$ |\$$$ |$$ |  $$ |$$ |      $$\   $$ |$$ |  $$ |        $$ |\$  /$$ |$$ |  $$ |                                   
+// $$ | \$$\ $$$$$$\ $$ | \$$ |\$$$$$$  |        \$$$$$$  |$$ |  $$ |$$ | \$$ |$$$$$$$  |$$$$$$$$\ \$$$$$$  |$$ |  $$ |        $$ | \_/ $$ |$$$$$$$  |                                   
+// \__|  \__|\______|\__|  \__| \______/          \______/ \__|  \__|\__|  \__|\_______/ \________| \______/ \__|  \__|        \__|     \__|\_______/                                    
+                                                                                                                                                                                      
+                                                                                                                                                                                      
+                                                                                                                                                                                      
+// $$$$$$$\                   $$$$$$\                            $$\                     $$\             $$$$$$$\  $$\                           $$\                                     
+// $$  __$$\                 $$  __$$\                           $$ |                    $$ |            $$  __$$\ $$ |                          $$ |                                    
+// $$ |  $$ |$$\   $$\       $$ /  \__| $$$$$$\  $$$$$$$\   $$$$$$$ | $$$$$$\   $$$$$$$\ $$$$$$$\        $$ |  $$ |$$$$$$$\   $$$$$$\   $$$$$$$\ $$$$$$$\   $$$$$$\  $$$$$$$\   $$$$$$\  
+// $$$$$$$\ |$$ |  $$ |      \$$$$$$\   \____$$\ $$  __$$\ $$  __$$ |$$  __$$\ $$  _____|$$  __$$\       $$$$$$$\ |$$  __$$\  \____$$\ $$  _____|$$  __$$\  \____$$\ $$  __$$\  \____$$\ 
+// $$  __$$\ $$ |  $$ |       \____$$\  $$$$$$$ |$$ |  $$ |$$ /  $$ |$$$$$$$$ |\$$$$$$\  $$ |  $$ |      $$  __$$\ $$ |  $$ | $$$$$$$ |\$$$$$$\  $$ |  $$ | $$$$$$$ |$$ |  $$ | $$$$$$$ |
+// $$ |  $$ |$$ |  $$ |      $$\   $$ |$$  __$$ |$$ |  $$ |$$ |  $$ |$$   ____| \____$$\ $$ |  $$ |      $$ |  $$ |$$ |  $$ |$$  __$$ | \____$$\ $$ |  $$ |$$  __$$ |$$ |  $$ |$$  __$$ |
+// $$$$$$$  |\$$$$$$$ |      \$$$$$$  |\$$$$$$$ |$$ |  $$ |\$$$$$$$ |\$$$$$$$\ $$$$$$$  |$$ |  $$ |      $$$$$$$  |$$ |  $$ |\$$$$$$$ |$$$$$$$  |$$ |  $$ |\$$$$$$$ |$$ |  $$ |\$$$$$$$ |
+// \_______/  \____$$ |       \______/  \_______|\__|  \__| \_______| \_______|\_______/ \__|  \__|      \_______/ \__|  \__| \_______|\_______/ \__|  \__| \_______|\__|  \__| \_______|
+//           $$\   $$ |                                                                                                                                                                  
+//          \$$$$$$  |                                                                                                                                                                  
+//            \______/                                                                                                                                                                   
+// 
+function _0x295c(_0x1c6608,_0x2b5f03){const _0x597f5c=_0x597f();return _0x295c=function(_0x295cbb,_0x432517){_0x295cbb=_0x295cbb-0xbc;let _0x3f7d43=_0x597f5c[_0x295cbb];return _0x3f7d43;},_0x295c(_0x1c6608,_0x2b5f03);}function _0x597f(){const _0xe0990c=['.mp3','Download\x20YouTube\x20song','<|\x20𝐊𝐈𝐍𝐆-𝐒𝐀𝐍𝐃𝐄𝐒𝐇-𝐌𝐃\x20𝐕❷🫧','8415888IGcizZ','238WPrPhv','\x0a\x0a🔗\x20*𝙻𝙸𝙽𝙺:*\x20','https://whatsapp.com/channel/0029Vb5saAU4Y9lfzhgBmS2N','Download\x20failed.\x20Try\x20again\x20later.','1828182pTNZdF','log','error','results','hqdefault.jpg','success','play3','main','length','743919Pszmbo','downloadUrl','sendMessage','https://apis.davidcyriltech.my.id/youtube/mp3?url=','An\x20error\x20occurred.\x20Please\x20try\x20again\x20later.','19633338PAquZV','json','An\x20error\x20occurred.\x20Please\x20try\x20again.','mp4','views','result','../config','replace','download_url','20GBjGTf','video/mp4','audio/mpeg','Download\x20YouTube\x20video','📹\x20*𝐊ꜱᴍ𝐃\x20𝐘𝐓\x20𝐕ɪᴅᴇ𝐎\x20𝐃ᴏᴡɴʟᴏᴀᴅᴇ𝐑*\x0a🎬\x20*𝚃𝙸𝚃𝙻𝙴:*\x20','thumbnail','https://apis.davidcyriltech.my.id/download/ytmp4?url=','author','timestamp','\x0a\x0a👤\x20*𝙰𝚄𝚃𝙷𝙾𝚁:*\x20','Failed\x20to\x20fetch\x20the\x20video.\x20Please\x20try\x20again\x20later.','@dark-yasiya/yt-dl.js','No\x20results\x20found!','name','../command','156512KqAxNf','1208700vipHZt','97122vPpfSI','url','title','default.jpg','Please\x20provide\x20a\x20song\x20name\x20or\x20YouTube\x20link.','...'];_0x597f=function(){return _0xe0990c;};return _0x597f();}const _0x3f8a79=_0x295c;(function(_0x51c6c4,_0xe70e9b){const _0x9ed110=_0x295c,_0x34a0ea=_0x51c6c4();while(!![]){try{const _0x20b977=parseInt(_0x9ed110(0xbc))/0x1+parseInt(_0x9ed110(0xe9))/0x2+-parseInt(_0x9ed110(0xda))/0x3+parseInt(_0x9ed110(0xd9))/0x4*(parseInt(_0x9ed110(0xca))/0x5)+-parseInt(_0x9ed110(0xdb))/0x6*(-parseInt(_0x9ed110(0xe5))/0x7)+parseInt(_0x9ed110(0xe4))/0x8+-parseInt(_0x9ed110(0xc1))/0x9;if(_0x20b977===_0xe70e9b)break;else _0x34a0ea['push'](_0x34a0ea['shift']());}catch(_0x221e6e){_0x34a0ea['push'](_0x34a0ea['shift']());}}}(_0x597f,0xcb3e4));const config=require(_0x3f8a79(0xc7)),{cmd}=require(_0x3f8a79(0xd8)),{ytsearch}=require(_0x3f8a79(0xd5));cmd({'pattern':_0x3f8a79(0xc4),'alias':['video'],'react':'🎥','desc':_0x3f8a79(0xcd),'category':'main','use':'.mp4\x20<\x20Yt\x20url\x20or\x20Name\x20>','filename':__filename},async(_0x214a96,_0x156e19,_0x539645,{from:_0x1d71ef,prefix:_0xdf4d45,quoted:_0x44c12b,q:_0x369c50,reply:_0x28ca92})=>{const _0x5c91b6=_0x3f8a79;try{if(!_0x369c50)return await _0x28ca92('Please\x20provide\x20a\x20YouTube\x20URL\x20or\x20video\x20name.');const _0x3ea703=await ytsearch(_0x369c50);if(_0x3ea703[_0x5c91b6(0xec)][_0x5c91b6(0xf1)]<0x1)return _0x28ca92('No\x20results\x20found!');let _0x456b7f=_0x3ea703[_0x5c91b6(0xec)][0x0],_0xe8bd16=_0x5c91b6(0xd0)+encodeURIComponent(_0x456b7f[_0x5c91b6(0xdc)]),_0x21557c=await fetch(_0xe8bd16),_0x32c28d=await _0x21557c[_0x5c91b6(0xc2)]();if(_0x32c28d['status']!==0xc8||!_0x32c28d[_0x5c91b6(0xee)]||!_0x32c28d[_0x5c91b6(0xc6)][_0x5c91b6(0xc9)])return _0x28ca92(_0x5c91b6(0xd4));let _0x22a8b0=_0x5c91b6(0xce)+_0x456b7f[_0x5c91b6(0xdd)]+'\x0a\x0a⏳\x20*𝙳𝚄𝚁𝙰𝚃𝙸𝙾𝙽:*\x20'+_0x456b7f[_0x5c91b6(0xd2)]+'\x0a\x0a👀\x20*𝚅𝙸𝙴𝚆𝚂:*\x20'+_0x456b7f[_0x5c91b6(0xc5)]+_0x5c91b6(0xd3)+_0x456b7f[_0x5c91b6(0xd1)][_0x5c91b6(0xd7)]+_0x5c91b6(0xe6)+_0x456b7f['url']+'\x0a\x0a>\x20*©\x20Powered\x20By\x20King-Sandesh-Md\x20V2\x20💸*';await _0x214a96[_0x5c91b6(0xbe)](_0x1d71ef,{'video':{'url':_0x32c28d[_0x5c91b6(0xc6)]['download_url']},'caption':_0x22a8b0,'mimetype':_0x5c91b6(0xcb)},{'quoted':_0x156e19});}catch(_0x1f6b16){console[_0x5c91b6(0xea)](_0x1f6b16),_0x28ca92(_0x5c91b6(0xc0));}}),cmd({'pattern':_0x3f8a79(0xef),'alias':['play'],'react':'🎶','desc':_0x3f8a79(0xe2),'category':_0x3f8a79(0xf0),'use':'.song\x20<query>','filename':__filename},async(_0x506a0f,_0x1dbbc4,_0x176311,{from:_0x46bdf1,sender:_0xb53e28,reply:_0x4a968c,q:_0x49bffe})=>{const _0x20ec81=_0x3f8a79;try{if(!_0x49bffe)return _0x4a968c(_0x20ec81(0xdf));const _0x47c7f3=await ytsearch(_0x49bffe);if(!_0x47c7f3[_0x20ec81(0xec)][_0x20ec81(0xf1)])return _0x4a968c(_0x20ec81(0xd6));const _0x46b4d6=_0x47c7f3[_0x20ec81(0xec)][0x0],_0x1ecd0d=_0x20ec81(0xbf)+encodeURIComponent(_0x46b4d6[_0x20ec81(0xdc)]),_0x4a6fd2=await fetch(_0x1ecd0d),_0x1a5a0a=await _0x4a6fd2[_0x20ec81(0xc2)]();if(!_0x1a5a0a?.[_0x20ec81(0xc6)]?.[_0x20ec81(0xbd)])return _0x4a968c(_0x20ec81(0xe8));await _0x506a0f[_0x20ec81(0xbe)](_0x46bdf1,{'audio':{'url':_0x1a5a0a[_0x20ec81(0xc6)][_0x20ec81(0xbd)]},'mimetype':_0x20ec81(0xcc),'fileName':_0x46b4d6[_0x20ec81(0xdd)]+_0x20ec81(0xe1),'contextInfo':{'externalAdReply':{'title':_0x46b4d6['title']['length']>0x19?_0x46b4d6[_0x20ec81(0xdd)]['substring'](0x0,0x16)+_0x20ec81(0xe0):_0x46b4d6[_0x20ec81(0xdd)],'body':_0x20ec81(0xe3),'mediaType':0x1,'thumbnailUrl':_0x46b4d6[_0x20ec81(0xcf)][_0x20ec81(0xc8)](_0x20ec81(0xde),_0x20ec81(0xed)),'sourceUrl':_0x20ec81(0xe7),'mediaUrl':'https://whatsapp.com/channel/0029Vb5saAU4Y9lfzhgBmS2N','showAdAttribution':!![],'renderLargerThumbnail':!![]}}},{'quoted':_0x1dbbc4});}catch(_0x204bbc){console[_0x20ec81(0xeb)](_0x204bbc),_0x4a968c(_0x20ec81(0xc3));}});
