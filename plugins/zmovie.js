@@ -24,7 +24,7 @@ cmd({
 
     let txt = `🎬 *ＫɪɴＧ ＳᴀɴᴅᴇꜱＨ ＭＤ ＺᴏᴏＭ ＳᴜʙᴛɪᴛʟＥ ＤᴏᴡɴʟᴏᴀᴅᴇＲ* 🎬\n\n`;
     data.results.forEach((res, i) => {
-      txt += `*${i+1}.* _${res.title}_\n👤 _${res.author}_\n💬 𝙲𝙾𝙼𝙼𝙴𝙽𝚃𝚂: _${res.comments}_\n🔗 𝙻𝙸𝙼𝙺: _${res.link}_\n\n> *© Powered By King-Sandesh Md V2 💸*\n\n`;
+      txt += `*${i+1}.* ${res.title}\n👤 ${res.author}\n💬 𝙲𝙾𝙼𝙼𝙴𝙽𝚃𝚂: ${res.comments}\n🔗 𝙻𝙸𝙽𝙺: ${res.link}\n\n> *© Powered By King-Sandesh Md V2 💸*\n\n`;
     });
     txt += `\n➡️ Use: *.subdl <movie link>* to download`;
 
