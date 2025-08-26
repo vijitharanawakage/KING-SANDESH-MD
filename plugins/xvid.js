@@ -28,7 +28,7 @@ cmd({
       return reply("❌ No videos found for your query!");
     }
 
-    let txt = `🔞 *Search Results for:* ${query}\n\n`;
+    let txt = `🔞 *Search Results for :* ${query}\n\n`;
     results.slice(0, 10).forEach((v, i) => {
       txt += `*${i + 1}.* ${v.title}\n${v.info.replace(/\n/g, " ").trim()}\n🔗 ${v.link}\n\n`;
     });
