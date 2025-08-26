@@ -4,29 +4,29 @@ const fs = require("fs");
 const path = require("path");
 
 cmd({
-  pattern: "zmovie",
+  pattern: "sub",
   react: "🎬",
-  desc: "Search and download Sinhala Sub movies from Zoom.lk",
+  desc: "Search and download Sinhala Subtitles from Zoom.lk",
   category: "download",
-  use: ".zmovie <movie name>",
+  use: ".sub <movie name>",
   filename: __filename
 }, async (conn, mek, m, { args, reply }) => {
   try {
     const query = args.join(" ");
-    if (!query) return reply("⚡ දාන්න ඕනෙ film name එක.\nඋදා: *.zmovie Bad Newz*");
+    if (!query) return reply("*⚡Type Your Movie Name For Get Subtitle.*\nExample: *.sub Avengers*");
 
     const searchUrl = `https://supun-md-api-xmjh.vercel.app/api/zoom-search?q=${encodeURIComponent(query)}`;
     const { data } = await axios.get(searchUrl);
 
     if (!data.results || data.results.length === 0) {
-      return reply("❌ Movie එකක් හමු නොවුණා!");
+      return reply("> ❌ Movie Not Found On Zoom..!");
     }
 
-    let txt = `🎬 *Zoom Movie Search Results* 🎬\n\n`;
+    let txt = `🎬 *ＫɪɴＧ ＳᴀɴᴅᴇꜱＨ ＭＤ ＺᴏᴏＭ ＳᴜʙᴛɪᴛʟＥ ＤᴏᴡɴʟᴏᴀᴅᴇＲ* 🎬\n\n`;
     data.results.forEach((res, i) => {
-      txt += `*${i+1}.* ${res.title}\n👤 ${res.author}\n💬 Comments: ${res.comments}\n🔗 Link: ${res.link}\n\n`;
+      txt += `*${i+1}.* ${res.title}\n👤 ${res.author}\n💬 𝙲𝙾𝙼𝙼𝙴𝙽𝚃𝚂: ${res.comments}\n🔗 𝙻𝙸𝙼𝙺: ${res.link}\n\n> *© Powered By King-Sandesh Md V2 💸*`;
     });
-    txt += `\n➡️ Use: *.zdl <movie link>* to download`;
+    txt += `\n➡️ Use: *.subdl <movie link>* to download`;
 
     await reply(txt);
 
@@ -37,16 +37,16 @@ cmd({
 });
 
 cmd({
-  pattern: "zdl",
+  pattern: "subdl",
   react: "⬇️",
   desc: "Download Sinhala Subtitle Movies from Zoom.lk",
   category: "download",
-  use: ".zdl <zoom.lk movie link>",
+  use: ".subdl <zoom.lk movie link>",
   filename: __filename
 }, async (conn, mek, m, { args, reply }) => {
   try {
     const url = args[0];
-    if (!url) return reply("⚡ දාන්න ඕනෙ Zoom.lk link එක.\nඋදා: *.zdl https://zoom.lk/...*");
+    if (!url) return reply("*⚡Please Copy And Paste Your Zoom Subtitle Link Show Abow.*\nExample: *.subdl https://zoom.lk/...*");
 
     const dlUrl = `https://supun-md-api-xmjh.vercel.app/api/zoom-dl?url=${encodeURIComponent(url)}`;
     const { data } = await axios.get(dlUrl);
@@ -56,9 +56,9 @@ cmd({
     }
 
     let cap = `🎬 *${data.results.title}*\n\n`;
-    cap += `📅 Date: ${data.results.date}\n`;
-    cap += `👁️ Views: ${data.results.view}\n`;
-    cap += `💾 Size: ${data.results.size}\n`;
+    cap += `📅 𝙳𝙰𝚃𝙴: ${data.results.date}\n`;
+    cap += `👁️ 𝚅𝙸𝙴𝚆𝚂: ${data.results.view}\n`;
+    cap += `💾 𝚂𝙸𝚉𝙴: ${data.results.size}\n\n> *© Powered By King-Sandesh Md V2 💸*`;
 
     // File name & extension detect
     let dlLink = data.results.dl_link;
