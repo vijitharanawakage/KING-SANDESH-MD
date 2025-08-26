@@ -34,7 +34,7 @@ cmd({
 
         const { url, title, image, timestamp, ago, views, author } = data.results[0];
 
-        let info = `🍄 *ᴋꜱᴍᴅ ꜱᴏɴɢ ᴅᴏᴡɴʟᴏᴀᴅᴇʀ* 🍄\n\n` +
+        let info = `🍄 *𝐊ꜱᴍ𝐃 𝐒ᴏɴ𝐆 𝐃ᴏᴡɴʟᴏᴀᴅᴇ𝐑* 🍄\n\n` +
             `🎵 *𝚃𝙸𝚃𝙻𝙴:* ${title || "Unknown"}\n` +
             `⏳ *𝙳𝚄𝚁𝙰𝚃𝙸𝙾𝙽:* ${timestamp || "Unknown"}\n` +
             `👀 *𝚅𝙸𝙴𝚆𝚂:* ${views || "Unknown"}\n` +
