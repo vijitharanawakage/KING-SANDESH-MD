@@ -3,7 +3,7 @@ const fileType = require("file-type");
 const { cmd } = require("../command");
 
 cmd({
-  pattern: "xsearch ?(.*)",
+  pattern: "xsearch",
   react: "🔞",
   desc: "Search adult videos from xnxx",
   category: "adult",
@@ -43,7 +43,7 @@ cmd({
 });
 
 cmd({
-  pattern: "xvideo ?(.*)",
+  pattern: "xvideo",
   react: "⬇️",
   desc: "Download adult video from xnxx",
   category: "adult",
