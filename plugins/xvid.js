@@ -11,9 +11,9 @@ cmd({
   filename: __filename
 }, async (conn, mek, m, { args, reply }) => {
   const query = args.join(" ");
-  if (!query) return reply("⚡ Please provide a search query!\nExample: *.xsearch big boobs*");
+  if (!query) return reply("*⚡ Please provide a search query..!*\nExample: *.xsearch big boobs*");
 
-  await reply("🔍 Searching videos...");
+  await reply("> 🔍 ＳᴇＡʀＣʜＩɴＧ ＶɪＤᴇＯꜱ...");
 
   try {
     const api = `https://api-aswin-sparky.koyeb.app/api/search/xnxx?search=${encodeURIComponent(query)}`;
@@ -28,11 +28,11 @@ cmd({
       return reply("❌ No videos found for your query!");
     }
 
-    let txt = `🔞 *Search Results for :* ${query}\n\n`;
+    let txt = `🔞 𝐊ꜱᴍ𝐃 18+ 𝐕ɪᴅᴇ𝐎 𝐃ᴏᴡɴʟᴏᴀᴅᴇ𝐑 📥\n\n🔞 *𝚂𝙴𝙰𝚁𝙲𝙷 𝚁𝙴𝚂𝚄𝙻𝚃𝚂 𝙵𝙾𝚁 :* ${query}\n\n`;
     results.slice(0, 10).forEach((v, i) => {
       txt += `*${i + 1}.* ${v.title}\n${v.info.replace(/\n/g, " ").trim()}\n🔗 ${v.link}\n\n`;
     });
-    txt += `➡️ Use: *.xvideo <link>* to download`;
+    txt += `_➡️ Use: *.xvideo <link>* to download_`;
 
     await reply(txt);
 
@@ -51,9 +51,9 @@ cmd({
   filename: __filename
 }, async (conn, mek, m, { args, reply }) => {
   const url = args[0];
-  if (!url) return reply("⚡ Please provide a valid xnxx URL!\nExample: *.xvideo https://www.xvideos.com/videoXXXXX/title*");
+  if (!url) return reply("*⚡ Please provide a valid xnxx URL...!*\nExample: *.xvideo https://www.xvideos.com/videoXXXXX/title*");
 
-  await reply("⏳ Fetching video details...");
+  await reply("_*⏳ Ｆ𝙴𝚃𝙲𝙷𝙸𝙽𝙶 Ｖ𝙸𝙳𝙴𝙾 Ｄ𝙴𝚃𝙰𝙸𝙻𝚂....*_");
 
   try {
     const api = `https://api-aswin-sparky.koyeb.app/api/downloader/xnxx?url=${encodeURIComponent(url)}`;
@@ -70,7 +70,7 @@ cmd({
     const title = videoData.title || "xnxx_video";
     const duration = videoData.duration || "Unknown";
 
-    let caption = `🔞 *${title}*\n⏱ Duration: ${duration} sec`;
+    let caption = `🔞 _*${title}*_\n⏱ 𝐃𝐮𝐫𝐚𝐭𝐢𝐨𝐧: ${duration} 𝐒𝐞𝐜`;
 
     // File size check
     let fileSize = 0;
