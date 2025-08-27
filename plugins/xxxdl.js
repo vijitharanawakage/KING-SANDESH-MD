@@ -8,7 +8,7 @@ const { cmd } = require("../command");
 let session = {}; // for CLI reply mode
 
 cmd({
-  pattern: "xxxdl ?(.*)",
+  pattern: "xxxdl",
   react: "🔞",
   desc: "Search and download videos from XHamster",
   category: "adult",
@@ -66,7 +66,7 @@ cmd({
 });
 
 cmd({
-  pattern: "xxxget ?(.*)",
+  pattern: "xxxget",
   desc: "Download selected XHamster video",
   category: "adult",
   filename: __filename,
