@@ -70,7 +70,7 @@ cmd({
 });
 
 cmd({
-  pattern: "phdlget ?(.*)",
+  pattern: "phdlget",
   desc: "Download selected Pornhub video",
   category: "adult",
   filename: __filename,
