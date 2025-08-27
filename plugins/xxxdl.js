@@ -1,132 +1,184 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const fs = require("fs");
-const { default: downloader } = require("nodejs-file-downloader");
-const config = require("../config");
 const { cmd } = require("../command");
 
-let session = {}; // for CLI reply mode
+const MAX_WHATSAPP_SIZE = 64 * 1024 * 1024; // 64 MB
 
+// Helper: fetch HTML
+async function fetchHTML(url) {
+  const res = await axios.get(url, {
+    headers: {
+      "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0 Safari/537.36"
+    },
+    timeout: 20000
+  });
+  return res.data;
+}
+
+// Search command
 cmd({
-  pattern: "xxxdl",
+  pattern: "xhsearch",
   react: "🔞",
-  desc: "Search and download videos from XHamster",
+  desc: "Search xHamster videos by query",
   category: "adult",
-  filename: __filename,
-}, async (conn, mek, m, { args, reply, from }) => {
-  const query = args.join(" ");
-  if (!query) return reply("🔍 Please provide a search keyword.\nExample: `.xxxdl fuck`");
-
+  use: ".xhsearch <query>",
+  filename: __filename
+}, async (conn, mek, m, { args, reply }) => {
   try {
+    const query = args.join(" ").trim();
+    if (!query) return reply("⚡ Query එකක් දෙන්න.\nඋදා: *.xhsearch indian milf*");
+
+    await reply("🔎 Searching xHamster...");
+
     const searchUrl = `https://xhamster.com/search/${encodeURIComponent(query)}`;
-    const res = await axios.get(searchUrl, {
-      headers: { "User-Agent": "Mozilla/5.0" }
-    });
+    const html = await fetchHTML(searchUrl);
+    const $ = cheerio.load(html);
 
-    const $ = cheerio.load(res.data);
-    const results = [];
-
-    $("a.video-thumb__image-container").each((i, el) => {
-      if (results.length >= 5) return;
-      const url = "https://xhamster.com" + $(el).attr("href");
-      const title = $(el).attr("title") || $(el).find("img").attr("alt");
-      if (url && title) {
-        results.push({ title: title.trim(), url });
+    // collect video links
+    const links = new Map();
+    // try anchor selectors
+    $('a').each((i, el) => {
+      const href = $(el).attr('href');
+      const title = $(el).attr('title') || $(el).text();
+      if (!href) return;
+      // typical video paths: /videos/<slug>-<id> or /video/<id>...
+      if (/\/videos?\/[a-z0-9-]+/i.test(href)) {
+        const full = href.startsWith('http') ? href : `https://xhamster.com${href}`;
+        if (!links.has(full)) links.set(full, title.trim() || full);
       }
     });
 
-    if (!results.length) return reply("🚫 No results found on XHamster.");
-
-    if (config.BUTTON === "true") {
-      const buttons = results.map((v, i) => ({
-        buttonId: `.xxxget ${encodeURIComponent(v.url)}`,
-        buttonText: { displayText: `${i + 1}. ${v.title.slice(0, 30)}...` },
-        type: 1
-      }));
-
-      return conn.sendMessage(from, {
-        text: `🔞 *𝐗𝐇ᴀᴍꜱᴛᴇ𝐑 𝐑ᴇꜱᴜʟ𝐓 𝐅ᴏ𝐑:* ${query}`,
-        buttons,
-        headerType: 1
-      }, { quoted: mek });
-
-    } else {
-      session[from] = results;
-      let msg = `🔞 *𝐗𝐇ᴀᴍꜱᴛᴇ𝐑 𝐑ᴇꜱᴜʟ𝐓 𝐅ᴏ𝐑:* ${query}\n\n`;
-      results.forEach((v, i) => {
-        msg += `${i + 1}. ${v.title}\n`;
-      });
-      msg += `\n📥 𝐑ᴇᴘʟʏ 𝐖ɪᴛʜ 𝐓ʜᴇ 𝐍ᴜᴍʙᴇʀ 𝐓ᴏ 𝐃ᴏᴡɴʟᴏᴀᴅ.`;
-      return reply(msg);
+    // fallback: search for video cards by data
+    if (links.size === 0) {
+      const regex = /href="(\/videos?\/[a-z0-9-]+)"/gi;
+      let mch;
+      while ((mch = regex.exec(html)) !== null && links.size < 20) {
+        const full = `https://xhamster.com${mch[1]}`;
+        if (!links.has(full)) links.set(full, full);
+      }
     }
+
+    const arr = Array.from(links.entries()).slice(0, 10);
+    if (arr.length === 0) return reply("❌ Search results හමු නොවුණා.");
+
+    let text = `🔞 *xHamster Search Results for:* ${query}\n\n`;
+    arr.forEach(([url, title], i) => {
+      const t = title.length > 80 ? title.slice(0, 77) + "..." : title;
+      text += `*${i + 1}.* ${t}\n🔗 ${url}\n\n`;
+    });
+    text += `➡️ Use: *.xhvideo <video link>* to download (or reply with number to get link)`;
+
+    await reply(text);
+
   } catch (err) {
-    console.error(err);
-    return reply("❌ Failed to fetch results from XHamster.");
+    console.error("xhsearch error:", err);
+    reply("❌ Search එකට දෝෂයක්. ටිකක් පසුව නැවත උත්සහ කරන්න.");
   }
 });
 
+// Download command
 cmd({
-  pattern: "xxxget",
-  desc: "Download selected XHamster video",
+  pattern: "xhvideo",
+  react: "⬇️",
+  desc: "Download xHamster video by URL",
   category: "adult",
-  filename: __filename,
-}, async (conn, mek, m, { args, reply, from }) => {
-  const url = args[0];
-  if (!url || !url.includes("xhamster.com")) return reply("❌ Invalid video URL.");
-
+  use: ".xhvideo <xhamster video link>",
+  filename: __filename
+}, async (conn, mek, m, { args, reply }) => {
   try {
-    reply("📥 𝙵𝙴𝚃𝙲𝙷𝙸𝙽𝙶 𝚇𝙷𝙰𝙼𝚂𝚃𝙴𝚁 𝚅𝙸𝙳𝙴𝙾...");
+    let url = args[0];
+    if (!url) return reply("⚡ Link එකක් දෙන්න.\nඋදා: *.xhvideo https://xhamster.com/videos/slug-123456*");
 
-    const res = await axios.get(url, {
-      headers: { "User-Agent": "Mozilla/5.0" }
+    // normalize
+    if (!url.startsWith("http")) url = `https://${url}`;
+
+    await reply("⏳ Fetching video page...");
+
+    const html = await fetchHTML(url);
+
+    // try OG metadata for thumbnail & title
+    let title = (html.match(/<meta property="og:title" content="([^"]+)"/i) || [])[1] || "";
+    let thumb = (html.match(/<meta property="og:image" content="([^"]+)"/i) || [])[1] || undefined;
+    if (!title) {
+      const t = html.match(/<title[^>]*>([^<]+)<\/title>/i);
+      title = t ? t[1].trim() : "xhamster_video";
+    }
+
+    // extract mp4 links (common pattern)
+    // look for .mp4 urls in page (player config or sources)
+    const mp4Regex = /https?:\/\/[^"'()\s]+\.mp4[^"'()\s]*/gi;
+    const found = [];
+    let mmp;
+    while ((mmp = mp4Regex.exec(html)) !== null) {
+      found.push(mmp[0]);
+    }
+
+    // also try JSON player config if present
+    if (found.length === 0) {
+      const cfgRegex = /"videoUrl"\s*:\s*"([^"]+\.mp4[^"]*)"/i;
+      const cfg = html.match(cfgRegex);
+      if (cfg && cfg[1]) found.push(cfg[1].replace(/\\u0026/g, '&').replace(/\\/g, ''));
+    }
+
+    // dedupe and prefer highest quality by choosing longest url or containing '1080'/'720'
+    const unique = Array.from(new Set(found));
+    if (unique.length === 0) return reply("❌ Direct MP4 link හමු නොවුණා. Manual open කරන්න: " + url);
+
+    // prefer quality
+    unique.sort((a, b) => {
+      const qa = /1080|720|480|360/.exec(a) || [];
+      const qb = /1080|720|480|360/.exec(b) || [];
+      if (qa.length && !qb.length) return -1;
+      if (!qa.length && qb.length) return 1;
+      return b.length - a.length;
     });
 
-    const $ = cheerio.load(res.data);
-    const scriptTag = $("script#__NEXT_DATA__").html();
-    const json = JSON.parse(scriptTag);
-    const videoUrl = json.props.pageProps.video.sources?.mp4?.[0]?.link;
+    const videoUrl = unique[0];
 
-    if (!videoUrl) return reply("🚫 Couldn't extract download URL.");
+    // check file size via HEAD
+    let fileSize = 0;
+    try {
+      const head = await axios.head(videoUrl, { timeout: 15000 });
+      fileSize = parseInt(head.headers['content-length'] || "0");
+    } catch (e) {
+      // ignore, proceed with link (might be remote host blocking HEAD)
+    }
 
-    const dl = new downloader({
-      url: videoUrl,
-      directory: "./",
-      fileName: "xhamster_video.mp4"
-    });
+    const safeTitle = title.replace(/[^a-zA-Z0-9 ]/g, "_").slice(0, 64);
+    const fileName = `${safeTitle}.mp4`;
+    const caption = `🔞 *${title}*`;
 
-    await dl.download();
+    if (fileSize && fileSize > MAX_WHATSAPP_SIZE) {
+      // too big: send direct link and thumbnail
+      let msg = `⚠️ File size is too large for WhatsApp (${(fileSize / (1024*1024)).toFixed(2)} MB).\nDownload manually:\n${videoUrl}`;
+      await conn.sendMessage(mek.chat, {
+        text: msg
+      }, { quoted: mek });
+      return;
+    }
 
-    await conn.sendMessage(from, {
-      video: fs.readFileSync("./xhamster_video.mp4"),
+    // send as document (Baileys supports streaming from URL)
+    const sendObj = {
+      document: { url: videoUrl },
       mimetype: "video/mp4",
-      caption: "🎬 Ｄᴏᴡɴʟᴏᴀᴅᴇᴅ Ｆʀᴏᴍ ＸＨᴀᴍꜱᴛᴇʀ\n\n𝚄𝚂𝙴 𝚃𝙷𝙸𝚂 𝙲𝙾𝙼𝙼𝙰𝙽𝙳 𝙻𝙸𝙺𝙴 𝚁𝙴𝙰𝙻 𝙶𝙴𝙽𝚃𝙻𝙴𝙼𝙰𝙽 🫡\n\n> *© Powered By King-Sandesh Md V2 💸*"
-    }, { quoted: mek });
+      fileName: fileName,
+      caption: caption
+    };
 
-    fs.unlinkSync("./xhamster_video.mp4");
+    // include thumbnail if available
+    if (thumb) {
+      try {
+        const tRes = await axios.get(thumb, { responseType: "arraybuffer", timeout: 15000 });
+        sendObj.jpegThumbnail = Buffer.from(tRes.data);
+      } catch (e) {
+        // ignore thumb fetch failures
+      }
+    }
+
+    await conn.sendMessage(mek.chat, sendObj, { quoted: mek });
 
   } catch (err) {
-    console.error(err);
-    reply("❌ Failed to download or send video.");
+    console.error("xhvideo error:", err);
+    reply("❌ Video download/process එකේ දෝෂයක්. Link එක හරියෙන් තියෙනවද බලන්න.");
   }
-});
-
-cmd({
-  pattern: "^([1-5])$",
-  desc: "Handle CLI reply in non-button mode for XHamster",
-  onlyInReply: true,
-  filename: __filename,
-}, async (conn, mek, m, { match, reply, from }) => {
-  if (!session[from]) return;
-  const index = parseInt(match[1]) - 1;
-  const selected = session[from][index];
-  delete session[from];
-  if (!selected) return reply("❌ Invalid selection.");
-  conn.fakeMessage = mek;
-  return conn.ev.emit("messages.upsert", {
-    messages: [{
-      key: mek.key,
-      message: { conversation: `.xxxget ${selected.url}` }
-    }],
-    type: "notify"
-  });
 });
