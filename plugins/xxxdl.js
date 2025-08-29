@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 let searchResults = {}; // Store user search sessions
 
 cmd({
-  pattern: "xhamster ?(.*)",
+  pattern: "xhamster",
   react: "🔞",
   desc: "Search and download videos from XHamster",
   category: "download",
