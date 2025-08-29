@@ -1,88 +1,97 @@
 const { cmd } = require('../command');
-const axios = require("axios");
-const cheerio = require("cheerio");
-const config = require("../config");
+const axios = require('axios');
+const cheerio = require('cheerio');
 
-let searchCache = {}; // store search results temporarily
+let searchResults = {}; // Store user search sessions
 
 cmd({
-  pattern: "xhamster",
+  pattern: "xhamster ?(.*)",
   react: "🔞",
   desc: "Search and download videos from XHamster",
   category: "download",
+  use: ".xhamster <query>",
   filename: __filename
-}, async (conn, mek, m, { from, reply, args, q }) => {
+}, async (conn, mek, m, { args, reply, from, sender }) => {
   try {
-    if (!q) return reply("🔎 Please provide a search term. Example: *.xhamster milf*");
+    const query = args.join(" ");
+    if (!query) return reply("❌ Please enter a search term!\nExample: .xhamster anal");
 
-    const searchUrl = `https://xhamster.com/search/${encodeURIComponent(q)}`;
-    const { data } = await axios.get(searchUrl);
+    const url = `https://xhamster.com/search/${encodeURIComponent(query)}`;
+    const { data } = await axios.get(url);
     const $ = cheerio.load(data);
 
     let results = [];
     $(".video-thumb").each((i, el) => {
-      const title = $(el).find("a").attr("title");
-      const url = $(el).find("a").attr("href");
-      const duration = $(el).find(".duration").text().trim();
-      const thumb = $(el).find("img").attr("data-src") || $(el).find("img").attr("src");
-      if (title && url) {
-        results.push({ title, url: "https://xhamster.com" + url, duration, thumb });
+      const title = $(el).find("a.video-thumb__title").text().trim();
+      const link = $(el).find("a.video-thumb__title").attr("href");
+      const img = $(el).find("img").attr("src") || $(el).find("img").attr("data-src");
+      if (title && link) {
+        results.push({
+          title,
+          link: "https://xhamster.com" + link,
+          img
+        });
       }
     });
 
-    if (!results.length) return reply("❌ No results found.");
+    if (results.length === 0) return reply("⚠️ No results found!");
 
-    searchCache[from] = results;
+    // Save session for user
+    searchResults[from] = results;
 
-    let msg = "🔞 *XHamster Search Results:*\n\n";
-    results.slice(0, 10).forEach((v, i) => {
-      msg += `*${i + 1}.* ${v.title}\n⏱ ${v.duration}\n\n`;
-    });
-    msg += "_Reply with the number to download the video._";
+    // Send each result separately with numbering
+    for (let i = 0; i < results.length && i < 10; i++) {
+      const res = results[i];
+      await conn.sendMessage(from, {
+        image: { url: res.img },
+        caption: `*${i + 1}.* ${res.title}\n🔗 ${res.link}\n\n👉 Reply with *${i + 1}* to download`
+      }, { quoted: mek });
+    }
 
-    await conn.sendMessage(from, { image: { url: results[0].thumb }, caption: msg }, { quoted: mek });
   } catch (e) {
     console.error(e);
-    reply("❌ Error fetching search results.");
+    reply("❌ Error while searching XHamster!");
   }
 });
 
-// handle reply with number
+// Handle reply numbers
 cmd({
   on: "text"
-}, async (conn, mek, m, { from, reply, body, isGroup }) => {
+}, async (conn, mek, m, { reply, from, body }) => {
   try {
-    if (!searchCache[from]) return;
-    if (!/^\d+$/.test(body.trim())) return;
+    if (!searchResults[from]) return;
 
-    let index = parseInt(body.trim()) - 1;
-    let results = searchCache[from];
-    if (!results[index]) return reply("❌ Invalid number.");
+    const num = parseInt(body.trim());
+    if (isNaN(num) || num < 1 || num > searchResults[from].length) return;
 
-    let video = results[index];
-    reply(`⬇️ Downloading: *${video.title}*`);
+    const selected = searchResults[from][num - 1];
+    reply(`⏳ Fetching video: ${selected.title}`);
 
-    // scrape direct mp4 link
-    const { data } = await axios.get(video.url);
+    // Fetch video page
+    const { data } = await axios.get(selected.link);
     const $ = cheerio.load(data);
 
-    let videoUrl = $("video").attr("src") || $("source").attr("src");
-    if (!videoUrl) return reply("❌ Failed to fetch video URL.");
+    // Find video URL (XHamster stores in JSON config)
+    const script = $('script:contains("window.initials")').html();
+    const match = script ? script.match(/"mp4":"(.*?)"/) : null;
+    const videoUrl = match ? match[1].replace(/\\/g, "") : null;
 
-    const fileName = video.title.replace(/[^a-zA-Z0-9]/g, "_") + ".mp4";
-    const caption = `✅ Downloaded from *XHamster*\n🎬 Title: ${video.title}`;
+    if (!videoUrl) return reply("❌ Could not fetch direct video link!");
 
-    const sendObj = {
+    // Send as document
+    const fileName = selected.title.replace(/[^\w\s]/gi, "_") + ".mp4";
+    await conn.sendMessage(from, {
       document: { url: videoUrl },
       mimetype: "video/mp4",
       fileName: fileName,
-      caption: caption
-    };
+      caption: selected.title
+    }, { quoted: mek });
 
-    await conn.sendMessage(from, sendObj, { quoted: mek });
-    delete searchCache[from];
+    // Clear session
+    delete searchResults[from];
+
   } catch (e) {
     console.error(e);
-    reply("❌ Error while downloading video.");
+    reply("❌ Error while downloading video!");
   }
 });
