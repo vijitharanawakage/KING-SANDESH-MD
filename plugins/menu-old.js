@@ -18,10 +18,10 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
         const dec = `╭━━━〔 *${config.BOT_NAME} Main Menu* 〕━━━╮
 ┃ ✨ *Owner:* ${config.OWNER_NAME}
 ┃ ⚙️ *Mode:* ${config.MODE}
-┃ 📡 *Platform:* Heroku
+┃ 📡 *Platform:* Github workflow
 ┃ 🧠 *Type:* NodeJs (Multi Device)
 ┃ ⌨️ *Prefix:* ${config.PREFIX}
-┃ 🧾 *Version:* 3.0.0 Beta
+┃ 🧾 *Version:* 2.0.0 Beta
 ╰━━━━━━━━━━━━━━━━━━━━━━━━╯
 
 ╭━━〔 🧩 *Command Categories* 〕━━╮
@@ -55,8 +55,8 @@ async (conn, mek, m, { from, sender, pushname, reply }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: 'JesterTechX',
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: '<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧',
                         serverMessageId: 143
                     }
                 }
@@ -135,8 +135,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: "JesterTechX",
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: "<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧",
                         serverMessageId: 143
                     }
                 }
@@ -201,8 +201,8 @@ async (conn, mek, m, { from, quoted, reply }) => {
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: 'JesterTechX',
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: '<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧',
                         serverMessageId: 144
                     }
                 }
@@ -284,8 +284,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: 'JesterTechX',
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: '<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧',
                         serverMessageId: 143
                     }
                 }
@@ -362,8 +362,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: 'JesterTechX',
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: '<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧',
                         serverMessageId: 143
                     }
                 }
@@ -429,8 +429,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: 'JesterTechX',
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: '<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧',
                         serverMessageId: 143
                     }
                 }
@@ -500,8 +500,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: 'JesterTechX',
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: '<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧',
                         serverMessageId: 143
                     }
                 }
@@ -552,8 +552,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: 'JesterTechX',
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: '<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧',
                         serverMessageId: 143
                     }
                 }
@@ -611,8 +611,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: 'JesterTechX',
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: '<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧',
                         serverMessageId: 143
                     }
                 }
@@ -672,8 +672,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: 'JesterTechX',
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: '<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧',
                         serverMessageId: 143
                     }
                 }
@@ -741,8 +741,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: 'JesterTechX',
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: '<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧',
                         serverMessageId: 143
                     }
                 }
@@ -800,8 +800,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363388320701164@newsletter',
-                        newsletterName: 'JesterTechX',
+                        newsletterJid: '120363402220977044@newsletter',
+                        newsletterName: '<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧',
                         serverMessageId: 143
                     }
                 }
