@@ -63,7 +63,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words  
-MODE: process.env.MODE || "private",
+MODE: process.env.MODE || "inbox",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
@@ -85,7 +85,7 @@ ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 BUTTON: process.env.BUTTON || "true",
 // true or false for button reply
-PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
