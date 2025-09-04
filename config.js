@@ -55,7 +55,7 @@ FOOTER: process.env.FOOTER || "> *© Powered By King-Sandesh-Md V2 💸*",
 // add bot footer for menu  
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/uhys6h.png",
 // add img for alive msg
-LIVE_MSG: process.env.LIVE_MSG || " *KING-SANDESH-MD*⚡",
+LIVE_MSG: process.env.LIVE_MSG || " *YEP THIS IS KING-SANDESH-MD*⚡",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
