@@ -29,9 +29,9 @@ cmd({
     }
 
     // only show first 5
-    const sliced = results.slice(0, 5);
+    const sliced = results.slice(0, 35);
 
-    let textMsg = `🔞 𝐊ꜱᴍ𝐃 18+ 𝐕ɪᴅᴇ𝐎 𝐒ᴇᴀʀᴄʜ𝐇 📥\n\n`;
+    let textMsg = `🔞 𝐊𝐒𝐌𝐃 18+ 𝐕ɪᴅᴇ𝐎 𝐒ᴇᴀʀᴄʜ𝐇 📥\n\n`;
     textMsg += `~*Search Results For:*~ ${query}\n\n`;
 
     const sections = [
@@ -45,13 +45,23 @@ cmd({
       }
     ];
 
-    await conn.sendMessage(m.chat, {
-      text: textMsg,
-      footer: "𝚂𝙴𝙻𝙴𝙲𝚃 𝙰 𝚅𝙸𝙳𝙴𝙾 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳",
-      title: "🔞 𝐊ꜱ 𝐌ᴅ 𝐗ᴠɪᴅᴇᴏ 𝐃ᴏᴡɴʟᴏᴀᴅᴇʀ\n\n> ву ѕαη∂єѕн внαѕнαηα",
-      buttonText: "ＲＥＳＵＬＴＳ",
-      sections
-    }, { quoted: mek });
+   await conn.sendMessage(m.chat, {
+  text: textMsg,
+  footer: "🔞 𝐊ꜱ 𝐌ᴅ 𝐗ᴠɪᴅᴇ𝐎 𝐃ᴏᴡɴʟᴏᴀᴅᴇʀ\n\n> ву ѕαη∂єѕн внαѕнαηα", 
+  title: "𝚂𝙴𝙻𝙴𝙲𝚃 𝙰 𝚅𝙸𝙳𝙴𝙾 𝚃𝙾 𝙳𝙾𝚆𝙽𝙻𝙾𝙰𝙳",
+  buttonText: "ＲＥＳＵＬＴＳ",
+  sections,
+  contextInfo: {
+    externalAdReply: {
+      title: "XNXX Search Results 🔞",
+      body: `Top results for "${query}"`,
+      thumbnailUrl: results[0]?.image || "https://files.catbox.moe/h5k9j1.jpeg", // 👈 video thumbnail
+      sourceUrl: results[0]?.link || "https://www.xnxx.com",
+      mediaType: 1,
+      renderLargerThumbnail: true
+    }
+  }
+}, { quoted: mek });
 
   } catch (e) {
     console.log("XNXX Search Error:", e);
